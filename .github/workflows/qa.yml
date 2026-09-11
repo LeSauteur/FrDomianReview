@@ -1,0 +1,36 @@
+name: QA
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate JavaScript syntax
+        run: node --check review.js
+
+      - name: Build review interface
+        shell: pwsh
+        run: ./scripts/build-review.ps1
+
+      - name: Build dry-run delete plan
+        shell: pwsh
+        run: ./scripts/build-delete-plan.ps1
+
+      - name: Validate generated files
+        shell: pwsh
+        run: |
+          $index = Get-Content -Raw data/yandex-disk-index.json | ConvertFrom-Json -Depth 20
+          $files = @($index | Where-Object type -eq 'file')
+          $html = Get-Content -Raw index.html
+          $rows = [regex]::Matches($html, '<li class="file-row"').Count
+          $links = [regex]::Matches($html, '<a class="file-name" href="https://docs\.yandex\.ru/docs/view\?').Count
+          if ($files.Count -ne 657 -or $rows -ne 657 -or $links -ne 657) {
+            throw "Validation failed: files=$($files.Count), rows=$rows, links=$links"
+          }
