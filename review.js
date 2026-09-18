@@ -13,9 +13,11 @@
     };
     const STATUSES = ['KEEP', 'ARCHIVE', 'UPDATE', 'DUPLICATE', 'DELETE', 'UNSURE'];
     const STATUS_SET = new Set(STATUSES);
+    const REVIEWERS = ['Егупов Алексей', 'Андрейченко Валерий', 'Марина Олеговна'];
     const CACHE_KEY = 'frdomian-review.cache.v1';
     const REVIEWER_KEY = 'frdomian-review.reviewer.v1';
     const TOKEN_KEY = 'frdomian-review.github-token.v1';
+    const DRAFT_PREFIX = 'frdomian-review.comment-draft.v1:';
 
     const state = {
         indexFiles: [],
@@ -24,6 +26,8 @@
         decisions: emptyEnvelope(),
         dirtyPaths: new Set(),
         currentFilter: 'ALL',
+        searchTerm: '',
+        lastSyncedAt: null,
         syncing: false,
         autosaveStopped: false,
         changesSinceSync: 0
@@ -47,6 +51,30 @@
         return STATUS_SET.has(value) ? value : null;
     }
 
+    function normalizeComments(value) {
+        if (!Array.isArray(value)) {
+            return [];
+        }
+        const byId = new Map();
+        value.forEach((comment) => {
+            if (!comment || typeof comment.id !== 'string' || !comment.id.trim() || byId.has(comment.id)) {
+                return;
+            }
+            byId.set(comment.id, {
+                id: comment.id,
+                author: typeof comment.author === 'string' ? comment.author : '',
+                text: typeof comment.text === 'string' ? comment.text : '',
+                created_at: typeof comment.created_at === 'string' ? comment.created_at : ''
+            });
+        });
+        return Array.from(byId.values()).sort((left, right) =>
+            left.created_at.localeCompare(right.created_at) || left.id.localeCompare(right.id));
+    }
+
+    function mergeComments(base, incoming) {
+        return normalizeComments([...normalizeComments(base), ...normalizeComments(incoming)]);
+    }
+
     function normalizeDecision(value) {
         if (!value || typeof value !== 'object') {
             return null;
@@ -55,7 +83,8 @@
             name: typeof value.name === 'string' ? value.name : '',
             status: normalizeStatus(value.status),
             reviewed_at: typeof value.reviewed_at === 'string' ? value.reviewed_at : null,
-            reviewer: typeof value.reviewer === 'string' ? value.reviewer : ''
+            reviewer: typeof value.reviewer === 'string' ? value.reviewer : '',
+            comments: normalizeComments(value.comments)
         };
     }
 
@@ -83,14 +112,39 @@
     }
 
     function mergeDecisionFiles(baseFiles, incomingFiles) {
-        const merged = { ...baseFiles };
-        Object.entries(incomingFiles || {}).forEach(([path, incoming]) => {
-            const current = merged[path];
-            if (!current || decisionTime(incoming) >= decisionTime(current)) {
+        const merged = {};
+        const paths = new Set([...Object.keys(baseFiles || {}), ...Object.keys(incomingFiles || {})]);
+        paths.forEach((path) => {
+            const base = normalizeDecision((baseFiles || {})[path]);
+            const incoming = normalizeDecision((incomingFiles || {})[path]);
+            if (!base) {
                 merged[path] = incoming;
+                return;
             }
+            if (!incoming) {
+                merged[path] = base;
+                return;
+            }
+            const newer = decisionTime(incoming) >= decisionTime(base) ? incoming : base;
+            merged[path] = {
+                name: newer.name || base.name || incoming.name,
+                status: newer.status,
+                reviewed_at: newer.reviewed_at,
+                reviewer: newer.reviewer,
+                comments: mergeComments(base.comments, incoming.comments)
+            };
         });
         return merged;
+    }
+
+    function matchesFile(name, path, status, commentCount, filter, searchTerm) {
+        const statusMatches = filter === 'ALL'
+            || (filter === 'UNREVIEWED' && !status)
+            || (filter === 'COMMENTS' && commentCount > 0)
+            || status === filter;
+        const searchMatches = !searchTerm
+            || `${name} ${path}`.toLocaleLowerCase('ru-RU').includes(searchTerm);
+        return statusMatches && searchMatches;
     }
 
     function cacheAvailable() {
@@ -228,7 +282,7 @@
     }
 
     function updateLastSync() {
-        elements.lastSync.textContent = `Последняя синхронизация: ${formatSyncTime(state.decisions.updated_at)}`;
+        elements.lastSync.textContent = `Последняя синхронизация: ${formatSyncTime(state.lastSyncedAt)}`;
     }
 
     function getToken() {
@@ -252,12 +306,13 @@
     }
 
     function getReviewer() {
-        return elements.reviewer.value.trim();
+        return REVIEWERS.includes(elements.reviewer.value) ? elements.reviewer.value : '';
     }
 
     function loadReviewer() {
         try {
-            elements.reviewer.value = localStorage.getItem(REVIEWER_KEY) || '';
+            const saved = localStorage.getItem(REVIEWER_KEY) || '';
+            elements.reviewer.value = REVIEWERS.includes(saved) ? saved : '';
         } catch (error) {
             elements.reviewer.value = '';
         }
@@ -268,6 +323,37 @@
             localStorage.setItem(REVIEWER_KEY, getReviewer());
         } catch (error) {
             setSyncState('error', 'Не удалось сохранить имя проверяющего');
+        }
+        document.querySelectorAll('.comment-author-selected').forEach((label) => {
+            label.textContent = getReviewer() || 'Выберите проверяющего в верхней панели';
+        });
+    }
+
+    function draftKey(path) {
+        return `${DRAFT_PREFIX}${encodeURIComponent(path)}`;
+    }
+
+    function loadDraft(path) {
+        try {
+            return localStorage.getItem(draftKey(path)) || '';
+        } catch (error) {
+            return '';
+        }
+    }
+
+    function saveDraft(path, text) {
+        try {
+            localStorage.setItem(draftKey(path), text);
+        } catch (error) {
+            setSyncState('error', 'Не удалось сохранить черновик локально');
+        }
+    }
+
+    function clearDraft(path) {
+        try {
+            localStorage.removeItem(draftKey(path));
+        } catch (error) {
+            setSyncState('error', 'Не удалось очистить черновик');
         }
     }
 
@@ -284,6 +370,150 @@
             button.classList.toggle('selected', selected);
             button.setAttribute('aria-pressed', String(selected));
         });
+        renderCommentsForRow(row);
+    }
+
+    function formatCommentDate(value) {
+        const date = new Date(value);
+        return Number.isNaN(date.valueOf()) ? value : date.toLocaleString('ru-RU');
+    }
+
+    function commentButton(className, label) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = className;
+        button.textContent = label;
+        return button;
+    }
+
+    function renderCommentsForRow(row) {
+        const area = row.querySelector('.comments-area');
+        if (!area) {
+            return;
+        }
+        const path = row.dataset.path;
+        const decision = state.decisions.files[path];
+        const comments = normalizeComments(decision && decision.comments);
+        const mode = row.dataset.commentMode || 'preview';
+        const editorOpen = row.dataset.editorOpen === 'true';
+        area.replaceChildren();
+
+        if (comments.length > 0) {
+            const summary = document.createElement('div');
+            summary.className = 'comment-summary';
+            const count = document.createElement('span');
+            count.className = 'comment-count';
+            count.textContent = `Комментарии: ${comments.length}`;
+            summary.append(count);
+            const add = commentButton('add-comment', 'Добавить комментарий');
+            summary.append(add);
+            area.append(summary);
+
+            const shown = mode === 'all' ? comments
+                : mode === 'recent' ? comments.slice(-3)
+                    : comments.slice(-1);
+            const list = document.createElement('div');
+            list.className = 'comment-list';
+            shown.forEach((comment) => {
+                const item = document.createElement('div');
+                item.className = 'comment-item';
+                const heading = document.createElement('div');
+                heading.className = 'comment-heading';
+                const author = document.createElement('strong');
+                author.className = 'comment-author';
+                author.textContent = comment.author || 'Автор не указан';
+                const date = document.createElement('time');
+                date.className = 'comment-date';
+                date.dateTime = comment.created_at;
+                date.textContent = formatCommentDate(comment.created_at);
+                heading.append(author, date);
+                const text = document.createElement('p');
+                text.className = 'comment-text';
+                text.textContent = comment.text;
+                item.append(heading, text);
+                list.append(item);
+            });
+            area.append(list);
+
+            if (comments.length > 1) {
+                let label = 'Скрыть историю';
+                if (mode === 'preview') {
+                    label = comments.length > 3 ? 'Показать последние 3' : `Показать все (${comments.length})`;
+                } else if (mode === 'recent' && comments.length > 3) {
+                    label = `Показать все (${comments.length})`;
+                }
+                area.append(commentButton('show-comments', label));
+            }
+        } else {
+            area.append(commentButton('add-comment', 'Комментарий'));
+        }
+
+        if (editorOpen) {
+            const editor = document.createElement('div');
+            editor.className = 'comment-editor';
+            const author = document.createElement('div');
+            author.className = 'comment-author-selected';
+            author.textContent = getReviewer() || 'Выберите проверяющего в верхней панели';
+            const textarea = document.createElement('textarea');
+            textarea.className = 'comment-draft';
+            textarea.rows = 3;
+            textarea.placeholder = 'Комментарий по файлу…';
+            textarea.value = loadDraft(path);
+            const actions = document.createElement('div');
+            actions.className = 'comment-editor-actions';
+            actions.append(
+                commentButton('save-comment', 'Сохранить комментарий'),
+                commentButton('cancel-comment', 'Отмена')
+            );
+            editor.append(author, textarea, actions);
+            area.append(editor);
+        }
+    }
+
+    function addComment(row) {
+        const reviewer = getReviewer();
+        if (!reviewer) {
+            elements.message.textContent = 'Сначала выберите проверяющего.';
+            elements.reviewer.focus();
+            return;
+        }
+        const textarea = row.querySelector('.comment-draft');
+        const text = textarea ? textarea.value.trim() : '';
+        if (!text) {
+            elements.message.textContent = 'Введите текст комментария.';
+            if (textarea) textarea.focus();
+            return;
+        }
+
+        const path = row.dataset.path;
+        const current = normalizeDecision(state.decisions.files[path]) || {
+            name: row.dataset.name,
+            status: null,
+            reviewed_at: null,
+            reviewer: '',
+            comments: []
+        };
+        current.name = row.dataset.name;
+        current.comments = mergeComments(current.comments, [{
+            id: crypto.randomUUID(),
+            author: reviewer,
+            text,
+            created_at: new Date().toISOString()
+        }]);
+        state.decisions.files[path] = current;
+        state.dirtyPaths.add(path);
+        state.changesSinceSync += 1;
+        state.decisions.updated_at = new Date().toISOString();
+        saveLocalCache();
+        clearDraft(path);
+        row.dataset.editorOpen = 'false';
+        renderCommentsForRow(row);
+        applyFilter();
+        setSyncState('dirty', 'Есть несохранённые изменения');
+        elements.message.textContent = 'Комментарий сохранён локально.';
+        if (!state.autosaveStopped) {
+            syncOnline();
+        }
     }
 
     function applyAllDecisions() {
@@ -319,10 +549,9 @@
     function applyFilter() {
         state.rowsByPath.forEach((row, path) => {
             const status = statusForPath(path);
-            const visible = state.currentFilter === 'ALL'
-                || (state.currentFilter === 'UNREVIEWED' && !status)
-                || status === state.currentFilter;
-            row.hidden = !visible;
+            const comments = normalizeComments(state.decisions.files[path] && state.decisions.files[path].comments);
+            row.hidden = !matchesFile(row.dataset.name, path, status, comments.length,
+                state.currentFilter, state.searchTerm);
         });
 
         elements.folders.forEach((folder) => {
@@ -334,14 +563,22 @@
     }
 
     function chooseStatus(row, requestedStatus) {
+        const reviewer = getReviewer();
+        if (!reviewer) {
+            elements.message.textContent = 'Сначала выберите проверяющего.';
+            elements.reviewer.focus();
+            return;
+        }
         const path = row.dataset.path;
         const current = statusForPath(path);
         const next = current === requestedStatus ? null : requestedStatus;
+        const previous = normalizeDecision(state.decisions.files[path]);
         state.decisions.files[path] = {
             name: row.dataset.name,
             status: next,
             reviewed_at: new Date().toISOString(),
-            reviewer: getReviewer()
+            reviewer,
+            comments: previous ? previous.comments : []
         };
         state.dirtyPaths.add(path);
         state.changesSinceSync += 1;
@@ -358,18 +595,10 @@
     }
 
     function mergeRemoteWithLocal(remoteEnvelope) {
-        const localFiles = state.decisions.files;
-        state.dirtyPaths.forEach((path) => {
-            const remoteDecision = remoteEnvelope.files[path];
-            const localDecision = localFiles[path];
-            if (remoteDecision && localDecision && decisionTime(remoteDecision) > decisionTime(localDecision)) {
-                state.dirtyPaths.delete(path);
-            }
-        });
         return {
             version: 1,
             updated_at: remoteEnvelope.updated_at,
-            files: mergeDecisionFiles(remoteEnvelope.files, localFiles)
+            files: mergeDecisionFiles(remoteEnvelope.files, state.decisions.files)
         };
     }
 
@@ -384,6 +613,9 @@
         }
 
         state.syncing = true;
+        const dirtyAtStart = new Map(Array.from(state.dirtyPaths, (path) =>
+            [path, JSON.stringify(state.decisions.files[path])]
+        ));
         setSyncState('dirty', 'Синхронизация…');
         try {
             let remote = await readGitHubDecisions(token);
@@ -405,14 +637,27 @@
                 await putGitHubDecisions(token, remote.sha, merged);
             }
 
-            state.decisions = merged;
-            state.dirtyPaths.clear();
-            state.changesSinceSync = 0;
+            const pendingPaths = new Set();
+            state.dirtyPaths.forEach((path) => {
+                if (!dirtyAtStart.has(path)
+                    || JSON.stringify(state.decisions.files[path]) !== dirtyAtStart.get(path)) {
+                    pendingPaths.add(path);
+                }
+            });
+            state.decisions = {
+                version: 1,
+                updated_at: pendingPaths.size ? state.decisions.updated_at : merged.updated_at,
+                files: mergeDecisionFiles(merged.files, state.decisions.files)
+            };
+            state.dirtyPaths = pendingPaths;
+            state.changesSinceSync = pendingPaths.size;
             state.autosaveStopped = false;
+            state.lastSyncedAt = merged.updated_at;
             saveLocalCache();
             applyAllDecisions();
             updateLastSync();
-            setSyncState('saved', 'Сохранено онлайн');
+            setSyncState(pendingPaths.size ? 'dirty' : 'saved',
+                pendingPaths.size ? 'Есть несохранённые изменения' : 'Сохранено онлайн');
         } catch (error) {
             state.autosaveStopped = true;
             const suffix = error instanceof GitHubHttpError ? ` (HTTP ${error.status})` : '';
@@ -432,7 +677,8 @@
                 viewer_url: file.viewer_url,
                 status,
                 reviewed_at: status && decision ? decision.reviewed_at : null,
-                reviewer: status && decision ? decision.reviewer : ''
+                reviewer: status && decision ? decision.reviewer : '',
+                comments: normalizeComments(decision && decision.comments)
             };
         });
         return {
@@ -478,12 +724,14 @@
                 const normalized = normalizeDecision(value) || {
                     name: state.filesByPath.get(path).name,
                     status: null,
-                    reviewed_at: new Date().toISOString(),
-                    reviewer: ''
+                    reviewed_at: null,
+                    reviewer: '',
+                    comments: []
                 };
                 normalized.name = state.filesByPath.get(path).name;
-                normalized.reviewed_at = normalized.reviewed_at || new Date().toISOString();
-                state.decisions.files[path] = normalized;
+                state.decisions.files[path] = mergeDecisionFiles(
+                    { [path]: state.decisions.files[path] }, { [path]: normalized }
+                )[path];
                 state.dirtyPaths.add(path);
                 imported += 1;
             });
@@ -556,13 +804,7 @@
             updated_at: remoteEnvelope.updated_at || local.envelope.updated_at,
             files: mergeDecisionFiles(remoteEnvelope.files, local.envelope.files)
         };
-        state.dirtyPaths.forEach((path) => {
-            const remoteDecision = remoteEnvelope.files[path];
-            const localDecision = local.envelope.files[path];
-            if (remoteDecision && localDecision && decisionTime(remoteDecision) > decisionTime(localDecision)) {
-                state.dirtyPaths.delete(path);
-            }
-        });
+        state.lastSyncedAt = remoteEnvelope.updated_at;
         saveLocalCache();
         applyAllDecisions();
         updateLastSync();
@@ -586,9 +828,41 @@
             if (!row) {
                 return;
             }
+            if (event.target.closest('.add-comment')) {
+                row.dataset.editorOpen = 'true';
+                renderCommentsForRow(row);
+                row.querySelector('.comment-draft').focus();
+                return;
+            }
+            if (event.target.closest('.cancel-comment')) {
+                row.dataset.editorOpen = 'false';
+                renderCommentsForRow(row);
+                return;
+            }
+            if (event.target.closest('.save-comment')) {
+                addComment(row);
+                return;
+            }
+            if (event.target.closest('.show-comments')) {
+                const count = normalizeComments(state.decisions.files[row.dataset.path]
+                    && state.decisions.files[row.dataset.path].comments).length;
+                const mode = row.dataset.commentMode || 'preview';
+                row.dataset.commentMode = mode === 'preview'
+                    ? count > 3 ? 'recent' : 'all'
+                    : mode === 'recent' ? 'all' : 'preview';
+                renderCommentsForRow(row);
+                return;
+            }
             const statusButton = event.target.closest('button[data-status]');
             if (statusButton) {
                 chooseStatus(row, statusButton.dataset.status);
+            }
+        });
+
+        elements.catalog.addEventListener('input', (event) => {
+            if (event.target.matches('.comment-draft')) {
+                const row = event.target.closest('.file-row');
+                saveDraft(row.dataset.path, event.target.value);
             }
         });
 
@@ -597,6 +871,10 @@
                 state.currentFilter = button.dataset.filter;
                 applyFilter();
             });
+        });
+        elements.search.addEventListener('input', () => {
+            state.searchTerm = elements.search.value.trim().toLocaleLowerCase('ru-RU');
+            applyFilter();
         });
         elements.expandAll.addEventListener('click', () => {
             elements.folders.forEach((folder) => folder.classList.remove('collapsed'));
@@ -612,7 +890,7 @@
                 button.setAttribute('aria-expanded', 'false');
             });
         });
-        elements.reviewer.addEventListener('input', saveReviewer);
+        elements.reviewer.addEventListener('change', saveReviewer);
         elements.token.addEventListener('input', () => {
             setToken(elements.token.value.trim());
             state.autosaveStopped = false;
@@ -637,6 +915,7 @@
             countReviewed: 'count-reviewed',
             countUnreviewed: 'count-unreviewed',
             progress: 'progress',
+            search: 'file-search',
             reviewer: 'reviewer',
             token: 'github-token',
             clearToken: 'clear-token',
@@ -678,6 +957,21 @@
         } catch (error) {
             setSyncState('error', `Ошибка запуска: ${error.message}`);
         }
+    }
+
+    if (typeof document === 'undefined') {
+        globalThis.FrDomianReviewTest = {
+            normalizeComments,
+            normalizeDecision,
+            normalizeEnvelope,
+            mergeComments,
+            mergeDecisionFiles,
+            matchesFile,
+            emptyEnvelope,
+            STATUSES,
+            REVIEWERS
+        };
+        return;
     }
 
     window.addEventListener('DOMContentLoaded', start);
