@@ -23,6 +23,7 @@ jobs:
           node --check scripts/scan-disk.mjs
           node --check scripts/migrate-decisions.mjs
           node --check scripts/build-delete-plan.mjs
+          node --check scripts/quarantine.mjs
 
       - name: Tests (manifest, migration, merge rules)
         run: node --test
