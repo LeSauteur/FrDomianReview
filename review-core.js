@@ -223,16 +223,39 @@
         return { status: null, resolved: false, conflict: true };
     }
 
-    // Отметка о выполнении: явная отметка проверяющего; иначе файл, пропавший с Диска, считается удалённым.
+    // Отметка о выполнении. Отсутствие файла на Диске сильнее ручной отметки:
+    // «Актуализировано», поставленное до удаления файла, сменяется авто-«Удалено».
+    // Ручное «Удалено» сохраняется — у него есть автор и дата.
     function outcomeFor(value, missingFromDisk) {
         const entry = normalizeEntry(value);
-        if (entry.outcome && entry.outcome.status) {
-            return { status: entry.outcome.status, auto: false, by: entry.outcome.by, at: entry.outcome.at };
-        }
-        if (missingFromDisk) {
+        const manual = entry.outcome && entry.outcome.status
+            ? { status: entry.outcome.status, auto: false, by: entry.outcome.by, at: entry.outcome.at }
+            : null;
+        if (missingFromDisk && !(manual && manual.status === 'DELETED')) {
             return { status: 'DELETED', auto: true, by: '', at: null };
         }
-        return null;
+        return manual;
+    }
+
+    // Выполнение решения по итоговому статусу и отметке outcomeFor():
+    //   state 'done'     — отметка соответствует решению (DELETE/DUPLICATE → DELETED, UPDATE → UPDATED);
+    //   state 'todo'     — решение требует действия, соответствующей отметки нет;
+    //   state 'mismatch' — отметка есть, но решение её не предполагает (KEEP, ARCHIVE, конфликт…);
+    //   state null       — действий не требуется.
+    // mismatch: true — отметка не совпадает с решением, нужно предупреждение.
+    function completionOf(status, outcome) {
+        const expected = OUTCOME_FOR_STATUS[status] || null;
+        const marked = outcome && outcome.status ? outcome.status : null;
+        if (expected && marked === expected) {
+            return { state: 'done', expected, mismatch: false };
+        }
+        if (expected) {
+            return { state: 'todo', expected, mismatch: Boolean(marked) };
+        }
+        if (marked && status) {
+            return { state: 'mismatch', expected: null, mismatch: true };
+        }
+        return { state: null, expected: null, mismatch: false };
     }
 
     // ---- совместимость с v1 (ключ — путь, один статус на файл) ----
@@ -344,11 +367,13 @@
         return typeMatches && sizeMatches;
     }
 
-    // outcome — итог outcomeFor(); фильтр DONE — выполнено, TODO — решено удалить/обновить, но не выполнено.
+    // outcome — итог outcomeFor(); DONE — отметка соответствует решению,
+    // TODO — решено удалить/обновить, но соответствующей отметки нет (см. completionOf).
     function matchesFile(name, path, status, commentCount, filter, searchTerm, outcome) {
+        const completion = completionOf(status, outcome).state;
         const statusMatches = filter === 'ALL'
-            || (filter === 'DONE' && Boolean(outcome))
-            || (filter === 'TODO' && !outcome && Boolean(OUTCOME_FOR_STATUS[status]))
+            || (filter === 'DONE' && completion === 'done')
+            || (filter === 'TODO' && completion === 'todo')
             || (filter === 'UNREVIEWED' && !status)
             || (filter === 'COMMENTS' && commentCount > 0)
             || status === filter;
@@ -379,6 +404,7 @@
         mergeEnvelopes,
         effectiveStatus,
         outcomeFor,
+        completionOf,
         isV1,
         convertV1Decision,
         convertV1Envelope,

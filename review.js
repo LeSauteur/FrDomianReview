@@ -498,9 +498,9 @@
             const badge = createElement('span', 'outcome-badge', `✓ ${OUTCOME_LABELS[outcome.status]} (${who})`);
             badge.dataset.outcome = outcome.status;
             area.append(badge);
-            if (outcome.status === 'DELETED' && status && core.OUTCOME_FOR_STATUS[status] !== 'DELETED') {
+            if (core.completionOf(status, outcome).mismatch) {
                 const label = status === 'CONFLICT' ? 'конфликт' : `«${STATUS_LABELS[status]}»`;
-                area.append(createElement('span', 'outcome-warning', `итог ревизии — ${label}`));
+                area.append(createElement('span', 'outcome-warning', `не совпадает с итогом ревизии — ${label}`));
             }
             if (!outcome.auto) {
                 area.append(commentButton('clear-outcome', 'Снять отметку'));
@@ -610,9 +610,10 @@
                 counts[status] += 1;
                 reviewed += 1;
             }
-            if (outcome) {
+            const completion = core.completionOf(status, outcome).state;
+            if (completion === 'done') {
                 counts.DONE += 1;
-            } else if (core.OUTCOME_FOR_STATUS[status]) {
+            } else if (completion === 'todo') {
                 counts.TODO += 1;
             }
         });

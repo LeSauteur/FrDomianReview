@@ -25,14 +25,27 @@
 2. [ ] **Владелец:** отозвать старые токены с доступом к `FrDomianReview`.
        Если кто-то не успел сохранить — его правки останутся в браузере и будут
        перенесены новой страницей автоматически (кэш v1 → v2).
-3. [ ] **Claude:** забрать свежий `main`, убедиться, что после шага 1 новых коммитов
-       «Update review decisions» нет.
+3. [ ] **Claude:** обновить ветку v2 из **свежего** `origin/main` — иначе шаг 5 прочитает
+       устаревший v1-файл без последних решений:
+       ```
+       git fetch origin
+       git switch feat/manifest-v2
+       git merge origin/main
+       git diff --exit-code origin/main -- data/review-decisions.json
+       ```
+       Последняя команда должна завершиться без вывода (файл в ветке = файлу в `main`).
+       Убедиться, что после шага 1 новых коммитов «Update review decisions» в `origin/main` нет;
+       если появились — повторить этот шаг.
 4. [ ] **Claude:** `node scripts/scan-disk.mjs` — подтянуть изменения на Диске с момента подготовки.
 5. [ ] **Claude:** `node scripts/migrate-decisions.mjs --in data/review-decisions.json --out v2.json`
        — сверка: число решений v1 = число голосов v2, все комментарии на месте;
        иначе скрипт падает и ничего не пишет.
 6. [ ] **Claude:** записать `v2.json` в `FrDomianReview-data/review-decisions.json`,
        копию v1 — в `FrDomianReview-data/archive/review-decisions.v1.json`.
+   - [ ] **Claude:** `node scripts/build-delete-plan.mjs --decisions ../FrDomianReview-data/review-decisions.json`
+         — план удаления строится уже из v2 и включает итоги DELETE и DUPLICATE,
+         сохраняя исходный итог в `decision_status`; `DELETE_TO_DO + DELETE_DONE` должно совпасть
+         с суммой DELETE- и DUPLICATE-решений v1 из отчёта шага 5.
 7. [ ] **Claude:** в ветке v2 удалить `data/review-decisions.json` из публичного репозитория
        (в истории git он останется), обновить `manifest.json`, смержить PR.
 8. [ ] **Claude + владелец:** дождаться деплоя Pages (1–2 мин), открыть страницу с Ctrl+F5,

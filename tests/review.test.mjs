@@ -6,6 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { migrate } from '../scripts/migrate-decisions.mjs';
 import { reconcile } from '../scripts/scan-disk.mjs';
+import { buildDeletePlan, toCsv } from '../scripts/build-delete-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const core = createRequire(import.meta.url)(path.join(root, 'review-core.js'));
@@ -168,5 +169,67 @@ test('отметка «Выполнено»: отдельно от голосо�
     assert.equal(core.matchesFile('a', '/a', 'DELETE', 0, 'TODO', '', null), true);
     assert.equal(core.matchesFile('a', '/a', 'DELETE', 0, 'TODO', '', { status: 'DELETED' }), false);
     assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'TODO', '', null), false);
-    assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'DONE', '', { status: 'DELETED' }), true);
+    assert.equal(core.matchesFile('a', '/a', 'DELETE', 0, 'DONE', '', { status: 'DELETED' }), true);
+});
+
+test('пропавший с Диска файл: авто-«Удалено» сильнее ручного «Актуализировано»', () => {
+    const updated = { votes: { A: { status: 'UPDATE', at: T1 } }, outcome: { status: 'UPDATED', by: 'A', at: T2 } };
+    assert.equal(core.outcomeFor(updated, false).status, 'UPDATED');
+    assert.deepEqual(core.outcomeFor(updated, true), { status: 'DELETED', auto: true, by: '', at: null });
+    const deleted = { votes: { A: { status: 'DELETE', at: T1 } }, outcome: { status: 'DELETED', by: 'B', at: T2 } };
+    assert.deepEqual(core.outcomeFor(deleted, true), { status: 'DELETED', auto: false, by: 'B', at: T2 },
+        'ручное «Удалено» сохраняет автора и дату');
+});
+
+test('«Выполнено» — только если отметка соответствует решению', () => {
+    const deleted = { status: 'DELETED' };
+    const updated = { status: 'UPDATED' };
+    assert.equal(core.completionOf('DELETE', deleted).state, 'done');
+    assert.equal(core.completionOf('DUPLICATE', deleted).state, 'done');
+    assert.equal(core.completionOf('UPDATE', updated).state, 'done');
+    assert.deepEqual(core.completionOf('UPDATE', deleted), { state: 'todo', expected: 'UPDATED', mismatch: true });
+    assert.deepEqual(core.completionOf('DELETE', updated), { state: 'todo', expected: 'DELETED', mismatch: true });
+    assert.deepEqual(core.completionOf('KEEP', deleted), { state: 'mismatch', expected: null, mismatch: true });
+    assert.deepEqual(core.completionOf('CONFLICT', updated), { state: 'mismatch', expected: null, mismatch: true });
+    assert.equal(core.completionOf(null, deleted).mismatch, false, 'непроверенный пропавший файл — без предупреждения');
+    assert.equal(core.completionOf('KEEP', null).state, null);
+
+    assert.equal(core.matchesFile('a', '/a', 'UPDATE', 0, 'DONE', '', deleted), false);
+    assert.equal(core.matchesFile('a', '/a', 'UPDATE', 0, 'TODO', '', deleted), true);
+    assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'DONE', '', deleted), false);
+    assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'TODO', '', deleted), false);
+});
+
+test('план удаления v2: DELETE и DUPLICATE по голосам и арбитру, выполненные и конфликты исключены', () => {
+    const doc = (id, missing) => ({ id, name: `${id}.docx`, disk: { path: `/Папка/${id}.docx`, size: 10, viewer_url: `v/${id}`, missing_since: missing ? T1 : null } });
+    const manifest = { documents: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'].map((id) => doc(id, id === 'c')) };
+    const decisions = {
+        version: 2,
+        files: {
+            a: { votes: { A: { status: 'DELETE', at: T1 }, B: { status: 'DELETE', at: T2 } } },
+            b: { votes: { A: { status: 'DELETE', at: T1 }, B: { status: 'KEEP', at: T1 } } },
+            c: { votes: { A: { status: 'DELETE', at: T1 } } },
+            d: { votes: { A: { status: 'DELETE', at: T1 } }, outcome: { status: 'DELETED', by: 'A', at: T2 } },
+            e: { votes: { A: { status: 'KEEP', at: T1 }, B: { status: 'DELETE', at: T1 } },
+                resolution: { status: 'DELETE', by: core.ARBITER, at: T3 } },
+            f: { votes: { A: { status: 'DELETE', at: T1 } }, resolution: { status: 'KEEP', by: core.ARBITER, at: T2 } },
+            g: { votes: { A: { status: 'DELETE', at: T1 }, B: { status: null, at: T2 } } },
+            h: { votes: { A: { status: 'DUPLICATE', at: T1 }, B: { status: 'DUPLICATE', at: T2 } } },
+            i: { votes: { A: { status: 'DUPLICATE', at: T1 } }, outcome: { status: 'DELETED', by: 'A', at: T2 } }
+        }
+    };
+    const { plan, done, conflicts } = buildDeletePlan(manifest, decisions);
+    assert.deepEqual(plan.map((row) => row.id), ['a', 'e', 'g', 'h']);
+    assert.deepEqual(plan.map((row) => row.decision_status), ['DELETE', 'DELETE', 'DELETE', 'DUPLICATE']);
+    assert.equal(plan[0].decided_by, 'A, B');
+    assert.equal(plan[0].decided_at, T2);
+    assert.equal(plan[1].decided_by, core.ARBITER);
+    assert.equal(plan[1].resolved_by_arbiter, true);
+    assert.equal(plan[3].decided_by, 'A, B');
+    assert.equal(done, 3, 'c — файла нет на Диске, d и i — отмечены «Удалено»');
+    assert.equal(conflicts, 1, 'b — конфликт без арбитра');
+    assert.match(toCsv(plan).split('\n')[0], /^"id","decision_status","path","name"/);
+
+    assert.throws(() => buildDeletePlan(manifest, { files: { '/Папка/a.docx': { status: 'DELETE' } } }), /v1/);
+    assert.throws(() => buildDeletePlan(manifest, { version: 2, files: { zzz: { votes: { A: { status: 'DELETE', at: T1 } } } } }), /zzz/);
 });
