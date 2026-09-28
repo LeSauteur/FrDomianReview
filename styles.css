@@ -214,6 +214,12 @@ input[type="password"] { width: 250px; max-width: 80vw; }
 .status-chip[data-status="DONE"] { background: #e9f6ee; border-color: #c9e6d3; }
 .file-row[data-outcome="DELETED"] .file-actions,
 .file-row[data-outcome="UPDATED"] .file-actions { opacity: .6; }
+.quarantine-panel { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-top: 9px; padding: 6px 10px; border: 1px solid #e4d9c9; border-radius: 8px; background: #fbf8f3; color: #5f5446; font-size: .9rem; }
+.quarantine-title { font-weight: 700; }
+.quarantine-panel button { min-height: 28px; padding: 3px 11px; border-radius: 999px; }
+.quarantine-panel .quarantine-all { background: #fbe9e9; border-color: #d99c9c; color: #9c4545; font-weight: 650; }
+.outcome-area .to-quarantine { background: #fbe9e9; border-color: #d99c9c; color: #9c4545; font-weight: 650; }
+.outcome-area .restore-quarantine { background: #eef3fa; border-color: #b9cce4; color: #245184; }
 .outcome-area:empty { display: none; }
 .outcome-area { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 7px; font-size: .86rem; }
 .outcome-badge { border-radius: 999px; background: #e1f3e7; color: #27693c; padding: 1px 9px; font-weight: 650; }
