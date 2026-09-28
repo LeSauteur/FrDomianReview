@@ -38,6 +38,9 @@
         dirtyIds: new Set(),
         currentFilter: 'ALL',
         searchTerm: '',
+        typeFilter: 'ALL',
+        minSize: 0,
+        viewMode: 'tree',
         lastSyncedAt: null,
         syncing: false,
         autosaveStopped: false,
@@ -358,8 +361,12 @@
             title.target = '_blank';
             title.rel = 'noopener noreferrer';
         }
-        const meta = createElement('span', 'file-meta', [doc.ext, formatDate(doc.disk.modified)].filter(Boolean).join(' · '));
+        const meta = createElement('span', 'file-meta',
+            [doc.ext, core.formatSize(doc.disk.size), formatDate(doc.disk.modified)].filter(Boolean).join(' · '));
         heading.append(title, meta);
+        if (state.viewMode !== 'tree') {
+            heading.append(createElement('span', 'file-folder', doc.disk.path.slice(0, doc.disk.path.lastIndexOf('/')) || '/'));
+        }
         if (missing) {
             heading.append(createElement('span', 'missing-badge', `нет на Диске с ${formatDate(doc.disk.missing_since)}`));
         }
@@ -403,11 +410,35 @@
         return item;
     }
 
-    function renderTree() {
+    // Вид «По папкам» — дерево; «Список по размеру» — все файлы одним списком, сначала самые тяжёлые.
+    function renderCatalog() {
         state.rowsById = new Map();
-        elements.catalog.replaceChildren(renderFolder(buildFolderTree()));
+        if (state.viewMode === 'tree') {
+            elements.catalog.classList.remove('flat');
+            elements.catalog.replaceChildren(renderFolder(buildFolderTree()));
+        } else {
+            elements.catalog.classList.add('flat');
+            const sizeOf = (doc) => (typeof doc.disk.size === 'number' ? doc.disk.size : -1);
+            const docs = state.docs.slice().sort((left, right) => sizeOf(right) - sizeOf(left)
+                || left.disk.path.localeCompare(right.disk.path, 'ru'));
+            elements.catalog.replaceChildren(...docs.map(renderFileRow));
+        }
         elements.folders = Array.from(elements.catalog.querySelectorAll('.folder'))
             .sort((left, right) => Number(right.dataset.depth) - Number(left.dataset.depth));
+    }
+
+    function fillTypeFilter() {
+        const counts = new Map();
+        state.docs.forEach((doc) => {
+            const type = core.fileType(doc.ext);
+            counts.set(type, (counts.get(type) || 0) + 1);
+        });
+        const types = [...core.FILE_TYPES.map(([type, label]) => [type, label]), ['other', 'Прочее']];
+        types.forEach(([type, label]) => {
+            if (counts.get(type)) {
+                elements.typeFilter.append(new Option(`${label} (${counts.get(type)})`, type));
+            }
+        });
     }
 
     // ---- строка файла ----
@@ -557,10 +588,19 @@
     }
 
     function applyFilter() {
+        let shown = 0;
+        let shownSize = 0;
         state.rowsById.forEach((row, id) => {
+            const doc = state.docsById.get(id);
             row.hidden = !core.matchesFile(row.dataset.name, row.dataset.path, rowStatus(id),
-                entryFor(id).comments.length, state.currentFilter, state.searchTerm);
+                entryFor(id).comments.length, state.currentFilter, state.searchTerm)
+                || !core.matchesTypeAndSize(doc.ext, doc.disk.size, state.typeFilter, state.minSize);
+            if (!row.hidden) {
+                shown += 1;
+                shownSize += typeof doc.disk.size === 'number' ? doc.disk.size : 0;
+            }
         });
+        elements.shownSummary.textContent = `Показано: ${shown} · ${core.formatSize(shownSize)}`;
         (elements.folders || []).forEach((folder) => {
             folder.hidden = !folder.querySelector('.file-row:not([hidden])');
         });
@@ -867,6 +907,21 @@
                 applyFilter();
             });
         });
+        elements.typeFilter.addEventListener('change', () => {
+            state.typeFilter = elements.typeFilter.value;
+            applyFilter();
+        });
+        elements.sizeFilter.addEventListener('change', () => {
+            state.minSize = Number(elements.sizeFilter.value) || 0;
+            applyFilter();
+        });
+        elements.viewMode.addEventListener('change', () => {
+            state.viewMode = elements.viewMode.value;
+            if (state.manifest) {
+                renderCatalog();
+                applyAllDecisions();
+            }
+        });
         elements.search.addEventListener('input', () => {
             state.searchTerm = elements.search.value.trim().toLocaleLowerCase('ru-RU');
             applyFilter();
@@ -914,6 +969,10 @@
             countUnreviewed: 'count-unreviewed',
             progress: 'progress',
             search: 'file-search',
+            typeFilter: 'type-filter',
+            sizeFilter: 'size-filter',
+            viewMode: 'view-mode',
+            shownSummary: 'shown-summary',
             reviewer: 'reviewer',
             token: 'github-token',
             clearToken: 'clear-token',
@@ -945,7 +1004,8 @@
         bindEvents();
         try {
             await loadManifest();
-            renderTree();
+            fillTypeFilter();
+            renderCatalog();
             const local = loadLocalCache();
             state.decisions = local.envelope;
             state.dirtyIds = new Set(local.dirtyIds.filter((id) => state.docsById.has(id)));

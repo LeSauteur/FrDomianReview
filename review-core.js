@@ -278,6 +278,42 @@
         return map;
     }
 
+    const FILE_TYPES = [
+        ['video', 'Видео', ['mp4', 'mov', 'mpg', 'mpeg', 'avi', 'mkv', 'wmv', 'm4v']],
+        ['pdf', 'PDF', ['pdf']],
+        ['doc', 'Документы', ['doc', 'docx', 'rtf', 'odt', 'txt', 'ppt', 'pptx']],
+        ['sheet', 'Таблицы', ['xls', 'xlsx', 'csv', 'ods']],
+        ['image', 'Изображения', ['jpg', 'jpeg', 'png', 'tif', 'tiff', 'gif', 'bmp', 'heic', 'webp']],
+        ['layout', 'Макеты', ['cdr', 'psd', 'ai', 'eps', 'indd']],
+        ['font', 'Шрифты', ['ttf', 'otf', 'woff', 'woff2']],
+        ['archive', 'Архивы', ['zip', 'rar', '7z']]
+    ];
+    const TYPE_BY_EXT = new Map(FILE_TYPES.flatMap(([type, , exts]) => exts.map((ext) => [ext, type])));
+
+    function fileType(ext) {
+        return TYPE_BY_EXT.get(String(ext || '').toLowerCase()) || 'other';
+    }
+
+    function formatSize(bytes) {
+        if (typeof bytes !== 'number' || !Number.isFinite(bytes)) return '';
+        const units = ['Б', 'КБ', 'МБ', 'ГБ', 'ТБ'];
+        let value = bytes;
+        let unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {
+            value /= 1024;
+            unit += 1;
+        }
+        const digits = unit === 0 || value >= 100 ? 0 : 1;
+        return `${value.toLocaleString('ru-RU', { maximumFractionDigits: digits, minimumFractionDigits: digits })} ${units[unit]}`;
+    }
+
+    // Дополнительные фильтры: тип файла ('ALL' или ключ FILE_TYPES / 'other') и минимальный размер в байтах.
+    function matchesTypeAndSize(ext, size, type, minSize) {
+        const typeMatches = !type || type === 'ALL' || fileType(ext) === type;
+        const sizeMatches = !minSize || (typeof size === 'number' && size >= minSize);
+        return typeMatches && sizeMatches;
+    }
+
     function matchesFile(name, path, status, commentCount, filter, searchTerm) {
         const statusMatches = filter === 'ALL'
             || (filter === 'UNREVIEWED' && !status)
@@ -311,6 +347,10 @@
         convertV1Decision,
         convertV1Envelope,
         buildPathIndex,
+        FILE_TYPES,
+        fileType,
+        formatSize,
+        matchesTypeAndSize,
         matchesFile
     };
 }));

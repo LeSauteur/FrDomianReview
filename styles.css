@@ -94,6 +94,10 @@ h1 { margin: 0; font-size: 1.45rem; line-height: 1.2; letter-spacing: -.025em; }
 .status-chip[data-status="CONFLICT"] { background: #fff1e6; border-color: #f1d2b8; }
 
 .filter-tools { gap: 8px 12px; margin-top: 12px; }
+.view-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin-top: 9px; color: #627083; }
+.view-tools label { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.tree.flat { margin-top: 4px; }
+.file-folder { grid-column: 1 / -1; color: #7a8593; font-size: .82rem; overflow-wrap: anywhere; }
 .search-label { display: flex; align-items: center; gap: 7px; white-space: nowrap; color: #627083; }
 #file-search { width: clamp(210px, 24vw, 350px); }
 .filters { gap: 4px; }

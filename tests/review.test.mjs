@@ -141,3 +141,15 @@ test('страница: безопасный вывод, токен только
     assert.ok(source.includes("repository: 'FrDomianReview-data'"));
     assert.ok(!/\b657\b/.test(source), 'число файлов не должно быть зашито');
 });
+
+test('тип и размер файла', () => {
+    assert.equal(core.fileType('MP4'), 'video');
+    assert.equal(core.fileType('cdr'), 'layout');
+    assert.equal(core.fileType('xyz'), 'other');
+    assert.equal(core.formatSize(1536), '1,5 КБ');
+    assert.equal(core.formatSize(3 * 1024 ** 3), '3,0 ГБ');
+    assert.equal(core.matchesTypeAndSize('mp4', 200 * 1024 ** 2, 'video', 100 * 1024 ** 2), true);
+    assert.equal(core.matchesTypeAndSize('mp4', 50 * 1024 ** 2, 'video', 100 * 1024 ** 2), false);
+    assert.equal(core.matchesTypeAndSize('pdf', 50, 'video', 0), false);
+    assert.equal(core.matchesTypeAndSize('pdf', null, 'ALL', 0), true);
+});

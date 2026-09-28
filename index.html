@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ревизия — Домиан Франчайзинг</title>
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
     <main>
@@ -47,6 +47,21 @@
                 <button type="button" data-filter="COMMENTS">Есть комментарии</button>
             </div>
             </div>
+            <div class="view-tools">
+                <label>Тип <select id="type-filter"><option value="ALL">Все типы</option></select></label>
+                <label>Размер <select id="size-filter">
+                    <option value="0">Любой</option>
+                    <option value="10485760">больше 10 МБ</option>
+                    <option value="104857600">больше 100 МБ</option>
+                    <option value="524288000">больше 500 МБ</option>
+                    <option value="1073741824">больше 1 ГБ</option>
+                </select></label>
+                <label>Вид <select id="view-mode">
+                    <option value="tree">По папкам</option>
+                    <option value="size">Список по размеру ↓</option>
+                </select></label>
+                <span class="metric" id="shown-summary"></span>
+            </div>
             <div class="actions">
                 <button id="expand-all" type="button">Развернуть всё</button>
                 <button id="collapse-all" type="button">Свернуть всё</button>
@@ -64,7 +79,7 @@
         </header>
         <ul id="catalog" class="tree"></ul>
     </main>
-    <script src="review-core.js?v=2" defer></script>
-    <script src="review.js?v=2" defer></script>
+    <script src="review-core.js?v=3" defer></script>
+    <script src="review.js?v=3" defer></script>
 </body>
 </html>
