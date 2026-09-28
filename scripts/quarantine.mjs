@@ -88,7 +88,7 @@ function createDisk(token) {
         },
         stat: (p) => call('GET', `${API}/resources?${q({ path: p, fields: 'path,type,md5,size,resource_id', limit: 0 })}`),
         mkdir: (p) => call('PUT', `${API}/resources?${q({ path: p })}`),
-        move: (from, to) => call('POST', `${API}/resources/move?${q({ from, to, overwrite: 'false' })}`),
+        move: (from, to) => call('POST', `${API}/resources/move?${q({ from, path: to, overwrite: 'false' })}`),
         operation: (href) => call('GET', href)
     };
 }
