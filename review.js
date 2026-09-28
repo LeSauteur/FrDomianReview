@@ -10,7 +10,9 @@
         branch: 'main',
         decisionsPath: 'review-decisions.json',
         manifestUrl: 'data/manifest.json',
-        apiVersion: '2022-11-28'
+        apiVersion: '2022-11-28',
+        // Локальный помощник карантина (scripts/helper.mjs) — только на компьютере владельца Диска.
+        helperUrl: 'http://127.0.0.1:8787'
     };
     const { STATUSES, REVIEWERS, ARBITER } = core;
     const STATUS_LABELS = {
@@ -45,7 +47,9 @@
         lastSyncedAt: null,
         syncing: false,
         autosaveStopped: false,
-        changesSinceSync: 0
+        changesSinceSync: 0,
+        helper: null,
+        helperBusy: false
     };
 
     const elements = {};
@@ -505,6 +509,7 @@
             if (!outcome.auto) {
                 area.append(commentButton('clear-outcome', 'Снять отметку'));
             }
+            appendQuarantineButtons(area, id);
             return;
         }
         const suggested = core.OUTCOME_FOR_STATUS[status];
@@ -512,6 +517,139 @@
             const button = commentButton('mark-outcome', `✓ Отметить: ${OUTCOME_LABELS[suggested]}`);
             button.dataset.outcome = suggested;
             area.append(button);
+        }
+        appendQuarantineButtons(area, id);
+    }
+
+    // ---- карантин через локальный помощник ----
+
+    function isQuarantineCandidate(id) {
+        const doc = state.docsById.get(id);
+        const completion = core.completionOf(rowStatus(id), outcomeOf(id));
+        return Boolean(state.helper) && completion.state === 'todo' && completion.expected === 'DELETED'
+            && !doc.disk.missing_since && !state.helper.quarantined.has(id);
+    }
+
+    function appendQuarantineButtons(area, id) {
+        if (!state.helper) return;
+        if (state.helper.quarantined.has(id)) {
+            const restore = commentButton('restore-quarantine', '↩ Вернуть из карантина');
+            restore.disabled = state.helperBusy;
+            area.append(restore);
+        } else if (isQuarantineCandidate(id)) {
+            const move = commentButton('to-quarantine', '→ В карантин');
+            move.disabled = state.helperBusy;
+            area.append(move);
+        }
+    }
+
+    async function helperRequest(method, url, body) {
+        const response = await fetch(`${CONFIG.helperUrl}${url}`, {
+            method,
+            headers: body ? { 'Content-Type': 'application/json' } : {},
+            body: body ? JSON.stringify(body) : undefined,
+            signal: AbortSignal.timeout(method === 'GET' ? 3000 : 30 * 60 * 1000)
+        });
+        const payload = await response.json();
+        if (!response.ok || !payload.ok) {
+            throw new Error(payload.error || `HTTP ${response.status}`);
+        }
+        return payload;
+    }
+
+    async function connectHelper() {
+        try {
+            const status = await helperRequest('GET', '/status');
+            state.helper = { user: status.user, quarantined: new Map(status.quarantined.map((item) => [item.id, item])) };
+        } catch (error) {
+            state.helper = null;
+        }
+        applyAllDecisions();
+    }
+
+    function renderQuarantinePanel() {
+        const panel = elements.quarantinePanel;
+        panel.replaceChildren();
+        if (!state.helper) {
+            panel.hidden = !isArbiter();
+            if (isArbiter()) {
+                panel.append(
+                    createElement('span', 'quarantine-title', 'Карантин:'),
+                    createElement('span', 'quarantine-hint', 'помощник не запущен — запустите start-quarantine-helper.cmd на компьютере с .env'),
+                    commentButton('helper-reconnect', 'Проверить снова')
+                );
+            }
+            return;
+        }
+        panel.hidden = false;
+        const candidates = state.docs.filter((doc) => isQuarantineCandidate(doc.id));
+        const size = candidates.reduce((sum, doc) => sum + (typeof doc.disk.size === 'number' ? doc.disk.size : 0), 0);
+        const moveAll = commentButton('quarantine-all', candidates.length
+            ? `Перенести всё отмеченное в карантин (${candidates.length}, ${core.formatSize(size)})`
+            : 'Нечего переносить');
+        moveAll.disabled = state.helperBusy || candidates.length === 0;
+        panel.append(
+            createElement('span', 'quarantine-title', 'Карантин:'),
+            createElement('span', 'quarantine-hint', `помощник подключён (Диск ${state.helper.user}) · в карантине ${state.helper.quarantined.size}`),
+            moveAll
+        );
+    }
+
+    function applyOutcomes(ids, status) {
+        const reviewer = getReviewer();
+        const at = new Date().toISOString();
+        ids.forEach((id) => {
+            const entry = entryFor(id);
+            entry.outcome = { status, by: reviewer, at };
+            state.decisions.files[id] = entry;
+            state.dirtyIds.add(id);
+            state.changesSinceSync += 1;
+        });
+        state.decisions.updated_at = at;
+        saveLocalCache();
+        setSyncState('dirty', 'Есть несохранённые изменения');
+    }
+
+    function describeEntries(entries, verb) {
+        const ok = entries.filter((entry) => entry.result === 'ok').length;
+        const problems = entries.filter((entry) => entry.result !== 'ok')
+            .map((entry) => `${entry.name}: ${entry.reason || entry.result}`);
+        return `${verb}: ${ok}${problems.length ? `. Не выполнено: ${problems.join('; ')}` : ''}`;
+    }
+
+    async function runHelperJob(ids, mode) {
+        if (!requireReviewer() || state.helperBusy || ids.length === 0) return;
+        if (mode === 'quarantine' && state.dirtyIds.size) {
+            state.autosaveStopped = false;
+            await syncOnline();
+            if (state.dirtyIds.size) {
+                elements.message.textContent = 'Сначала сохраните решения онлайн: помощник берёт план из общего репозитория.';
+                return;
+            }
+        }
+        state.helperBusy = true;
+        applyAllDecisions();
+        elements.message.textContent = mode === 'quarantine'
+            ? `Переношу в карантин: ${ids.length}…`
+            : `Возвращаю из карантина: ${ids.length}…`;
+        try {
+            const result = await helperRequest('POST', mode === 'quarantine' ? '/quarantine' : '/restore', { ids });
+            const done = result.entries.filter((entry) => entry.result === 'ok');
+            done.forEach((entry) => {
+                if (mode === 'quarantine') state.helper.quarantined.set(entry.id, { id: entry.id, to: entry.to, at: entry.ts });
+                else state.helper.quarantined.delete(entry.id);
+            });
+            if (done.length) applyOutcomes(done.map((entry) => entry.id), mode === 'quarantine' ? 'DELETED' : null);
+            const skipped = result.not_in_plan && result.not_in_plan.length
+                ? `. Не в плане (итог не «Удалить»/«Дубликат» или решение ещё не сохранено): ${result.not_in_plan.length}` : '';
+            elements.message.textContent = describeEntries(result.entries, mode === 'quarantine' ? 'Перенесено в карантин' : 'Возвращено') + skipped;
+        } catch (error) {
+            elements.message.textContent = `Помощник карантина: ${error.message}`;
+            await connectHelper();
+        } finally {
+            state.helperBusy = false;
+            applyAllDecisions();
+            if (state.dirtyIds.size && !state.autosaveStopped) syncOnline();
         }
     }
 
@@ -598,6 +736,7 @@
         state.rowsById.forEach((row) => applyDecisionToRow(row));
         updateCounters();
         applyFilter();
+        renderQuarantinePanel();
     }
 
     function updateCounters() {
@@ -935,6 +1074,16 @@
                 setOutcome(row, markOutcome.dataset.outcome);
                 return;
             }
+            if (event.target.closest('.to-quarantine')) {
+                runHelperJob([row.dataset.id], 'quarantine');
+                return;
+            }
+            if (event.target.closest('.restore-quarantine')) {
+                if (window.confirm(`Вернуть «${row.dataset.name}» из карантина на прежнее место?`)) {
+                    runHelperJob([row.dataset.id], 'restore');
+                }
+                return;
+            }
             if (event.target.closest('.clear-outcome')) {
                 setOutcome(row, null);
                 return;
@@ -970,6 +1119,18 @@
                 state.currentFilter = button.dataset.filter;
                 applyFilter();
             });
+        });
+        elements.quarantinePanel.addEventListener('click', (event) => {
+            if (event.target.closest('.helper-reconnect')) {
+                connectHelper();
+                return;
+            }
+            if (event.target.closest('.quarantine-all')) {
+                const ids = state.docs.filter((doc) => isQuarantineCandidate(doc.id)).map((doc) => doc.id);
+                if (ids.length && window.confirm(`Перенести в карантин ${ids.length} файл(ов) с итогом «Удалить»/«Дубликат»? Их можно будет вернуть.`)) {
+                    runHelperJob(ids, 'quarantine');
+                }
+            }
         });
         elements.typeFilter.addEventListener('change', () => {
             state.typeFilter = elements.typeFilter.value;
@@ -1037,6 +1198,7 @@
             sizeFilter: 'size-filter',
             viewMode: 'view-mode',
             shownSummary: 'shown-summary',
+            quarantinePanel: 'quarantine-panel',
             reviewer: 'reviewer',
             token: 'github-token',
             clearToken: 'clear-token',
@@ -1081,6 +1243,7 @@
             }
             applyAllDecisions();
             await loadRemoteDecisions();
+            await connectHelper();
             setInterval(() => {
                 if (state.dirtyIds.size > 0 && !state.autosaveStopped) {
                     syncOnline();

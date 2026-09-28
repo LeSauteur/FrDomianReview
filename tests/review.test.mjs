@@ -6,6 +6,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { migrate } from '../scripts/migrate-decisions.mjs';
 import { reconcile } from '../scripts/scan-disk.mjs';
+import { quarantined } from '../scripts/quarantine.mjs';
 import { buildDeletePlan, toCsv } from '../scripts/build-delete-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -232,4 +233,15 @@ test('план удаления v2: DELETE и DUPLICATE по голосам и �
 
     assert.throws(() => buildDeletePlan(manifest, { files: { '/Папка/a.docx': { status: 'DELETE' } } }), /v1/);
     assert.throws(() => buildDeletePlan(manifest, { version: 2, files: { zzz: { votes: { A: { status: 'DELETE', at: T1 } } } } }), /zzz/);
+});
+
+test('карантин: по журналу видно, что сейчас в карантине', () => {
+    const log = [
+        { id: 'd_1', action: 'quarantine', result: 'ok', from: '/a', to: '/q/a' },
+        { id: 'd_2', action: 'quarantine', result: 'ok', from: '/b', to: '/q/b' },
+        { id: 'd_3', action: 'quarantine', result: 'failed', from: '/c', to: '/q/c' },
+        { id: 'd_2', action: 'restore', result: 'ok', from: '/q/b', to: '/b' },
+        { id: 'd_1', action: 'restore', result: 'skipped', from: '/q/a', to: '/a' }
+    ];
+    assert.deepEqual(quarantined(log).map((entry) => entry.id), ['d_1']);
 });
