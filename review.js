@@ -21,6 +21,7 @@
         DELETE: 'Удалить',
         UNSURE: 'Не уверен'
     };
+    const OUTCOME_LABELS = { DELETED: 'Удалено', UPDATED: 'Актуализировано' };
     const CACHE_KEY = 'frdomian-review.cache.v2';
     const LEGACY_CACHE_KEY = 'frdomian-review.cache.v1';
     const REVIEWER_KEY = 'frdomian-review.reviewer.v1';
@@ -309,6 +310,11 @@
         return core.normalizeEntry(state.decisions.files[id]);
     }
 
+    function outcomeOf(id) {
+        const doc = state.docsById.get(id);
+        return core.outcomeFor(state.decisions.files[id], Boolean(doc && doc.disk.missing_since));
+    }
+
     function rowStatus(id) {
         const effective = core.effectiveStatus(state.decisions.files[id]);
         return effective.conflict ? 'CONFLICT' : effective.status;
@@ -388,7 +394,7 @@
             actions.append(button);
         });
 
-        row.append(heading, actions, createElement('div', 'votes-area'), createElement('div', 'comments-area'));
+        row.append(heading, actions, createElement('div', 'outcome-area'), createElement('div', 'votes-area'), createElement('div', 'comments-area'));
         state.rowsById.set(doc.id, row);
         return row;
     }
@@ -481,6 +487,34 @@
         }
     }
 
+    function renderOutcome(row) {
+        const area = row.querySelector('.outcome-area');
+        const id = row.dataset.id;
+        const outcome = outcomeOf(id);
+        const status = rowStatus(id);
+        area.replaceChildren();
+        if (outcome) {
+            const who = outcome.auto ? 'файла нет на Диске' : `${outcome.by}, ${formatDate(outcome.at)}`;
+            const badge = createElement('span', 'outcome-badge', `✓ ${OUTCOME_LABELS[outcome.status]} (${who})`);
+            badge.dataset.outcome = outcome.status;
+            area.append(badge);
+            if (outcome.status === 'DELETED' && status && core.OUTCOME_FOR_STATUS[status] !== 'DELETED') {
+                const label = status === 'CONFLICT' ? 'конфликт' : `«${STATUS_LABELS[status]}»`;
+                area.append(createElement('span', 'outcome-warning', `итог ревизии — ${label}`));
+            }
+            if (!outcome.auto) {
+                area.append(commentButton('clear-outcome', 'Снять отметку'));
+            }
+            return;
+        }
+        const suggested = core.OUTCOME_FOR_STATUS[status];
+        if (suggested) {
+            const button = commentButton('mark-outcome', `✓ Отметить: ${OUTCOME_LABELS[suggested]}`);
+            button.dataset.outcome = suggested;
+            area.append(button);
+        }
+    }
+
     function renderComments(row) {
         const area = row.querySelector('.comments-area');
         const comments = entryFor(row.dataset.id).comments;
@@ -545,6 +579,8 @@
         const status = rowStatus(row.dataset.id);
         row.dataset.status = status || '';
         row.classList.toggle('reviewed', Boolean(status));
+        const outcome = outcomeOf(row.dataset.id);
+        row.dataset.outcome = outcome ? outcome.status : '';
         const reviewer = getReviewer();
         const myVote = reviewer && entryFor(row.dataset.id).votes[reviewer];
         const mine = myVote ? myVote.status : null;
@@ -553,6 +589,7 @@
             button.classList.toggle('selected', selected);
             button.setAttribute('aria-pressed', String(selected));
         });
+        renderOutcome(row);
         renderVotes(row);
         renderComments(row);
     }
@@ -564,13 +601,19 @@
     }
 
     function updateCounters() {
-        const counts = Object.fromEntries([...STATUSES, 'CONFLICT'].map((status) => [status, 0]));
+        const counts = Object.fromEntries([...STATUSES, 'CONFLICT', 'TODO', 'DONE'].map((status) => [status, 0]));
         let reviewed = 0;
         state.docs.forEach((doc) => {
             const status = rowStatus(doc.id);
+            const outcome = outcomeOf(doc.id);
             if (status) {
                 counts[status] += 1;
                 reviewed += 1;
+            }
+            if (outcome) {
+                counts.DONE += 1;
+            } else if (core.OUTCOME_FOR_STATUS[status]) {
+                counts.TODO += 1;
             }
         });
         const total = state.docs.length;
@@ -593,7 +636,7 @@
         state.rowsById.forEach((row, id) => {
             const doc = state.docsById.get(id);
             row.hidden = !core.matchesFile(row.dataset.name, row.dataset.path, rowStatus(id),
-                entryFor(id).comments.length, state.currentFilter, state.searchTerm)
+                entryFor(id).comments.length, state.currentFilter, state.searchTerm, outcomeOf(id))
                 || !core.matchesTypeAndSize(doc.ext, doc.disk.size, state.typeFilter, state.minSize);
             if (!row.hidden) {
                 shown += 1;
@@ -654,6 +697,17 @@
         if (!isArbiter()) return;
         changeEntry(row, (entry) => {
             entry.resolution = { status: core.normalizeStatus(status), by: ARBITER, at: new Date().toISOString() };
+        });
+        if (!state.autosaveStopped) {
+            syncOnline();
+        }
+    }
+
+    function setOutcome(row, status) {
+        const reviewer = requireReviewer();
+        if (!reviewer) return;
+        changeEntry(row, (entry) => {
+            entry.outcome = { status, by: reviewer, at: new Date().toISOString() };
         });
         if (!state.autosaveStopped) {
             syncOnline();
@@ -875,6 +929,15 @@
                 addComment(row);
                 return;
             }
+            const markOutcome = event.target.closest('.mark-outcome');
+            if (markOutcome) {
+                setOutcome(row, markOutcome.dataset.outcome);
+                return;
+            }
+            if (event.target.closest('.clear-outcome')) {
+                setOutcome(row, null);
+                return;
+            }
             if (event.target.closest('.show-comments')) {
                 const count = entryFor(row.dataset.id).comments.length;
                 const mode = row.dataset.commentMode || 'preview';
@@ -988,7 +1051,7 @@
         Object.entries(idMap).forEach(([name, id]) => {
             elements[name] = document.getElementById(id);
         });
-        [...STATUSES, 'CONFLICT'].forEach((status) => {
+        [...STATUSES, 'CONFLICT', 'TODO', 'DONE'].forEach((status) => {
             elements[`count${status}`] = document.getElementById(`count-${status}`);
         });
         elements.filterButtons = Array.from(document.querySelectorAll('button[data-filter]'));

@@ -153,3 +153,20 @@ test('тип и размер файла', () => {
     assert.equal(core.matchesTypeAndSize('pdf', 50, 'video', 0), false);
     assert.equal(core.matchesTypeAndSize('pdf', null, 'ALL', 0), true);
 });
+
+test('отметка «Выполнено»: отдельно от голосов, авто-«Удалено» для пропавших файлов', () => {
+    const entry = { votes: { A: { status: 'DELETE', at: T1 }, B: { status: 'DELETE', at: T1 } } };
+    assert.equal(core.outcomeFor(entry, false), null);
+    assert.deepEqual(core.outcomeFor(entry, true), { status: 'DELETED', auto: true, by: '', at: null });
+    const done = core.mergeEntries(entry, { outcome: { status: 'DELETED', by: 'B', at: T2 } });
+    assert.equal(core.effectiveStatus(done).status, 'DELETE', 'итог ревизии не меняется');
+    assert.equal(core.outcomeFor(done, false).by, 'B');
+    const undone = core.mergeEntries(done, { outcome: { status: null, by: 'A', at: T3 } });
+    assert.equal(core.outcomeFor(undone, false), null);
+    assert.equal(core.mergeEntries(undone, done).outcome.status, null, 'снятая отметка не воскресает');
+    assert.equal(core.OUTCOME_FOR_STATUS.UPDATE, 'UPDATED');
+    assert.equal(core.matchesFile('a', '/a', 'DELETE', 0, 'TODO', '', null), true);
+    assert.equal(core.matchesFile('a', '/a', 'DELETE', 0, 'TODO', '', { status: 'DELETED' }), false);
+    assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'TODO', '', null), false);
+    assert.equal(core.matchesFile('a', '/a', 'KEEP', 0, 'DONE', '', { status: 'DELETED' }), true);
+});

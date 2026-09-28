@@ -210,6 +210,18 @@ input[type="password"] { width: 250px; max-width: 80vw; }
 .file-actions button[data-status="UNSURE"].selected { color: #396aa5; background: #e6f0fd; border-color: #a0bee1; }
 .file-actions button[data-status="DELETE"]:hover { color: #a64b4b; border-color: #c98f8f; }
 
+.status-chip[data-status="TODO"] { background: #fff7e8; border-color: #f3e4c5; }
+.status-chip[data-status="DONE"] { background: #e9f6ee; border-color: #c9e6d3; }
+.file-row[data-outcome="DELETED"] .file-actions,
+.file-row[data-outcome="UPDATED"] .file-actions { opacity: .6; }
+.outcome-area:empty { display: none; }
+.outcome-area { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin-top: 7px; font-size: .86rem; }
+.outcome-badge { border-radius: 999px; background: #e1f3e7; color: #27693c; padding: 1px 9px; font-weight: 650; }
+.outcome-badge[data-outcome="DELETED"] { background: #eceef1; color: #49535f; }
+.outcome-warning { border-radius: 999px; background: #fff1e6; color: #a2531a; padding: 1px 8px; }
+.outcome-area button { min-height: 26px; padding: 2px 9px; border-radius: 999px; font-size: .86rem; }
+.outcome-area .mark-outcome { background: #edf7ef; border-color: #b9dcc3; color: #27693c; font-weight: 650; }
+.outcome-area .clear-outcome { border: 0; background: transparent; color: #426b9f; }
 .votes-area:empty { display: none; }
 .votes-area { display: flex; flex-direction: column; gap: 4px; margin-top: 7px; font-size: .86rem; color: #576579; }
 .votes-line { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }

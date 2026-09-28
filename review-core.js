@@ -11,6 +11,11 @@
 
     const STATUSES = ['KEEP', 'ARCHIVE', 'UPDATE', 'DUPLICATE', 'DELETE', 'UNSURE'];
     const STATUS_SET = new Set(STATUSES);
+    // Отметка о выполнении — не голос, а факт: файл удалён / документ актуализирован.
+    const OUTCOMES = ['DELETED', 'UPDATED'];
+    const OUTCOME_SET = new Set(OUTCOMES);
+    // Какую отметку предлагать при итоговом статусе.
+    const OUTCOME_FOR_STATUS = { DELETE: 'DELETED', DUPLICATE: 'DELETED', UPDATE: 'UPDATED' };
     const ARBITER = 'Егупов Алексей';
     const REVIEWERS = ['Егупов Алексей', 'Андрейченко Валерий', 'Марина Олеговна'];
     // Автор, на которого записываются решения v1 без поля reviewer.
@@ -77,8 +82,19 @@
         };
     }
 
+    function normalizeOutcome(value) {
+        if (!value || typeof value !== 'object' || !isString(value.at)) {
+            return null;
+        }
+        return {
+            status: OUTCOME_SET.has(value.status) ? value.status : null,
+            by: isString(value.by) ? value.by : '',
+            at: value.at
+        };
+    }
+
     function emptyEntry() {
-        return { votes: {}, resolution: null, comments: [] };
+        return { votes: {}, resolution: null, outcome: null, comments: [] };
     }
 
     function normalizeEntry(value) {
@@ -95,12 +111,13 @@
             });
         }
         entry.resolution = normalizeResolution(value.resolution);
+        entry.outcome = normalizeOutcome(value.outcome);
         entry.comments = normalizeComments(value.comments);
         return entry;
     }
 
     function isEntryEmpty(entry) {
-        return Object.keys(entry.votes).length === 0 && !entry.resolution && entry.comments.length === 0;
+        return Object.keys(entry.votes).length === 0 && !entry.resolution && !entry.outcome && entry.comments.length === 0;
     }
 
     function newer(base, incoming) {
@@ -118,6 +135,7 @@
             merged.votes[name] = newer(base.votes[name], incoming.votes[name]);
         });
         merged.resolution = newer(base.resolution, incoming.resolution);
+        merged.outcome = newer(base.outcome, incoming.outcome);
         merged.comments = mergeComments(base.comments, incoming.comments);
         return merged;
     }
@@ -203,6 +221,18 @@
             return { status: statuses.values().next().value, resolved: false, conflict: false };
         }
         return { status: null, resolved: false, conflict: true };
+    }
+
+    // Отметка о выполнении: явная отметка проверяющего; иначе файл, пропавший с Диска, считается удалённым.
+    function outcomeFor(value, missingFromDisk) {
+        const entry = normalizeEntry(value);
+        if (entry.outcome && entry.outcome.status) {
+            return { status: entry.outcome.status, auto: false, by: entry.outcome.by, at: entry.outcome.at };
+        }
+        if (missingFromDisk) {
+            return { status: 'DELETED', auto: true, by: '', at: null };
+        }
+        return null;
     }
 
     // ---- совместимость с v1 (ключ — путь, один статус на файл) ----
@@ -314,8 +344,11 @@
         return typeMatches && sizeMatches;
     }
 
-    function matchesFile(name, path, status, commentCount, filter, searchTerm) {
+    // outcome — итог outcomeFor(); фильтр DONE — выполнено, TODO — решено удалить/обновить, но не выполнено.
+    function matchesFile(name, path, status, commentCount, filter, searchTerm, outcome) {
         const statusMatches = filter === 'ALL'
+            || (filter === 'DONE' && Boolean(outcome))
+            || (filter === 'TODO' && !outcome && Boolean(OUTCOME_FOR_STATUS[status]))
             || (filter === 'UNREVIEWED' && !status)
             || (filter === 'COMMENTS' && commentCount > 0)
             || status === filter;
@@ -326,6 +359,8 @@
 
     return {
         STATUSES,
+        OUTCOMES,
+        OUTCOME_FOR_STATUS,
         REVIEWERS,
         ARBITER,
         LEGACY_AUTHOR,
@@ -343,6 +378,7 @@
         normalizeEnvelope,
         mergeEnvelopes,
         effectiveStatus,
+        outcomeFor,
         isV1,
         convertV1Decision,
         convertV1Envelope,

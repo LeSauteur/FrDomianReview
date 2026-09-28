@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ревизия — Домиан Франчайзинг</title>
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
     <main>
@@ -31,6 +31,8 @@
                 <span class="status-chip" data-status="DELETE">Удалить <strong id="count-DELETE">0</strong></span>
                 <span class="status-chip" data-status="UNSURE">Не уверен <strong id="count-UNSURE">0</strong></span>
                 <span class="status-chip" data-status="CONFLICT">Конфликт <strong id="count-CONFLICT">0</strong></span>
+                <span class="status-chip" data-status="TODO">К выполнению <strong id="count-TODO">0</strong></span>
+                <span class="status-chip" data-status="DONE">Выполнено <strong id="count-DONE">0</strong></span>
             </div>
             <div class="filter-tools">
                 <label class="search-label">Поиск <input id="file-search" type="search" placeholder="Поиск по файлам…" autocomplete="off"></label>
@@ -44,6 +46,8 @@
                 <button type="button" data-filter="DELETE">Удалить</button>
                 <button type="button" data-filter="UNSURE">Не уверен</button>
                 <button type="button" data-filter="CONFLICT">Конфликты</button>
+                <button type="button" data-filter="TODO">К выполнению</button>
+                <button type="button" data-filter="DONE">Выполнено</button>
                 <button type="button" data-filter="COMMENTS">Есть комментарии</button>
             </div>
             </div>
@@ -79,7 +83,7 @@
         </header>
         <ul id="catalog" class="tree"></ul>
     </main>
-    <script src="review-core.js?v=3" defer></script>
-    <script src="review.js?v=3" defer></script>
+    <script src="review-core.js?v=4" defer></script>
+    <script src="review.js?v=4" defer></script>
 </body>
 </html>
