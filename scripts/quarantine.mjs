@@ -6,6 +6,7 @@
 //   node scripts/quarantine.mjs --apply              # перенести всё из плана
 //   node scripts/quarantine.mjs --apply --only d_a,d_b
 //   node scripts/quarantine.mjs --rollback [--only d_a] [--apply]   # вернуть по журналу
+//   node scripts/quarantine.mjs --confirm            # показать план и спросить «да» (так работает move-to-quarantine.cmd)
 //   node scripts/quarantine.mjs --flatten [--apply]  # переложить файлы из подпапок карантина в его корень
 //
 // Опции: --decisions <v2.json> (по умолчанию ../FrDomianReview-data/review-decisions.json),
@@ -22,6 +23,7 @@ import { readFile, appendFile, mkdir, copyFile } from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
+import { createInterface } from 'node:readline';
 import { fileURLToPath } from 'node:url';
 import { buildDeletePlan } from './build-delete-plan.mjs';
 
@@ -315,11 +317,19 @@ function formatSize(bytes) {
     return `${value.toFixed(unit ? 1 : 0)} ${units[unit]}`;
 }
 
+async function askYes(question) {
+    const rl = createInterface({ input: process.stdin, output: process.stdout });
+    const answer = await new Promise((resolve) => rl.question(question, resolve));
+    rl.close();
+    return ['да', 'д', 'yes', 'y'].includes(answer.trim().toLowerCase());
+}
+
 function parseArgs(argv) {
-    const args = { apply: false, mode: 'quarantine', only: null, decisions: DEFAULT_DECISIONS, manifest: DEFAULT_MANIFEST, publishLog: true, rescan: true };
+    const args = { apply: false, confirm: false, mode: 'quarantine', only: null, decisions: DEFAULT_DECISIONS, manifest: DEFAULT_MANIFEST, publishLog: true, rescan: true };
     for (let i = 0; i < argv.length; i += 1) {
         const arg = argv[i];
         if (arg === '--apply') args.apply = true;
+        else if (arg === '--confirm') args.confirm = true;
         else if (arg === '--rollback') args.mode = 'restore';
         else if (arg === '--flatten') args.mode = 'flatten';
         else if (arg === '--only') args.only = new Set(argv[++i].split(',').map((s) => s.trim()).filter(Boolean));
@@ -365,11 +375,18 @@ async function main() {
         console.log(`${String(index + 1).padStart(3)}. [${item.id}] ${formatSize(item.size).padStart(9)}  ${item.from}`);
         console.log(`     → ${item.to}`);
     });
-    if (!args.apply) {
-        console.log('\nЭто dry-run: ничего не перенесено. Для выполнения добавьте --apply.');
+    if (!items.length) {
+        console.log('\nПереносить нечего.');
         return;
     }
-    if (!items.length) return;
+    if (args.confirm && !args.apply) {
+        args.apply = await askYes(`\nПеренести ${items.length} файл(ов)? Введите «да» и нажмите Enter: `);
+        if (!args.apply) console.log('Отменено, ничего не перенесено.');
+    }
+    if (!args.apply) {
+        if (!args.confirm) console.log('\nЭто dry-run: ничего не перенесено. Для выполнения добавьте --apply.');
+        return;
+    }
 
     const action = args.mode === 'restore' ? 'restore' : 'quarantine';
     const entries = await runMoves(session, items, action, (entry) => {
