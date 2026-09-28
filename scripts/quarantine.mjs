@@ -357,7 +357,7 @@ async function main() {
         title = 'Переложить в корень карантина';
     } else {
         if (args.decisions === DEFAULT_DECISIONS && !pullDecisions()) {
-            console.warn('Не удалось обновить клон FrDomianReview-data — используется локальная версия решений.');
+            throw new Error('Не удалось обновить решения из FrDomianReview-data. Перенос остановлен, чтобы не использовать устаревшие данные.');
         }
         const plan = await quarantinePlan(session, args.decisions);
         if (plan.conflicts) console.log(`Конфликтов без решения арбитра: ${plan.conflicts} (в план не входят).`);

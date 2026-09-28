@@ -95,6 +95,9 @@ async function status() {
 async function moveToQuarantine(ids) {
     const session = await openSession();
     const pulled = pullDecisions();
+    if (!pulled) {
+        throw new Error('Не удалось обновить решения из FrDomianReview-data. Перенос остановлен.');
+    }
     const { items } = await quarantinePlan(session);
     const selected = items.filter((item) => ids.has(item.id));
     const notInPlan = [...ids].filter((id) => !selected.some((item) => item.id === id));
