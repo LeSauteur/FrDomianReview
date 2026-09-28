@@ -91,6 +91,7 @@ h1 { margin: 0; font-size: 1.45rem; line-height: 1.2; letter-spacing: -.025em; }
 .status-chip[data-status="DUPLICATE"] { background: #f4effa; border-color: #e7dcef; }
 .status-chip[data-status="DELETE"] { background: #fff0f0; border-color: #f3dede; }
 .status-chip[data-status="UNSURE"] { background: #edf5fc; border-color: #dce9f5; }
+.status-chip[data-status="CONFLICT"] { background: #fff1e6; border-color: #f1d2b8; }
 
 .filter-tools { gap: 8px 12px; margin-top: 12px; }
 .search-label { display: flex; align-items: center; gap: 7px; white-space: nowrap; color: #627083; }
@@ -164,6 +165,10 @@ input[type="password"] { width: 250px; max-width: 80vw; }
 .file-row[data-status="DUPLICATE"] { --accent: #aa8bcf; background: #fcfaff; }
 .file-row[data-status="DELETE"] { --accent: #d48585; background: #fffafa; }
 .file-row[data-status="UNSURE"] { --accent: #87aada; background: #f9fbff; }
+.file-row[data-status="CONFLICT"] { --accent: #e0873f; background: #fffaf5; }
+.file-row.missing .file-name { color: #7a8593; text-decoration: line-through; }
+.file-row.missing .open-link { opacity: .45; pointer-events: none; }
+.missing-badge { grid-column: 1 / -1; justify-self: start; border-radius: 999px; background: #fdecec; color: #9c4545; padding: 1px 8px; font-size: .8rem; }
 
 .file-heading {
     display: grid;
@@ -200,6 +205,21 @@ input[type="password"] { width: 250px; max-width: 80vw; }
 .file-actions button[data-status="DELETE"].selected { color: #9c4545; background: #fbe9e9; border-color: #d99c9c; }
 .file-actions button[data-status="UNSURE"].selected { color: #396aa5; background: #e6f0fd; border-color: #a0bee1; }
 .file-actions button[data-status="DELETE"]:hover { color: #a64b4b; border-color: #c98f8f; }
+
+.votes-area:empty { display: none; }
+.votes-area { display: flex; flex-direction: column; gap: 4px; margin-top: 7px; font-size: .86rem; color: #576579; }
+.votes-line { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.votes-label { color: #7a8593; }
+.vote { border-radius: 999px; background: #f1f3f6; padding: 1px 8px; }
+.vote[data-status="KEEP"] { background: #e1f3e7; }
+.vote[data-status="ARCHIVE"] { background: #e8ebef; }
+.vote[data-status="UPDATE"] { background: #fff0cf; }
+.vote[data-status="DUPLICATE"] { background: #eee6fa; }
+.vote[data-status="DELETE"] { background: #fbe9e9; }
+.vote[data-status="UNSURE"] { background: #e6f0fd; }
+.conflict-badge { border-radius: 999px; background: #e0873f; color: #fff; padding: 1px 8px; font-weight: 650; }
+.resolution-line { color: #3f4c5d; font-weight: 650; }
+.resolution-control { display: flex; align-items: center; gap: 7px; }
 
 .comments-area { margin-top: 7px; color: #576579; font-size: .9rem; }
 .comment-summary { gap: 6px 13px; margin-bottom: 5px; }
