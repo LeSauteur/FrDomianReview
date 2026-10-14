@@ -40,6 +40,7 @@
         decisions: core.emptyEnvelope(),
         dirtyIds: new Set(),
         currentFilter: 'ALL',
+        presenceFilter: 'PRESENT',
         searchTerm: '',
         typeFilter: 'ALL',
         minSize: 0,
@@ -765,6 +766,10 @@
         elements.countReviewed.textContent = String(reviewed);
         elements.countUnreviewed.textContent = String(total - reviewed);
         elements.progress.textContent = `${reviewed} / ${total} — ${percent}%`;
+        const missing = state.docs.filter((doc) => Boolean(doc.disk.missing_since)).length;
+        elements.countPresent.textContent = String(total - missing);
+        elements.countMissing.textContent = String(missing);
+        elements.countAllFiles.textContent = String(total);
         Object.keys(counts).forEach((status) => {
             elements[`count${status}`].textContent = String(counts[status]);
         });
@@ -777,7 +782,8 @@
             const doc = state.docsById.get(id);
             row.hidden = !core.matchesFile(row.dataset.name, row.dataset.path, rowStatus(id),
                 entryFor(id).comments.length, state.currentFilter, state.searchTerm, outcomeOf(id))
-                || !core.matchesTypeAndSize(doc.ext, doc.disk.size, state.typeFilter, state.minSize);
+                || !core.matchesTypeAndSize(doc.ext, doc.disk.size, state.typeFilter, state.minSize)
+                || !core.matchesPresence(doc.disk.missing_since, state.presenceFilter);
             if (!row.hidden) {
                 shown += 1;
                 shownSize += typeof doc.disk.size === 'number' ? doc.disk.size : 0;
@@ -789,6 +795,9 @@
         });
         elements.filterButtons.forEach((button) => {
             button.classList.toggle('active-filter', button.dataset.filter === state.currentFilter);
+        });
+        elements.presenceButtons.forEach((button) => {
+            button.classList.toggle('active-filter', button.dataset.presence === state.presenceFilter);
         });
     }
 
@@ -1120,6 +1129,12 @@
                 applyFilter();
             });
         });
+        elements.presenceButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                state.presenceFilter = button.dataset.presence;
+                applyFilter();
+            });
+        });
         elements.quarantinePanel.addEventListener('click', (event) => {
             if (event.target.closest('.helper-reconnect')) {
                 connectHelper();
@@ -1192,6 +1207,9 @@
             countTotal: 'count-total',
             countReviewed: 'count-reviewed',
             countUnreviewed: 'count-unreviewed',
+            countPresent: 'count-present',
+            countMissing: 'count-missing',
+            countAllFiles: 'count-all-files',
             progress: 'progress',
             search: 'file-search',
             typeFilter: 'type-filter',
@@ -1218,6 +1236,7 @@
             elements[`count${status}`] = document.getElementById(`count-${status}`);
         });
         elements.filterButtons = Array.from(document.querySelectorAll('button[data-filter]'));
+        elements.presenceButtons = Array.from(document.querySelectorAll('button[data-presence]'));
         REVIEWERS.forEach((name) => {
             elements.reviewer.append(new Option(name === ARBITER ? `${name} (арбитр)` : name, name));
         });

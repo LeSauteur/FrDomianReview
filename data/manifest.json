@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "generated_at": "2026-09-28T09:22:49.941Z",
+ "generated_at": "2026-10-14T13:43:57.601Z",
  "source": {
   "public_key": "a7Jr1RaNr9gXWDpu6hEE2oqj+rip5HCmHrZnkC+BCQqa+TWx8hS7vhd4zf7doQTxq/J6bpmRyOJonT3VoXnDag==",
   "root_name": "Домиан Франчайзинг",
-  "scanned_at": "2026-09-28T09:22:49.941Z"
+  "scanned_at": "2026-10-14T13:43:57.601Z"
  },
  "sections": [],
  "documents": [
@@ -561,7 +561,7 @@
     "modified": "2025-11-26T10:05:32+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D0%B1%D0%BB%D0%B0%D0%BD%D0%BA%D0%B8%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D1%81%20%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%D0%BC%D0%B8%2F%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B5%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%2F%D0%92%D0%BE%D0%B7%D0%BC%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.doc&name=%D0%92%D0%BE%D0%B7%D0%BC%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.doc",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Агент/Договоры бланки/Договоры с Продавцами/Старые документы/Возмездный договор с продавцом ИП Орлов 2023.doc",
@@ -589,7 +589,7 @@
     "modified": "2025-11-26T10:05:34+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D0%B1%D0%BB%D0%B0%D0%BD%D0%BA%D0%B8%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D1%81%20%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%D0%BC%D0%B8%2F%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B5%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%2F%D0%92%D0%BE%D0%B7%D0%BC%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.docx&name=%D0%92%D0%BE%D0%B7%D0%BC%D0%B5%D0%B7%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Агент/Договоры бланки/Договоры с Продавцами/Старые документы/Возмездный договор с продавцом ИП Орлов 2023.docx",
@@ -617,7 +617,7 @@
     "modified": "2025-11-26T10:05:36+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D0%B1%D0%BB%D0%B0%D0%BD%D0%BA%D0%B8%2F%D0%94%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B%20%D1%81%20%D0%9F%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%B0%D0%BC%D0%B8%2F%D0%A1%D1%82%D0%B0%D1%80%D1%8B%D0%B5%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%2F%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.docx&name=%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%20%D1%81%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D0%BE%D0%BC%20%D0%98%D0%9F%20%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%202023.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Агент/Договоры бланки/Договоры с Продавцами/Старые документы/Эксклюзивный договор с продавцом ИП Орлов 2023.docx",
@@ -1373,7 +1373,7 @@
     "modified": "2022-09-28T15:04:41+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%2F%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D0%B6%D0%B8%D0%BB%D1%8C%D0%B5%2F%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%2F%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%2F5.%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%20%D0%B2%20Youtube%20%D0%B8%20%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%D0%B8%D0%BA%D1%81.mp4&name=5.%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%20%D0%B2%20Youtube%20%D0%B8%20%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%D0%B8%D0%BA%D1%81.mp4",
-    "missing_since": null
+    "missing_since": "2026-09-28T10:40:11.333Z"
    },
    "history": {
     "original_path": "/Агент/регламенты работы/вторичное жилье/дистанционная работа /алгоритм онлайн работы/5.загрузка видео объекта в Youtube и Домианикс.mp4",
@@ -1401,7 +1401,7 @@
     "modified": "2022-09-28T15:02:52+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%2F%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D0%B6%D0%B8%D0%BB%D1%8C%D0%B5%2F%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%2F%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20ZOOM%2F1.%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20Zoom.pdf&name=1.%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%20Zoom.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Агент/регламенты работы/вторичное жилье/дистанционная работа /настройка ZOOM/1.инструкция Zoom.pdf",
@@ -1429,7 +1429,7 @@
     "modified": "2022-09-28T15:02:57+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%90%D0%B3%D0%B5%D0%BD%D1%82%2F%D1%80%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%2F%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D0%B6%D0%B8%D0%BB%D1%8C%D0%B5%2F%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%2F%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20ZOOM%2F%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%20%D0%B2%20Zoom.mp4&name=%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0%20%D0%B7%D0%B2%D1%83%D0%BA%D0%B0%20%D0%B2%20Zoom.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Агент/регламенты работы/вторичное жилье/дистанционная работа /настройка ZOOM/настройка звука в Zoom.mp4",
@@ -3417,7 +3417,7 @@
     "modified": "2023-03-16T13:10:30+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%90%D0%94%D0%90%D0%9F%D0%A2%D0%90%D0%A6%D0%98%D0%AF%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%9E%D0%92%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%281%29.docx&name=%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%281%29.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/АДАПТАЦИЯ АГЕНТОВ/Руководство по адаптации агентов (1).docx",
@@ -3809,7 +3809,7 @@
     "modified": "2023-03-16T12:19:13+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%9F%D0%9E%D0%98%D0%A1%D0%9A%20%D0%98%20%D0%9D%D0%90%D0%91%D0%9E%D0%A0%20%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%9E%D0%92%2F%D0%9C%D0%90%D0%9A%D0%95%D0%A2%D0%AB%20%D0%92%D0%98%D0%97%D0%98%D0%A2%D0%9E%D0%9A%2F%D0%9B%D0%B8%D1%87%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.pdf&name=%D0%9B%D0%B8%D1%87%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/ПОИСК И НАБОР  АГЕНТОВ/МАКЕТЫ ВИЗИТОК/Личная визитка.pdf",
@@ -3837,7 +3837,7 @@
     "modified": "2023-03-16T12:19:13+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%9F%D0%9E%D0%98%D0%A1%D0%9A%20%D0%98%20%D0%9D%D0%90%D0%91%D0%9E%D0%A0%20%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%9E%D0%92%2F%D0%9C%D0%90%D0%9A%D0%95%D0%A2%D0%AB%20%D0%92%D0%98%D0%97%D0%98%D0%A2%D0%9E%D0%9A%2F%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.cdr&name=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.cdr",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/ПОИСК И НАБОР  АГЕНТОВ/МАКЕТЫ ВИЗИТОК/Шаблонная визитка.cdr",
@@ -3865,7 +3865,7 @@
     "modified": "2023-03-16T12:19:13+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%9F%D0%9E%D0%98%D0%A1%D0%9A%20%D0%98%20%D0%9D%D0%90%D0%91%D0%9E%D0%A0%20%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%9E%D0%92%2F%D0%9C%D0%90%D0%9A%D0%95%D0%A2%D0%AB%20%D0%92%D0%98%D0%97%D0%98%D0%A2%D0%9E%D0%9A%2F%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.pdf&name=%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/ПОИСК И НАБОР  АГЕНТОВ/МАКЕТЫ ВИЗИТОК/Шаблонная визитка.pdf",
@@ -3921,7 +3921,7 @@
     "modified": "2024-01-23T11:58:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%9F%D0%9E%D0%98%D0%A1%D0%9A%20%D0%98%20%D0%9D%D0%90%D0%91%D0%9E%D0%A0%20%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%9E%D0%92%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F%202024.%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8docx.pdf&name=%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F%202024.%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8docx.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/ПОИСК И НАБОР  АГЕНТОВ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Мотивация 2024. редакция с дополнениямиdocx.pdf",
@@ -4481,7 +4481,7 @@
     "modified": "2023-03-16T13:16:00+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9A%D0%9E%D0%A0%D0%9F%D0%9E%D0%A0%D0%90%D0%A2%D0%98%D0%92%D0%9D%D0%AB%D0%95%20%D0%9C%D0%95%D0%A0%D0%9E%D0%9F%D0%A0%D0%98%D0%AF%D0%A2%D0%98%D0%AF%2F%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B0.docx&name=%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B0.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/КОРПОРАТИВНЫЕ МЕРОПРИЯТИЯ/Программа проведения конгресса.docx",
@@ -4677,7 +4677,7 @@
     "modified": "2024-10-25T07:19:49+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%92%D0%92%D0%9E%D0%94%D0%90%20%D0%92%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%A3%20%D0%9D%D0%9E%D0%92%D0%9E%D0%93%D0%9E%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%2F%D0%90%D0%BD%D0%BA%D0%B5%D1%82%D0%B0%20%D0%BF%D1%80%D0%B5%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83.docx&name=%D0%90%D0%BD%D0%BA%D0%B5%D1%82%D0%B0%20%D0%BF%D1%80%D0%B5%D1%82%D0%B5%D0%BD%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/ДОКУМЕНТЫ ДЛЯ ВВОДА В РАБОТУ НОВОГО АГЕНТА/Анкета претендента на работу.docx",
@@ -4705,7 +4705,7 @@
     "modified": "2025-08-04T13:47:15+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%92%D0%92%D0%9E%D0%94%D0%90%20%D0%92%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%A3%20%D0%9D%D0%9E%D0%92%D0%9E%D0%93%D0%9E%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%2F%D0%92%D0%90%D0%96%D0%9D%D0%AB%D0%95%20%D0%9A%D0%9E%D0%9D%D0%A2%D0%90%D0%9A%D0%A2%D0%AB%20%281%29.docx&name=%D0%92%D0%90%D0%96%D0%9D%D0%AB%D0%95%20%D0%9A%D0%9E%D0%9D%D0%A2%D0%90%D0%9A%D0%A2%D0%AB%20%281%29.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/ДОКУМЕНТЫ ДЛЯ ВВОДА В РАБОТУ НОВОГО АГЕНТА/ВАЖНЫЕ КОНТАКТЫ (1).docx",
@@ -4733,7 +4733,7 @@
     "modified": "2023-03-21T10:40:33+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%92%D0%92%D0%9E%D0%94%D0%90%20%D0%92%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%A3%20%D0%9D%D0%9E%D0%92%D0%9E%D0%93%D0%9E%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%2F%D0%9D%D0%B0%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B1%D0%BE%D0%BD%D1%83%D1%81%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.pdf&name=%D0%9D%D0%B0%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D1%85%20%D0%B1%D0%BE%D0%BD%D1%83%D1%81%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/ДОКУМЕНТЫ ДЛЯ ВВОДА В РАБОТУ НОВОГО АГЕНТА/Начисление мотивационных бонусов для продвижения.pdf",
@@ -4761,7 +4761,7 @@
     "modified": "2023-03-16T13:17:52+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%92%D0%92%D0%9E%D0%94%D0%90%20%D0%92%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%A3%20%D0%9D%D0%9E%D0%92%D0%9E%D0%93%D0%9E%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%2F%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%82%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D1%83.docx&name=%D0%A1%D0%BA%D1%80%D0%B8%D0%BF%D1%82%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D1%83.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/ДОКУМЕНТЫ ДЛЯ ВВОДА В РАБОТУ НОВОГО АГЕНТА/Скрипт звонка собственнику.docx",
@@ -4789,7 +4789,7 @@
     "modified": "2024-11-22T13:03:38+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%20%D0%94%D0%9B%D0%AF%20%D0%92%D0%92%D0%9E%D0%94%D0%90%20%D0%92%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%A3%20%D0%9D%D0%9E%D0%92%D0%9E%D0%93%D0%9E%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%2F%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%28%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B%29%20%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD.docx&name=%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%28%D0%B2%D0%B0%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B%29%20%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/ДОКУМЕНТЫ ДЛЯ ВВОДА В РАБОТУ НОВОГО АГЕНТА/Список ответственных (важные контакты) Домиан.docx",
@@ -4901,7 +4901,7 @@
     "modified": "2024-01-23T11:58:45+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F%202024.%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8docx.pdf&name=%D0%9C%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F%202024.%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%86%D0%B8%D1%8F%20%D1%81%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%D0%BC%D0%B8docx.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Мотивация 2024. редакция с дополнениямиdocx.pdf",
@@ -4957,7 +4957,7 @@
     "modified": "2023-03-16T13:17:12+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%9F%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%B0%281%29.xlsx&name=%D0%9F%D0%BB%D0%B0%D0%BD%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%B0%281%29.xlsx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/План работы агента(1).xlsx",
@@ -4985,7 +4985,7 @@
     "modified": "2024-01-17T11:46:25+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D1%83%D1%87%D0%B5%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%82%D0%BA%D0%B0%20%D0%B8%20%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%D0%B0%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BB%D0%B0%D1%82%202024.docx&name=%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D1%83%D1%87%D0%B5%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%82%D0%BA%D0%B0%20%D0%B8%20%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%D0%B0%20%D0%B7%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BB%D0%B0%D1%82%202024.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Правила учета задатка и расчета заработных плат 2024.docx",
@@ -5013,7 +5013,7 @@
     "modified": "2024-01-17T11:46:26+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%A0%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%87%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%202024.docx&name=%D0%A0%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%87%D0%B5%D1%82%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%202024.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Рекламные возможности агента за счет компании 2024.docx",
@@ -5097,7 +5097,7 @@
     "modified": "2023-03-16T13:17:12+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A1%D0%AB%2F%D0%A3%D0%9F%D0%A0%D0%90%D0%92%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%90%D0%93%D0%95%D0%9D%D0%A2%D0%90%D0%9C%D0%98%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2FKPI.docx&name=KPI.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/БИЗНЕС ПРОЦЕССЫ/УПРАВЛЕНИЕ АГЕНТАМИ/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/KPI.docx",
@@ -5125,7 +5125,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202009%202010%202011.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202009%202010%202011.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2009 2010 2011.mp4",
@@ -5153,7 +5153,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202012%202013.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202012%202013.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2012 2013.mp4",
@@ -5181,7 +5181,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202015.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202015.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2015.mp4",
@@ -5209,7 +5209,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202016.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202016.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2016.mp4",
@@ -5237,7 +5237,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202017.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202017.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2017.mp4",
@@ -5265,7 +5265,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202018.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202018.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2018.mp4",
@@ -5293,7 +5293,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202019.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202019.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2019.mp4",
@@ -5321,7 +5321,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202021.mp4&name=%D0%BD%D0%B0%D1%88%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B8%CC%86%D0%BD%D1%8B%D0%B8%CC%86%20%D0%B3%D0%BE%D0%B4%202021.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/наш юбилейный год 2021.mp4",
@@ -5349,7 +5349,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202022.mp4&name=%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202022.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/НАШ ЮБИЛЕЙНЫЙ ГОД 2022.mp4",
@@ -5377,7 +5377,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%2F%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202023.mp4&name=%D0%9D%D0%90%D0%A8%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%D0%9D%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/видео НАШ ЮБИЛЕЙНЫЙ ГОД/НАШ ЮБИЛЕЙНЫЙ ГОД 2023.mp4",
@@ -5405,7 +5405,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202016%20%D0%90%D0%A0%D0%A5%D0%AB%D0%97.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202016%20%D0%90%D0%A0%D0%A5%D0%AB%D0%97.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2016 АРХЫЗ.mp4",
@@ -5433,7 +5433,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202017%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202017%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2017 АДЫГЕЯ.mp4",
@@ -5461,7 +5461,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202018%20%D0%94%D0%9E%D0%9C%D0%91%D0%90%D0%98%CC%86.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202018%20%D0%94%D0%9E%D0%9C%D0%91%D0%90%D0%98%CC%86.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2018 ДОМБАЙ.mp4",
@@ -5489,7 +5489,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202019%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202019%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2019 АДЫГЕЯ.mp4",
@@ -5517,7 +5517,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202021%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202021%20%D0%90%D0%94%D0%AB%D0%93%D0%95%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2021 АДЫГЕЯ.mp4",
@@ -5545,7 +5545,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202023.MP4&name=%D0%93%D0%9E%D0%A0%D0%AB%202023.MP4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2023.MP4",
@@ -5573,7 +5573,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%93%D0%9E%D0%A0%D0%AB%202024.mp4&name=%D0%93%D0%9E%D0%A0%D0%AB%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/ГОРЫ 2024.mp4",
@@ -5601,7 +5601,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%20%D0%91%D0%B5%D0%BB%D0%BB%D0%B0%20%D0%A7%D0%B0%D0%BE.mp4&name=%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%20%D0%91%D0%B5%D0%BB%D0%BB%D0%B0%20%D0%A7%D0%B0%D0%BE.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/Домиан Белла Чао.mp4",
@@ -5629,7 +5629,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202016%20%D0%9B%D0%95%D0%A0%D0%9C%D0%9E%D0%9D%D0%A2%D0%9E%D0%92%D0%9E.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202016%20%D0%9B%D0%95%D0%A0%D0%9C%D0%9E%D0%9D%D0%A2%D0%9E%D0%92%D0%9E.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2016 ЛЕРМОНТОВО.mp4",
@@ -5657,7 +5657,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202017%20%D0%90%D0%9D%D0%90%D0%9F%D0%90.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202017%20%D0%90%D0%9D%D0%90%D0%9F%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2017 АНАПА.mp4",
@@ -5685,7 +5685,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202018%20%D0%9E%D0%9B%D0%AC%D0%93%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202018%20%D0%9E%D0%9B%D0%AC%D0%93%D0%98%D0%9D%D0%A1%D0%9A%D0%90%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2018 ОЛЬГИНСКАЯ.mp4",
@@ -5713,7 +5713,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202019%20%D0%91%D0%9B%D0%90%D0%93%D0%9E%D0%92%D0%95%D0%A9%D0%95%D0%9D%D0%A1%D0%9A%D0%90%D0%AF.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202019%20%D0%91%D0%9B%D0%90%D0%93%D0%9E%D0%92%D0%95%D0%A9%D0%95%D0%9D%D0%A1%D0%9A%D0%90%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2019 БЛАГОВЕЩЕНСКАЯ.mp4",
@@ -5741,7 +5741,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202020%20%D0%9E%D0%9B%D0%AC%D0%93%D0%98%D0%9D%D0%9A%D0%90.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202020%20%D0%9E%D0%9B%D0%AC%D0%93%D0%98%D0%9D%D0%9A%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2020 ОЛЬГИНКА.mp4",
@@ -5769,7 +5769,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202021%20%D0%94%D0%9E%D0%9B%D0%96%D0%90%D0%9D%D0%9A%D0%90.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202021%20%D0%94%D0%9E%D0%9B%D0%96%D0%90%D0%9D%D0%9A%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2021 ДОЛЖАНКА.mp4",
@@ -5797,7 +5797,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%BC%D0%BE%D1%80%D0%B5%202022.mov&name=%D0%BC%D0%BE%D1%80%D0%B5%202022.mov",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/море 2022.mov",
@@ -5825,7 +5825,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202023%20%D0%9C%D0%B0%D0%BA%D0%BE%D0%BF%D1%81%D0%B5.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202023%20%D0%9C%D0%B0%D0%BA%D0%BE%D0%BF%D1%81%D0%B5.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2023 Макопсе.mp4",
@@ -5853,7 +5853,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%92%D0%A1%D0%95%20%D0%93%D0%9E%D0%A0%D0%AB%20%D0%9C%D0%9E%D0%A0%D0%95%2F%D0%9C%D0%9E%D0%A0%D0%95%202024%20%D0%AE%D0%96%D0%9D%D0%AB%D0%98%CC%86.mp4&name=%D0%9C%D0%9E%D0%A0%D0%95%202024%20%D0%AE%D0%96%D0%9D%D0%AB%D0%98%CC%86.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/ВСЕ ГОРЫ МОРЕ/МОРЕ 2024 ЮЖНЫЙ.mp4",
@@ -5881,7 +5881,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%A4%D0%9E%D0%A0%D0%A3%D0%9C.mp4&name=%D0%91%D0%98%D0%97%D0%9D%D0%95%D0%A1%20%D0%A4%D0%9E%D0%A0%D0%A3%D0%9C.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/БИЗНЕС ФОРУМ.mp4",
@@ -5909,7 +5909,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202023.mp4&name=%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/конгресс успеха 2023.mp4",
@@ -5937,7 +5937,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202024.mp4&name=%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/конгресс успеха 2024.mp4",
@@ -5965,7 +5965,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202025.mp4&name=%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%20%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/конгресс успеха 2025.mp4",
@@ -5993,7 +5993,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20I.mp4&name=%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20I.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/КОНГРЕСС УСПЕХА I.mp4",
@@ -6021,7 +6021,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20II.mp4&name=%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20II.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/КОНГРЕСС УСПЕХА II.mp4",
@@ -6049,7 +6049,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20III.mp4&name=%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20III.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/КОНГРЕСС УСПЕХА III.mp4",
@@ -6077,7 +6077,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20IV.mp4&name=%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20IV.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/КОНГРЕСС УСПЕХА IV.mp4",
@@ -6105,7 +6105,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20V.mp4&name=%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90%20V.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/КОНГРЕСС УСПЕХА V.mp4",
@@ -6133,7 +6133,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%9C%D0%91%D0%A4%D0%9D-%D0%AE%D0%93%202018.mp4&name=%D0%9C%D0%91%D0%A4%D0%9D-%D0%AE%D0%93%202018.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/МБФН-ЮГ 2018.mp4",
@@ -6161,7 +6161,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D0%BD%D0%B3%D1%80%D0%B5%D1%81%D1%81%D1%8B%2F%D0%A7%D0%A2%D0%9E%20%D0%A2%D0%90%D0%9A%D0%9E%D0%95%20%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90.mp4&name=%D0%A7%D0%A2%D0%9E%20%D0%A2%D0%90%D0%9A%D0%9E%D0%95%20%D0%9A%D0%9E%D0%9D%D0%93%D0%A0%D0%95%D0%A1%D0%A1%20%D0%A3%D0%A1%D0%9F%D0%95%D0%A5%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все конгрессы/ЧТО ТАКОЕ КОНГРЕСС УСПЕХА.mp4",
@@ -6189,7 +6189,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202015%20%D0%9F%D0%98%D0%9E%D0%9D%D0%95%D0%A0%D0%AB.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202015%20%D0%9F%D0%98%D0%9E%D0%9D%D0%95%D0%A0%D0%AB.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2015 ПИОНЕРЫ.mp4",
@@ -6217,7 +6217,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202016%20%D0%92%D0%9E%D0%98%CC%86%D0%9D%D0%90.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202016%20%D0%92%D0%9E%D0%98%CC%86%D0%9D%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2016 ВОЙНА.mp4",
@@ -6245,7 +6245,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202017%20%D0%9A%D0%90%D0%97%D0%90%D0%9A%D0%98.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202017%20%D0%9A%D0%90%D0%97%D0%90%D0%9A%D0%98.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2017 КАЗАКИ.mp4",
@@ -6273,7 +6273,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202018%20%D0%9F%D0%95%D0%A2%D0%A0%D0%9E%D0%92%D0%A1%D0%9A%D0%90%D0%AF%20%D0%AD%D0%9F%D0%9E%D0%A5%D0%90.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202018%20%D0%9F%D0%95%D0%A2%D0%A0%D0%9E%D0%92%D0%A1%D0%9A%D0%90%D0%AF%20%D0%AD%D0%9F%D0%9E%D0%A5%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2018 ПЕТРОВСКАЯ ЭПОХА.mp4",
@@ -6301,7 +6301,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202019%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%20%D0%93%D0%AD%D0%A2%D0%A1%D0%91%D0%98.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202019%20%D0%AE%D0%91%D0%98%D0%9B%D0%95%D0%98%CC%86%20%D0%93%D0%AD%D0%A2%D0%A1%D0%91%D0%98.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2019 ЮБИЛЕЙ ГЭТСБИ.mp4",
@@ -6329,7 +6329,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202020%20%D0%A1%D0%A2%D0%A0%D0%95%D0%9B%D0%9A%D0%90.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202020%20%D0%A1%D0%A2%D0%A0%D0%95%D0%9B%D0%9A%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2020 СТРЕЛКА.mp4",
@@ -6357,7 +6357,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202021%20%D0%94%D0%98%D0%9A%D0%98%D0%98%CC%86%20%D0%97%D0%90%D0%9F%D0%90%D0%94.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202021%20%D0%94%D0%98%D0%9A%D0%98%D0%98%CC%86%20%D0%97%D0%90%D0%9F%D0%90%D0%94.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2021 ДИКИЙ ЗАПАД.mp4",
@@ -6385,7 +6385,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202022.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202022.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2022.mp4",
@@ -6413,7 +6413,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202023.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2023.mp4",
@@ -6441,7 +6441,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202024.mp4&name=%D0%94%D0%A0%20%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%9D%D0%98%D0%98%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /ДР КОМПАНИИ 2024.mp4",
@@ -6469,7 +6469,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202012-2013.mpg&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202012-2013.mpg",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2012-2013.mpg",
@@ -6497,7 +6497,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202013-2014.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202013-2014.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2013-2014.mp4",
@@ -6525,7 +6525,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202014-2015.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202014-2015.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2014-2015.mp4",
@@ -6553,7 +6553,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202015-2016.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202015-2016.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2015-2016.mp4",
@@ -6581,7 +6581,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202016-2017.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202016-2017.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2016-2017.mp4",
@@ -6609,7 +6609,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202018%20-%202019.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202018%20-%202019.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2018 - 2019.mp4",
@@ -6637,7 +6637,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202019%20-%202020.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202019%20-%202020.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2019 - 2020.mp4",
@@ -6665,7 +6665,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202020-2021.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202020-2021.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2020-2021.mp4",
@@ -6693,7 +6693,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202021-2022.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202021-2022.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2021-2022.mp4",
@@ -6721,7 +6721,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202022-2023.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202022-2023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2022-2023.mp4",
@@ -6749,7 +6749,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202023-2024.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202023-2024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2023-2024.mp4",
@@ -6777,7 +6777,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2F%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202025-2025.mp4&name=%D0%9D%D0%9E%D0%92%D0%AB%D0%98%CC%86%20%D0%93%D0%9E%D0%94%202025-2025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /НОВЫЙ ГОД 2025-2025.mp4",
@@ -6805,7 +6805,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2FRFP%20I.mp4&name=RFP%20I.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /RFP I.mp4",
@@ -6833,7 +6833,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2FRFP%20II.mp4&name=RFP%20II.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /RFP II.mp4",
@@ -6861,7 +6861,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2FRFP%20III.mp4&name=RFP%20III.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /RFP III.mp4",
@@ -6889,7 +6889,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D1%8B%20%2FRFP%20IV.mp4&name=RFP%20IV.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все корпоративы /RFP IV.mp4",
@@ -6917,7 +6917,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F5.%D0%A2%D0%B5%D0%BF%D0%BB%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0.mp4&name=5.%D0%A2%D0%B5%D0%BF%D0%BB%D0%B0%D1%8F%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/5.Теплая страна.mp4",
@@ -6945,7 +6945,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F6.%D0%92%D1%8B%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%92%20%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B5.mp4&name=6.%D0%92%D1%8B%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5%20%D0%92%20%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B5.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/6.Выходные В Европе.mp4",
@@ -6973,7 +6973,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%91%D0%95%D0%9B%D0%9E%D0%A0%D0%A3%D0%A1%D0%A1%D0%98%D0%AF%202024.mp4&name=%D0%91%D0%95%D0%9B%D0%9E%D0%A0%D0%A3%D0%A1%D0%A1%D0%98%D0%AF%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/БЕЛОРУССИЯ 2024.mp4",
@@ -7001,7 +7001,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202015%20%D0%9F%D0%A0%D0%90%D0%93%D0%90.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202015%20%D0%9F%D0%A0%D0%90%D0%93%D0%90.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2015 ПРАГА.mp4",
@@ -7029,7 +7029,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202016%20%D0%A1%D0%A2%D0%90%D0%9C%D0%91%D0%A3%D0%9B.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202016%20%D0%A1%D0%A2%D0%90%D0%9C%D0%91%D0%A3%D0%9B.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2016 СТАМБУЛ.mp4",
@@ -7057,7 +7057,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202017%20%D0%AD%D0%9C%D0%98%D0%A0%D0%90%D0%A2%D0%AB.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202017%20%D0%AD%D0%9C%D0%98%D0%A0%D0%90%D0%A2%D0%AB.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2017 ЭМИРАТЫ.mp4",
@@ -7085,7 +7085,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202018%20%D0%93%D0%95%D0%A0%D0%9C%D0%90%D0%9D%D0%98%D0%AF%20%D0%A7%D0%95%D0%A5%D0%98%D0%AF.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202018%20%D0%93%D0%95%D0%A0%D0%9C%D0%90%D0%9D%D0%98%D0%AF%20%D0%A7%D0%95%D0%A5%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2018 ГЕРМАНИЯ ЧЕХИЯ.mp4",
@@ -7113,7 +7113,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202019%20%D0%92%D0%95%D0%9D%D0%93%D0%A0%D0%98%D0%AF.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202019%20%D0%92%D0%95%D0%9D%D0%93%D0%A0%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2019 ВЕНГРИЯ.mp4",
@@ -7141,7 +7141,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202021%20%D0%9A%D0%90%D0%97%D0%90%D0%9D%D0%AC.mp4&name=%D0%92%D0%AB%D0%A5%D0%9E%D0%94%D0%9D%D0%AB%D0%95%20%D0%92%20%D0%95%D0%92%D0%A0%D0%9E%D0%9F%D0%95%202021%20%D0%9A%D0%90%D0%97%D0%90%D0%9D%D0%AC.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ВЫХОДНЫЕ В ЕВРОПЕ 2021 КАЗАНЬ.mp4",
@@ -7169,7 +7169,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F%202023.mp4&name=%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/Грузия 2023.mp4",
@@ -7197,7 +7197,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%B4%D0%B0%D0%B3%D0%B5%D1%81%D1%82%D0%B0%D0%BD%202022.mp4&name=%D0%B4%D0%B0%D0%B3%D0%B5%D1%81%D1%82%D0%B0%D0%BD%202022.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/дагестан 2022.mp4",
@@ -7225,7 +7225,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2%202023.mp4&name=%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ЕГИПЕТ 2023.mp4",
@@ -7253,7 +7253,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A1%D0%A2%D0%90%D0%9C%D0%91%D0%A3%D0%9B%202024.mp4&name=%D0%A1%D0%A2%D0%90%D0%9C%D0%91%D0%A3%D0%9B%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/СТАМБУЛ 2024.mp4",
@@ -7281,7 +7281,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202012%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202012%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2012 ЕГИПЕТ.mp4",
@@ -7309,7 +7309,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202013%20%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202013%20%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2013 ТУРЦИЯ.mp4",
@@ -7337,7 +7337,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202014%20%D0%9A%D0%A0%D0%98%D0%A2.mpg&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202014%20%D0%9A%D0%A0%D0%98%D0%A2.mpg",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2014 КРИТ.mpg",
@@ -7365,7 +7365,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202015%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2-%D0%98%D0%97%D0%A0%D0%90%D0%98%D0%9B%D0%AC.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202015%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2-%D0%98%D0%97%D0%A0%D0%90%D0%98%D0%9B%D0%AC.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2015 ЕГИПЕТ-ИЗРАИЛЬ.mp4",
@@ -7393,7 +7393,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202016%20%D0%98%D0%A1%D0%9F%D0%90%D0%9D%D0%98%D0%AF%20SHORT.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202016%20%D0%98%D0%A1%D0%9F%D0%90%D0%9D%D0%98%D0%AF%20SHORT.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2016 ИСПАНИЯ SHORT.mp4",
@@ -7421,7 +7421,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202016%20%D0%98%D0%A1%D0%9F%D0%90%D0%9D%D0%98%D0%AF.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202016%20%D0%98%D0%A1%D0%9F%D0%90%D0%9D%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2016 ИСПАНИЯ.mp4",
@@ -7449,7 +7449,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202017%20%D0%A2%D0%A3%D0%9D%D0%98%D0%A1.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202017%20%D0%A2%D0%A3%D0%9D%D0%98%D0%A1.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2017 ТУНИС.mp4",
@@ -7477,7 +7477,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202018%20%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202018%20%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2018 ТУРЦИЯ.mp4",
@@ -7505,7 +7505,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202019%20%D0%A0%D0%9E%D0%94%D0%9E%D0%A1.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202019%20%D0%A0%D0%9E%D0%94%D0%9E%D0%A1.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2019 РОДОС.mp4",
@@ -7533,7 +7533,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202020%20%D0%90%D0%91%D0%A5%D0%90%D0%97%D0%98%D0%AF.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202020%20%D0%90%D0%91%D0%A5%D0%90%D0%97%D0%98%D0%AF.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2020 АБХАЗИЯ.mp4",
@@ -7561,7 +7561,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202021%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2.mp4&name=%D0%A2%D0%95%CC%88%D0%9F%D0%9B%D0%90%D0%AF%20%D0%A1%D0%A2%D0%A0%D0%90%D0%9D%D0%90%202021%20%D0%95%D0%93%D0%98%D0%9F%D0%95%D0%A2.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТЁПЛАЯ СТРАНА 2021 ЕГИПЕТ.mp4",
@@ -7589,7 +7589,7 @@
     "modified": "2025-10-09T15:12:22+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%B2%D1%81%D0%B5%20%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%BA%D0%B8%2F%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF%202023.mp4&name=%D0%A2%D0%A3%D0%A0%D0%A6%D0%98%D0%AF%202023.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/все поездки/ТУРЦИЯ 2023.mp4",
@@ -7617,7 +7617,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%90%D0%92%D0%93%D0%A3%D0%A1%D0%A2%202024.mp4&name=%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%90%D0%92%D0%93%D0%A3%D0%A1%D0%A2%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/НОВОСТИ АВГУСТ 2024.mp4",
@@ -7645,7 +7645,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости апрель 2024.mp4",
@@ -7673,7 +7673,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости апрель 2025.mp4",
@@ -7701,7 +7701,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%98%D0%AE%D0%9B%D0%AC%202024.mp4&name=%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%98%D0%AE%D0%9B%D0%AC%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/НОВОСТИ ИЮЛЬ 2024.mp4",
@@ -7729,7 +7729,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D1%8E%D0%BD%D1%8C%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D1%8E%D0%BD%D1%8C%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости июнь 2024.mp4",
@@ -7757,7 +7757,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D1%8E%D0%BD%D1%8C%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D1%8E%D0%BD%D1%8C%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости июнь 2025.mp4",
@@ -7785,7 +7785,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D0%B8%CC%86%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D0%B8%CC%86%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости май 2024.mp4",
@@ -7813,7 +7813,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D0%B9%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D0%B9%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости май 2025.mp4",
@@ -7841,7 +7841,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9C%D0%90%D0%A0%D0%A2%202024.mp4&name=%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9C%D0%90%D0%A0%D0%A2%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/НОВОСТИ МАРТ 2024.mp4",
@@ -7869,7 +7869,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D1%80%D1%82%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%BC%D0%B0%D1%80%D1%82%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости март 2025.mp4",
@@ -7897,7 +7897,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9D%D0%9E%D0%AF%D0%91%D0%A0%D0%AC%202024.mp4&name=%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9D%D0%9E%D0%AF%D0%91%D0%A0%D0%AC%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/НОВОСТИ НОЯБРЬ 2024.mp4",
@@ -7925,7 +7925,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9E%D0%9A%D0%A2%D0%AF%D0%91%D0%A0%D0%AC%202024.mp4&name=%D0%9D%D0%9E%D0%92%D0%9E%D0%A1%D0%A2%D0%98%20%D0%9E%D0%9A%D0%A2%D0%AF%D0%91%D0%A0%D0%AC%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/НОВОСТИ ОКТЯБРЬ 2024.mp4",
@@ -7953,7 +7953,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8C%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8C%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости сентябрь 2024.mp4",
@@ -7981,7 +7981,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости февраль 2024.mp4",
@@ -8009,7 +8009,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости февраль 2025.mp4",
@@ -8037,7 +8037,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C%202024.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C%202024.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости январь 2024.mp4",
@@ -8065,7 +8065,7 @@
     "modified": "2025-10-09T15:12:21+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9%20%D0%B0%D1%80%D1%85%D0%B8%D0%B2%20%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%2F%D0%91%D0%9E%D0%9B%D0%AC%D0%A8%D0%9E%D0%99%20%D0%90%D0%A0%D0%A5%D0%98%D0%92%20%D0%92%D0%98%D0%94%D0%95%D0%9E%202025%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D0%B2%D1%81%D0%B5%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%B8%20%D0%B7%D0%B0%202024%2F%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C%202025.mp4&name=%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8%20%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C%202025.mp4",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/большой архив видео компании/БОЛЬШОЙ АРХИВ ВИДЕО 2025/новости все выпуски за 2024/новости январь 2025.mp4",
@@ -8093,7 +8093,7 @@
     "modified": "2025-02-14T07:39:46+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9B%D0%B0%D0%BD%D0%B4%D1%88%D0%B0%D1%84%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2.pdf&name=%D0%9B%D0%B0%D0%BD%D0%B4%D1%88%D0%B0%D1%84%D1%82%D0%BD%D0%B0%D1%8F_%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/Ландшафтная_карта_бизнес_процессов.pdf",
@@ -8961,7 +8961,7 @@
     "modified": "2023-03-16T11:40:45+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A2%D0%9A%D0%A0%D0%AB%D0%A2%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D1%81%D0%BE%D1%81%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%B2%20%D0%90%D0%B2%D0%B8%D1%82%D0%BE%D0%9F%D1%80%D0%BE.docx&name=%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D1%81%D0%BE%D1%81%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%B2%20%D0%90%D0%B2%D0%B8%D1%82%D0%BE%D0%9F%D1%80%D0%BE.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОТКРЫТИЕ ОФИСА/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Регламент по регистрации сострудника в АвитоПро.docx",
@@ -8989,7 +8989,7 @@
     "modified": "2023-03-16T11:40:46+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A2%D0%9A%D0%A0%D0%AB%D0%A2%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9D%D0%95%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%98%D0%9C%D0%AB%D0%95%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%AB%2F%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82%D0%B5%20%D0%90%D0%92%D0%98%D0%A2%D0%9E.docx&name=%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82%D0%B5%20%D0%90%D0%92%D0%98%D0%A2%D0%9E.docx",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОТКРЫТИЕ ОФИСА/НЕОБХОДИМЫЕ ДОКУМЕНТЫ/Регламент регистрации и размещения объявлений на сайте АВИТО.docx",
@@ -12209,7 +12209,7 @@
     "modified": "2023-03-16T11:33:56+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%92%D0%9D%D0%A3%D0%A2%D0%A0%D0%95%D0%9D%D0%9D%D0%95%D0%95%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%2F%D0%9A%D0%90%D0%A0%D0%A2%D0%98%D0%9D%D0%AB%20%D0%A4%D0%A3%D0%94%D0%9A%D0%9E%D0%A0%D0%A2%2F%D0%B4%D0%BB%D1%8F%20%D1%84%D1%83%D0%B4%D0%BA%D0%BE%D1%80%D1%82%D0%B0.pdf&name=%D0%B4%D0%BB%D1%8F%20%D1%84%D1%83%D0%B4%D0%BA%D0%BE%D1%80%D1%82%D0%B0.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ВНУТРЕННЕЕ ОФОРМЛЕНИЕ/КАРТИНЫ ФУДКОРТ/для фудкорта.pdf",
@@ -12237,7 +12237,7 @@
     "modified": "2023-03-16T11:34:24+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%92%D0%9D%D0%A3%D0%A2%D0%A0%D0%95%D0%9D%D0%9D%D0%95%D0%95%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%2F%D0%9A%D0%90%D0%A0%D0%A2%D0%98%D0%9D%D0%AB%20%D0%A4%D0%A3%D0%94%D0%9A%D0%9E%D0%A0%D0%A2%2F%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%84%D1%83%D1%82%D0%BA%D0%BE%D1%80%D1%82%D0%B0.rar&name=%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%84%D1%83%D1%82%D0%BA%D0%BE%D1%80%D1%82%D0%B0.rar",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ВНУТРЕННЕЕ ОФОРМЛЕНИЕ/КАРТИНЫ ФУДКОРТ/Картина для футкорта.rar",
@@ -12265,7 +12265,7 @@
     "modified": "2023-03-16T11:36:34+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%92%D0%9D%D0%A3%D0%A2%D0%A0%D0%95%D0%9D%D0%9D%D0%95%D0%95%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%2F%D0%9A%D0%90%D0%A0%D0%A2%D0%98%D0%9D%D0%AB%20%D0%A4%D0%A3%D0%94%D0%9A%D0%9E%D0%A0%D0%A2%2F%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D1%8B.psd&name=%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D1%8B.psd",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ВНУТРЕННЕЕ ОФОРМЛЕНИЕ/КАРТИНЫ ФУДКОРТ/Картины.psd",
@@ -12293,7 +12293,7 @@
     "modified": "2023-03-16T11:33:42+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%92%D0%9D%D0%A3%D0%A2%D0%A0%D0%95%D0%9D%D0%9D%D0%95%D0%95%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%2F%D0%9A%D0%90%D0%A0%D0%A2%D0%98%D0%9D%D0%AB%20%D0%A4%D0%A3%D0%94%D0%9A%D0%9E%D0%A0%D0%A2%2F%D1%84%D1%83%D0%B4-%D0%BA%D0%BE%D1%80%D1%82%201500%D1%851680.pdf&name=%D1%84%D1%83%D0%B4-%D0%BA%D0%BE%D1%80%D1%82%201500%D1%851680.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ВНУТРЕННЕЕ ОФОРМЛЕНИЕ/КАРТИНЫ ФУДКОРТ/фуд-корт 1500х1680.pdf",
@@ -12881,7 +12881,7 @@
     "modified": "2023-03-16T11:37:53+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9F%D0%A0%D0%98%D0%9C%D0%95%D0%A0%D0%AB%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%AF%20%D0%9E%D0%A4%D0%98%D0%A1%D0%9E%D0%92%2FWhatsApp%20Image%202021-11-15%20at%2010.40.30%20%281%29.jpeg&name=WhatsApp%20Image%202021-11-15%20at%2010.40.30%20%281%29.jpeg",
-    "missing_since": null
+    "missing_since": "2026-09-28T10:40:11.333Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ПРИМЕРЫ ОФОРМЛЕНИЯ ОФИСОВ/WhatsApp Image 2021-11-15 at 10.40.30 (1).jpeg",
@@ -12909,7 +12909,7 @@
     "modified": "2023-03-16T11:37:53+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9F%D0%A0%D0%98%D0%9C%D0%95%D0%A0%D0%AB%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%AF%20%D0%9E%D0%A4%D0%98%D0%A1%D0%9E%D0%92%2FWhatsApp%20Image%202021-11-15%20at%2010.40.30%20%282%29.jpeg&name=WhatsApp%20Image%202021-11-15%20at%2010.40.30%20%282%29.jpeg",
-    "missing_since": null
+    "missing_since": "2026-09-28T10:40:11.333Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ПРИМЕРЫ ОФОРМЛЕНИЯ ОФИСОВ/WhatsApp Image 2021-11-15 at 10.40.30 (2).jpeg",
@@ -12937,7 +12937,7 @@
     "modified": "2023-03-16T11:37:53+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9F%D0%A0%D0%98%D0%9C%D0%95%D0%A0%D0%AB%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%AF%20%D0%9E%D0%A4%D0%98%D0%A1%D0%9E%D0%92%2FWhatsApp%20Image%202021-11-15%20at%2010.40.30.jpeg&name=WhatsApp%20Image%202021-11-15%20at%2010.40.30.jpeg",
-    "missing_since": null
+    "missing_since": "2026-09-28T10:40:11.333Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ПРИМЕРЫ ОФОРМЛЕНИЯ ОФИСОВ/WhatsApp Image 2021-11-15 at 10.40.30.jpeg",
@@ -12965,7 +12965,7 @@
     "modified": "2023-03-16T11:37:53+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%95%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%9F%D0%A0%D0%98%D0%9C%D0%95%D0%A0%D0%AB%20%D0%9E%D0%A4%D0%9E%D0%A0%D0%9C%D0%9B%D0%95%D0%9D%D0%98%D0%AF%20%D0%9E%D0%A4%D0%98%D0%A1%D0%9E%D0%92%2FWhatsApp%20Image%202021-11-15%20at%2010.40.31%20%281%29.jpeg&name=WhatsApp%20Image%202021-11-15%20at%2010.40.31%20%281%29.jpeg",
-    "missing_since": null
+    "missing_since": "2026-09-28T10:40:11.333Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/ОФОРМЛЕНИЕ ОФИСА/ПРИМЕРЫ ОФОРМЛЕНИЯ ОФИСОВ/WhatsApp Image 2021-11-15 at 10.40.31 (1).jpeg",
@@ -14365,7 +14365,7 @@
     "modified": "2023-03-16T08:37:29+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%A4%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D0%B8%D0%BB%D1%8C%2F%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D1%8B%2F%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD_%D1%84%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%B0_200%D1%85100.cdr&name=%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD_%D1%84%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%B0_200%D1%85100.cdr",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/Фирменный стиль/Домиан макеты/Домиан_фс_открытка_200х100.cdr",
@@ -14393,7 +14393,7 @@
     "modified": "2023-03-16T08:37:29+00:00",
     "public_url": null,
     "viewer_url": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fa7Jr1RaNr9gXWDpu6hEE2oqj%2Brip5HCmHrZnkC%2BBCQqa%2BTWx8hS7vhd4zf7doQTxq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2F%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%2F%D0%9E%D0%A0%D0%93%D0%90%D0%9D%D0%98%D0%97%D0%90%D0%A6%D0%98%D0%AF%20%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%AB%20%D0%9E%D0%A4%D0%98%D0%A1%D0%90%2F%D0%A4%D0%B8%D1%80%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D1%82%D0%B8%D0%BB%D1%8C%2F%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD%20%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%D1%8B%2F%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD_%D1%84%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%B0_200%D1%85100.pdf&name=%D0%94%D0%BE%D0%BC%D0%B8%D0%B0%D0%BD_%D1%84%D1%81_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%BA%D0%B0_200%D1%85100.pdf",
-    "missing_since": null
+    "missing_since": "2026-10-14T13:43:57.601Z"
    },
    "history": {
     "original_path": "/Руководитель/ОРГАНИЗАЦИЯ РАБОТЫ ОФИСА/Фирменный стиль/Домиан макеты/Домиан_фс_открытка_200х100.pdf",

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ревизия — Домиан Франчайзинг</title>
-    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
     <main>
@@ -52,6 +52,12 @@
             </div>
             </div>
             <div class="view-tools">
+                <span>Расположение</span>
+                <div class="filters presence-filters" aria-label="Фильтр по наличию на Диске">
+                    <button type="button" data-presence="PRESENT" class="active-filter">На Диске <strong id="count-present">0</strong></button>
+                    <button type="button" data-presence="MISSING">В карантине/отсутствуют <strong id="count-missing">0</strong></button>
+                    <button type="button" data-presence="ALL">Все <strong id="count-all-files">0</strong></button>
+                </div>
                 <label>Тип <select id="type-filter"><option value="ALL">Все типы</option></select></label>
                 <label>Размер <select id="size-filter">
                     <option value="0">Любой</option>
@@ -84,7 +90,7 @@
         </header>
         <ul id="catalog" class="tree"></ul>
     </main>
-    <script src="review-core.js?v=5" defer></script>
-    <script src="review.js?v=5" defer></script>
+    <script src="review-core.js?v=6" defer></script>
+    <script src="review.js?v=6" defer></script>
 </body>
 </html>

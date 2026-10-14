@@ -154,6 +154,11 @@ test('тип и размер файла', () => {
     assert.equal(core.matchesTypeAndSize('mp4', 50 * 1024 ** 2, 'video', 100 * 1024 ** 2), false);
     assert.equal(core.matchesTypeAndSize('pdf', 50, 'video', 0), false);
     assert.equal(core.matchesTypeAndSize('pdf', null, 'ALL', 0), true);
+    assert.equal(core.matchesPresence(null, 'PRESENT'), true);
+    assert.equal(core.matchesPresence('2026-10-14T00:00:00Z', 'PRESENT'), false);
+    assert.equal(core.matchesPresence('2026-10-14T00:00:00Z', 'MISSING'), true);
+    assert.equal(core.matchesPresence(null, 'MISSING'), false);
+    assert.equal(core.matchesPresence('2026-10-14T00:00:00Z', 'ALL'), true);
 });
 
 test('отметка «Выполнено»: отдельно от голосов, авто-«Удалено» для пропавших файлов', () => {
