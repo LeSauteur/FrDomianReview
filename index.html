@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ревизия — Домиан Франчайзинг</title>
-    <link rel="stylesheet" href="styles.css?v=6">
+    <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
     <main>
@@ -82,15 +82,26 @@
                 <label class="reviewer-label">Проверяющий <select id="reviewer">
                     <option value="">Выберите сотрудника</option>
                 </select></label>
-                <details class="token-settings"><summary>GitHub token</summary>
-                    <div class="token-fields"><input id="github-token" type="password" autocomplete="off" spellcheck="false" aria-label="GitHub token"><button id="clear-token" type="button">Очистить token</button></div>
+                <details id="token-settings" class="token-settings"><summary>Подключение GitHub</summary>
+                    <div class="token-fields">
+                        <div class="token-entry">
+                            <label for="github-token">Введите GitHub token</label>
+                            <input id="github-token" type="password" autocomplete="off" spellcheck="false" placeholder="Вставьте токен">
+                            <button id="save-token" type="button">Сохранить токен</button>
+                        </div>
+                        <div class="token-remove">
+                            <span id="token-storage-state">Токен не сохранён</span>
+                            <button id="clear-token" type="button" disabled>Удалить сохранённый токен</button>
+                        </div>
+                        <small>Токен хранится только в текущей вкладке браузера.</small>
+                    </div>
                 </details>
                 <span id="message" role="status"></span>
             </div>
         </header>
         <ul id="catalog" class="tree"></ul>
     </main>
-    <script src="review-core.js?v=6" defer></script>
-    <script src="review.js?v=6" defer></script>
+    <script src="review-core.js?v=7" defer></script>
+    <script src="review.js?v=7" defer></script>
 </body>
 </html>
