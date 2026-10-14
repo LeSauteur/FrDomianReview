@@ -367,6 +367,13 @@
         return typeMatches && sizeMatches;
     }
 
+    function matchesPresence(missingSince, filter) {
+        const missing = Boolean(missingSince);
+        return !filter || filter === 'ALL'
+            || (filter === 'PRESENT' && !missing)
+            || (filter === 'MISSING' && missing);
+    }
+
     // outcome — итог outcomeFor(); DONE — отметка соответствует решению,
     // TODO — решено удалить/обновить, но соответствующей отметки нет (см. completionOf).
     function matchesFile(name, path, status, commentCount, filter, searchTerm, outcome) {
@@ -413,6 +420,7 @@
         fileType,
         formatSize,
         matchesTypeAndSize,
+        matchesPresence,
         matchesFile
     };
 }));
