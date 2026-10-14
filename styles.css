@@ -106,7 +106,14 @@ h1 { margin: 0; font-size: 1.45rem; line-height: 1.2; letter-spacing: -.025em; }
 .reviewer-label { display: flex; align-items: center; gap: 7px; margin-left: auto; }
 .token-settings { color: #677386; }
 .token-settings summary { cursor: pointer; user-select: none; }
-.token-fields { gap: 6px; margin-top: 7px; }
+.token-fields { display: grid; gap: 8px; margin-top: 9px; min-width: min(520px, 82vw); }
+.token-entry, .token-remove { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; }
+.token-entry label { width: 100%; color: #455267; font-weight: 650; }
+.token-entry input { flex: 1 1 260px; }
+.token-remove { padding-top: 8px; border-top: 1px solid #e3e7ec; }
+.token-remove span { flex: 1 1 210px; }
+.token-fields small { color: #7a8593; }
+#token-storage-state[data-state="saved"] { color: #287546; font-weight: 650; }
 #message { min-height: 1.2em; color: #667386; }
 
 button,

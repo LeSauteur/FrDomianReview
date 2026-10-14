@@ -136,11 +136,15 @@ test('сканер: сопоставление по resource_id, пути и md5
 
 test('страница: безопасный вывод, токен только в sessionStorage, данные в отдельном репозитории', () => {
     const source = readFileSync(path.join(root, 'review.js'), 'utf8');
+    const html = readFileSync(path.join(root, 'index.html'), 'utf8');
     assert.ok(!source.includes('innerHTML'));
     assert.ok(source.includes('text.textContent = comment.text'));
     assert.ok(source.includes('sessionStorage.setItem(TOKEN_KEY'));
     assert.ok(!source.includes('localStorage.setItem(TOKEN_KEY'));
     assert.ok(source.includes("repository: 'FrDomianReview-data'"));
+    assert.ok(html.includes('id="save-token"'));
+    assert.ok(html.includes('Удалить сохранённый токен'));
+    assert.ok(!source.includes('setToken(elements.token.value.trim())'));
     assert.ok(!/\b657\b/.test(source), 'число файлов не должно быть зашито');
 });
 

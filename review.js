@@ -254,6 +254,33 @@
         }
     }
 
+    function updateTokenControls() {
+        const saved = Boolean(getToken());
+        elements.tokenState.textContent = saved
+            ? 'Токен сохранён для этой вкладки'
+            : 'Токен не сохранён';
+        elements.tokenState.dataset.state = saved ? 'saved' : 'empty';
+        elements.clearToken.disabled = !saved;
+        elements.saveToken.disabled = !elements.token.value.trim();
+    }
+
+    async function saveTokenFromInput() {
+        const token = elements.token.value.trim();
+        if (!token) {
+            elements.message.textContent = 'Вставьте GitHub token в поле ввода.';
+            elements.token.focus();
+            return;
+        }
+        setToken(token);
+        elements.token.value = '';
+        state.autosaveStopped = false;
+        updateTokenControls();
+        elements.message.textContent = 'Токен сохранён. Загружаю общие решения…';
+        if (state.manifest) {
+            await loadRemoteDecisions();
+        }
+    }
+
     function getReviewer() {
         return REVIEWERS.includes(elements.reviewer.value) ? elements.reviewer.value : '';
     }
@@ -1181,17 +1208,21 @@
             });
         });
         elements.reviewer.addEventListener('change', saveReviewer);
-        elements.token.addEventListener('input', () => {
-            setToken(elements.token.value.trim());
-            state.autosaveStopped = false;
+        elements.token.addEventListener('input', updateTokenControls);
+        elements.token.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                saveTokenFromInput();
+            }
         });
-        elements.token.addEventListener('change', () => {
-            if (state.manifest) loadRemoteDecisions();
-        });
+        elements.saveToken.addEventListener('click', saveTokenFromInput);
         elements.clearToken.addEventListener('click', () => {
+            if (!getToken() || !window.confirm('Удалить сохранённый GitHub token из этой вкладки?')) return;
             elements.token.value = '';
             setToken('');
-            elements.message.textContent = 'GitHub token удалён из sessionStorage.';
+            updateTokenControls();
+            setSyncState('dirty', 'Работа локально — введите GitHub token, чтобы видеть общие решения');
+            elements.message.textContent = 'Сохранённый GitHub token удалён из этой вкладки.';
         });
         elements.saveNow.addEventListener('click', () => {
             state.autosaveStopped = false;
@@ -1218,8 +1249,11 @@
             shownSummary: 'shown-summary',
             quarantinePanel: 'quarantine-panel',
             reviewer: 'reviewer',
+            tokenSettings: 'token-settings',
             token: 'github-token',
+            saveToken: 'save-token',
             clearToken: 'clear-token',
+            tokenState: 'token-storage-state',
             saveNow: 'save-now',
             syncState: 'sync-state',
             lastSync: 'last-sync',
@@ -1245,8 +1279,10 @@
     async function start() {
         cacheElements();
         loadReviewer();
-        elements.token.value = getToken();
+        elements.token.value = '';
+        elements.tokenSettings.open = !getToken();
         bindEvents();
+        updateTokenControls();
         try {
             await loadManifest();
             fillTypeFilter();
