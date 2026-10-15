@@ -1,0 +1,3387 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10263c">
+  <meta name="description" content="Визуальный макет каталога материалов Домиан Франчайзинг для руководителей офисов. Файлы не подключены.">
+  <title>Материалы для руководителя — Домиан Франчайзинг</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --navy:#10263c; --navy-deep:#0a1d2f; --red:#b7273d; --ink:#14283a; --muted:#617182; --line:#d7e0e6; --light:#eaf0f4; --cream:#fbfaf7; --gold:#b58b43; --green:#2e7468; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:24px; }
+    body { margin:0; background:var(--cream); color:var(--ink); font-family:Inter,sans-serif; font-size:14px; line-height:1.55; -webkit-font-smoothing:antialiased; }
+    button,input,select { font:inherit; }
+    button,a,input,select,summary,[tabindex] { -webkit-tap-highlight-color:transparent; }
+    button,a,summary { touch-action:manipulation; }
+    a { color:inherit; text-decoration:none; }
+    button { cursor:pointer; }
+    :focus-visible { outline:3px solid var(--gold); outline-offset:4px; }
+    h1,h2,h3,p { margin:0; }
+    h1,h2,h3,.wordmark { font-family:'Wix Madefor Display',sans-serif; }
+    svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+    .skip { position:fixed; top:8px; left:8px; z-index:10; padding:10px 18px; background:white; transform:translateY(-150%); }
+    .skip:focus { transform:none; }
+    .header { background:var(--navy); color:white; border-top:4px solid var(--red); }
+    .header-inner { max-width:1456px; margin:auto; padding:29px 48px 25px; }
+    .brand-row { display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:17px; }
+    .monogram { display:grid; place-items:center; width:42px; height:42px; border:1px solid #ffffff50; border-radius:50% 50% 50% 4px; font:800 28px 'Wix Madefor Display',sans-serif; }
+    .wordmark { font-size:24px; font-weight:800; line-height:1; letter-spacing:.08em; }
+    .brand-sub { display:block; margin-top:7px; font-size:9px; font-weight:500; letter-spacing:.23em; text-transform:uppercase; color:#c5d2dd; }
+    .header-title { padding-left:24px; margin-left:10px; border-left:1px solid #ffffff35; color:#e0e7ed; font-size:13px; }
+    .audience { display:flex; gap:8px; align-items:center; color:#b7c8d7; font-size:11px; letter-spacing:.05em; }
+    .search-row { display:flex; align-items:center; gap:24px; margin-top:27px; }
+    .search-box { display:flex; align-items:center; gap:12px; flex:1; position:relative; min-width:0; background:var(--navy-deep); border:1px solid #3d5062; border-radius:8px; padding:0 16px; color:#b7c8d7; }
+    .search-box:focus-within { border-color:#b5c7d7; box-shadow:0 0 0 2px #ffffff10; }
+    .search-box input { width:100%; min-width:0; background:transparent; border:0; padding:15px 0; color:white; outline:none; font-size:13px; }
+    .search-box input::placeholder { color:#b0bfcb; opacity:1; }
+    input[type=search]::-webkit-search-cancel-button { display:none; }
+    .search-key { font-size:11px; border:1px solid #536475; border-radius:4px; padding:0 7px; }
+    .clear-search { display:grid; place-items:center; border:0; padding:4px; color:white; background:none; }
+    [hidden] { display:none!important; }
+    .mockup-label { display:flex; gap:8px; align-items:center; white-space:nowrap; color:#e8dbbd; background:#ffffff08; border:1px solid #b58b4360; border-radius:5px; padding:9px 12px; font-size:11px; }
+    .dot { width:5px; height:5px; border-radius:50%; background:var(--gold); flex-shrink:0; }
+    .layout { display:grid; grid-template-columns:250px minmax(0,1fr); gap:48px; max-width:1456px; margin:0 auto; padding:37px 48px 50px; align-items:start; }
+    .sidebar { position:sticky; top:25px; }
+    .eyebrow { text-transform:uppercase; font-size:10px; font-weight:600; letter-spacing:.16em; color:var(--muted); }
+    .nav-heading { display:flex; justify-content:space-between; align-items:center; padding:0 12px; margin-bottom:15px; }
+    .edition { font-size:10px; color:var(--muted); }
+    .nav-list { display:flex; flex-direction:column; gap:5px; }
+    .nav-link { display:grid; grid-template-columns:25px 1fr auto; align-items:center; gap:7px; min-height:46px; padding:10px 12px; border-radius:6px; font-size:12px; color:#42596c; border:1px solid transparent; transition:background .15s; }
+    .nav-link:hover { background:var(--light); }
+    .nav-link[aria-current=page] { background:var(--navy); color:white; }
+    .nav-number { font-size:10px; color:var(--muted); font-variant-numeric:tabular-nums; }
+    .nav-link[aria-current=page] .nav-number { color:#bdcbd6; }
+    .nav-count { font-size:10px; color:var(--muted); font-variant-numeric:tabular-nums; }
+    .nav-link[aria-current=page] .nav-count { color:#c5d2dd; }
+    .archive-link { border-top:1px solid var(--line); margin-top:10px; border-radius:0; color:var(--muted); }
+    .sidebar-note { border-top:1px solid var(--line); margin:28px 12px 0; padding-top:20px; font-size:11px; color:var(--muted); line-height:1.8; }
+    .sidebar-note strong { display:block; font-weight:500; color:var(--ink); margin-bottom:5px; }
+    .mobile-nav { display:none; }
+    main { min-width:0; }
+    .breadcrumb { display:flex; align-items:center; gap:9px; color:var(--muted); font-size:10px; margin-bottom:25px; }
+    .breadcrumb svg { width:12px; height:12px; }
+    .section-top { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; }
+    .section-kicker { display:flex; align-items:center; gap:9px; color:var(--red); margin-bottom:10px; }
+    .section-kicker::before { content:''; width:21px; height:1px; background:var(--red); }
+    h1 { font-size:40px; line-height:1.15; font-weight:700; letter-spacing:-.035em; }
+    .description { font-size:13px; color:var(--muted); margin-top:12px; max-width:600px; }
+    .section-stamp { display:grid; place-items:center; border:1px solid var(--line); border-radius:50%; width:60px; height:60px; flex-shrink:0; color:var(--red); font-family:'Wix Madefor Display',sans-serif; font-size:25px; font-weight:500; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px 26px; padding:20px 0 23px; margin-bottom:25px; border-bottom:1px solid var(--line); font-size:11px; color:var(--muted); }
+    .meta strong { font-weight:500; color:var(--ink); margin-left:7px; }
+    .meta .unassigned { color:var(--muted); }
+    .welcome { display:grid; grid-template-columns:1fr auto; gap:26px; background:var(--light); border:1px solid var(--line); border-radius:9px; padding:26px 28px; margin-bottom:28px; }
+    .welcome h2 { font-size:21px; line-height:1.25; letter-spacing:-.02em; margin-bottom:9px; }
+    .welcome p { color:var(--muted); font-size:12px; max-width:530px; }
+    .welcome-symbol { align-self:center; display:grid; place-items:center; width:48px; height:48px; border:1px solid #b9c8d3; border-radius:50%; color:var(--navy); }
+    .welcome-symbol svg { width:23px; height:23px; }
+    .card { background:white; border:1px solid var(--line); border-radius:9px; margin-bottom:20px; overflow:visible; }
+    .card-heading { display:flex; gap:15px; justify-content:space-between; align-items:center; padding:19px 23px; border-bottom:1px solid var(--line); }
+    .card h2 { font-size:17px; font-weight:650; line-height:1.3; letter-spacing:-.015em; }
+    .card-count { font-size:10px; color:var(--muted); white-space:nowrap; }
+    .group-note { margin-top:6px; color:var(--muted); font-size:10px; }
+    .file-row { display:grid; grid-template-columns:36px minmax(0,1fr) auto; gap:14px; align-items:center; margin:0 23px; padding:19px 0; border-bottom:1px solid #e8edf1; }
+    .file-list > :last-child, .set-items > :last-child { border-bottom:0; }
+    .file-icon { width:34px; height:40px; background:#f1f4f7; border:1px solid #dce4eb; border-radius:5px; display:grid; place-items:center; font-size:8px; letter-spacing:.02em; font-weight:700; color:#526b84; position:relative; }
+    .file-icon::after { content:''; position:absolute; right:0; top:0; width:8px; height:8px; border-left:1px solid #dce4eb; border-bottom:1px solid #dce4eb; background:white; border-bottom-left-radius:3px; }
+    .file-icon.pdf { color:#a3404d; background:#faf0f1; border-color:#edd9dc; }
+    .file-icon.sheet { color:var(--green); background:#edf5f1; border-color:#d7e8e0; }
+    .file-icon.video { color:var(--gold); background:#f8f3e9; border-color:#e8dfcd; }
+    .file-icon.video svg { width:16px; height:16px; }
+    .file-name { font-size:12px; font-weight:500; line-height:1.6; overflow-wrap:anywhere; }
+    .file-meta { display:flex; flex-wrap:wrap; align-items:center; gap:5px 10px; font-size:10px; color:var(--muted); margin-top:5px; }
+    .formats { display:inline-flex; flex-wrap:wrap; gap:4px; }
+    .format-badge { color:#516476; background:#f2f5f7; border-radius:3px; padding:1px 5px; font-size:8px; font-weight:600; letter-spacing:.03em; }
+    .file-date::before { content:'·'; margin-right:10px; color:#a6b1bb; }
+    .update { display:inline-block; font-size:9px; color:#8c641e; background:#f7f0e1; border:1px solid #eee0bf; padding:1px 6px; border-radius:3px; margin-left:8px; vertical-align:middle; white-space:nowrap; font-weight:450; }
+    .actions { display:flex; align-items:center; gap:8px; }
+    .action-wrap { display:inline-flex; position:relative; border-radius:4px; cursor:not-allowed; }
+    .action-wrap::after { content:attr(data-tooltip); position:absolute; z-index:5; right:0; bottom:calc(100% + 8px); white-space:nowrap; background:var(--navy); color:white; border-radius:4px; font-size:10px; padding:7px 10px; visibility:hidden; opacity:0; pointer-events:none; }
+    .action-wrap:hover::after,.action-wrap:focus-visible::after { opacity:1; visibility:visible; }
+    .file-action { border:1px solid #dce3e9; color:#718292; background:white; border-radius:4px; padding:6px 9px; font-size:10px; cursor:not-allowed; pointer-events:none; white-space:nowrap; }
+    .file-action.secondary { color:#7e8d9a; border-color:transparent; padding-right:0; }
+    .file-action svg { width:12px; height:12px; vertical-align:-2px; margin-right:4px; }
+    .subgroup-title { padding:12px 23px; background:#f6f8fa; border-bottom:1px solid var(--line); color:#52697a; font-size:10px; font-weight:600; letter-spacing:.04em; }
+    details > summary { list-style:none; cursor:pointer; }
+    details > summary::-webkit-details-marker { display:none; }
+    .disclosure { display:flex; align-items:center; gap:10px; }
+    .chevron { width:15px; height:15px; transition:transform .15s; }
+    details[open] > summary .chevron { transform:rotate(90deg); }
+    .set { margin:0 23px; border-bottom:1px solid #e8edf1; }
+    .set > summary.file-row { margin:0; border-bottom:0; }
+    .set-label { display:inline-flex; align-items:center; gap:5px; margin-left:8px; color:var(--muted); font-size:10px; font-weight:400; }
+    .set-items { border-left:2px solid var(--line); margin:0 0 15px 16px; padding-left:14px; }
+    .set-items .file-row { margin:0; grid-template-columns:30px minmax(0,1fr) auto; gap:10px; padding:14px 0; }
+    .set-items .file-icon { width:28px; height:34px; font-size:7px; }
+    details.card:not([open]) > .card-heading { border-bottom:0; }
+    .archive { color:#68737d; }
+    .archive .section-stamp,.archive .section-kicker { color:#78828a; }
+    .archive .section-kicker::before { background:#78828a; }
+    .archive .card { background:#f0f1f1; border-color:#d8dddd; }
+    .archive .file-icon { filter:grayscale(1); }
+    .archive-warning { padding:15px 19px; border:1px solid #d8dddd; background:#edeff0; border-radius:6px; font-size:11px; margin-bottom:22px; }
+    .next-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:28px 0; }
+    .next-link { display:block; padding:21px 23px; border:1px solid var(--line); border-radius:8px; background:transparent; transition:border-color .15s,background .15s; }
+    .next-link:hover { border-color:#9bafbf; background:white; }
+    .next-link .eyebrow { font-size:8px; margin-bottom:9px; }
+    .next-link strong { display:flex; justify-content:space-between; align-items:center; font-weight:550; font-size:12px; gap:12px; }
+    .next-link svg { width:16px; height:16px; color:var(--red); }
+    .next-link p { color:var(--muted); font-size:10px; margin-top:7px; }
+    .footer { display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; border-top:1px solid var(--line); margin-top:35px; padding-top:18px; color:var(--muted); font-size:9px; }
+    .footer span:first-child { color:#52697a; }
+    .search-status { color:var(--muted); font-size:12px; margin:10px 0 25px; }
+    .result-section { margin-top:26px; }
+    .result-heading { display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; gap:12px; }
+    .result-heading a { display:flex; align-items:center; gap:10px; font-family:'Wix Madefor Display',sans-serif; font-size:17px; font-weight:600; }
+    .result-heading .nav-number { color:var(--red); }
+    .result-context { font-size:9px; color:var(--muted); margin-bottom:3px; }
+    .empty { padding:45px 28px; text-align:center; border:1px dashed var(--line); border-radius:9px; }
+    .empty h2 { font-size:22px; margin-bottom:8px; }
+    .empty p { color:var(--muted); font-size:12px; }
+    .reset { margin-top:20px; border:1px solid var(--line); background:white; border-radius:5px; padding:9px 16px; color:var(--ink); font-size:12px; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media(min-width:1500px) { .header-inner { padding-top:34px; padding-bottom:29px; } .layout { padding-top:44px; } }
+    @media(max-width:1150px) { .header-inner { padding-left:28px; padding-right:28px; } .layout { padding-left:28px; padding-right:28px; grid-template-columns:220px minmax(0,1fr); gap:30px; } .header-title { font-size:11px; } .file-row { margin:0 19px; gap:12px; } .file-row .actions { gap:2px; } .file-action { font-size:9px; padding:6px; } .card-heading { padding:18px 19px; } }
+    @media(max-width:900px) and (min-width:761px) { .file-row { grid-template-columns:34px minmax(0,1fr); } .actions { grid-column:2; } .audience { display:none; } .mockup-label { font-size:9px; padding:9px; } .search-row { gap:15px; } }
+    @media(max-width:760px) { .header-inner { padding:23px 20px 20px; } .brand { gap:12px; } .wordmark { font-size:21px; } .brand-sub { font-size:8px; } .monogram { width:36px; height:36px; font-size:24px; } .header-title { margin:0; padding-left:17px; max-width:185px; font-size:11px; } .audience { display:none; } .search-row { margin-top:22px; flex-wrap:wrap; gap:12px; } .search-box { flex-basis:100%; } .search-box input { font-size:12px; } .mockup-label { border:0; background:none; padding:0; font-size:10px; } .search-key { display:none; } .layout { display:block; padding:21px 20px 30px; } .sidebar { display:none; } .mobile-nav { display:block; margin-bottom:24px; } .mobile-nav label { display:block; margin-bottom:8px; } .mobile-nav select { width:100%; border:1px solid var(--line); color:var(--ink); background:white; border-radius:6px; min-height:46px; padding:11px 12px; font-size:12px; } .breadcrumb { margin-bottom:20px; } h1 { font-size:33px; } .section-stamp { width:48px; height:48px; font-size:21px; } .description { font-size:12px; } .meta { gap:9px 20px; font-size:10px; padding-bottom:19px; margin-bottom:20px; } .welcome { padding:22px; gap:12px; } .welcome h2 { font-size:20px; } .welcome p { font-size:11px; } .welcome-symbol { display:none; } .card-heading { padding:17px; } .card h2 { font-size:16px; } .file-row { grid-template-columns:30px minmax(0,1fr); margin:0 17px; gap:10px; padding:17px 0; } .file-icon { width:28px; height:34px; font-size:7px; } .file-name { font-size:12px; } .file-meta { font-size:9px; gap:4px 8px; } .file-date::before { margin-right:8px; } .actions { grid-column:2; gap:9px; } .file-action { font-size:10px; padding:6px 9px; } .set { margin:0 17px; } .set > summary.file-row { grid-template-columns:30px minmax(0,1fr) 15px; } .set-items { margin-left:4px; padding-left:10px; } .set-items .file-row { grid-template-columns:28px minmax(0,1fr); } .set-label { display:flex; margin-left:0; margin-top:3px; } .subgroup-title { padding-left:17px; } .next-grid { gap:12px; } .next-link { padding:17px; } .next-link strong { font-size:11px; } .next-link p { font-size:9px; } .result-heading a { font-size:16px; } .result-context { font-size:9px; } .card-count { font-size:9px; } }
+    @media(max-width:400px) { .header-title { max-width:126px; padding-left:12px; font-size:10px; } .brand { gap:9px; } .wordmark { font-size:19px; } .brand-sub { letter-spacing:.17em; } h1 { font-size:30px; } .section-top { gap:10px; } .next-grid { grid-template-columns:1fr; } .update { margin-left:0; display:table; margin-top:4px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Перейти к материалам</a>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand-row">
+        <a href="#section-00" class="brand" aria-label="Домиан Франчайзинг · Материалы для руководителя">
+          <span class="monogram" aria-hidden="true">D</span>
+          <span><span class="wordmark">ДОМИАН</span><span class="brand-sub">Франчайзинг</span></span>
+          <span class="header-title">Материалы<br>для руководителя</span>
+        </a>
+        <span class="audience"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V5l8-3 8 3v16M9 21v-5h6v5M8 7h1m6 0h1M8 11h1m6 0h1"/></svg>БАЗА ЗНАНИЙ СЕТИ</span>
+      </div>
+      <div class="search-row">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+          <label class="sr-only" for="search">Поиск по всем файлам</label>
+          <input type="search" id="search" placeholder="Найти документ, шаблон или видео…" autocomplete="off" spellcheck="false" aria-controls="content">
+          <kbd class="search-key" aria-hidden="true">/</kbd>
+          <button class="clear-search" id="clear-search" aria-label="Очистить поиск" hidden>×</button>
+        </div>
+        <span class="mockup-label"><span class="dot"></span>Макет — файлы не подключены</span>
+      </div>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="nav-heading"><span class="eyebrow">Каталог материалов</span><span class="edition">2026</span></div>
+      <nav class="nav-list" id="navigation" aria-label="Разделы каталога"></nav>
+      <div class="sidebar-note"><strong>Всё для работы вашего офиса</strong>Выберите раздел или найдите нужный материал через поиск.<br><br>Документы для агентов руководитель передаёт точечно.</div>
+    </aside>
+    <div class="main-column">
+      <div class="mobile-nav"><label class="eyebrow" for="section-select">Раздел каталога</label><select id="section-select"></select></div>
+      <main id="content" tabindex="-1"></main>
+    </div>
+  </div>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p style="padding:24px">Включите JavaScript, чтобы открыть разделы каталога и поиск по материалам.</p></noscript>
+  <script>
+    // ДАННЫЕ КАТАЛОГА. Редактируйте этот массив: разделы → группы → файлы.
+    // formats — доступные форматы; size — общий размер; date — ГГГГ-ММ-ДД.
+    // update: true — на обновлении; items — раскрываемый набор; collapsed — закрытая группа.
+    // Количество файлов: один формат = один файл; у набора считаются файлы внутри.
+    const catalog = [
+  {
+    "id": "00",
+    "title": "Начни здесь",
+    "description": "Как пользоваться каталогом",
+    "owner": "Алексей",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Путеводитель по материалам",
+        "files": [
+          {
+            "title": "Инструкция для франшизного офиса",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "157 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Карта каталога",
+            "formats": [
+              "PDF"
+            ],
+            "size": "194 КБ",
+            "date": "2026-10-03"
+          },
+          {
+            "title": "Важные контакты",
+            "formats": [
+              "DOCX"
+            ],
+            "size": "231 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Что обновилось · журнал изменений",
+            "formats": [
+              "PDF"
+            ],
+            "size": "268 КБ",
+            "date": "2026-09-18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "01",
+    "title": "Открытие офиса",
+    "description": "От регистрации до открытия",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Регистрация ИП/ООО",
+        "files": [
+          {
+            "title": "Заполнить форму Р21001 · шаг 1",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "305 КБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "Оплатить госпошлину · шаг 2",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "342 КБ",
+            "date": "2026-10-07"
+          },
+          {
+            "title": "Выбрать ОКВЭД · шаг 3",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "379 КБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Уведомление о переходе на УСН · шаг 4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "416 КБ",
+            "date": "2026-09-22"
+          },
+          {
+            "title": "Собрать документы для ИФНС · шаг 5",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "453 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Получить ЕГРИП · шаг 6",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "490 КБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Бланк Р21001",
+            "formats": [
+              "DOC"
+            ],
+            "size": "527 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Бланк Р13001",
+            "formats": [
+              "PDF"
+            ],
+            "size": "564 КБ",
+            "date": "2026-09-26"
+          },
+          {
+            "title": "Бланк Р14001",
+            "formats": [
+              "PDF"
+            ],
+            "size": "601 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Бланк уведомления УСН",
+            "formats": [
+              "XLS"
+            ],
+            "size": "638 КБ",
+            "date": "2026-10-01"
+          },
+          {
+            "title": "Регламент открытия ОКВЭД в ООО",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "675 КБ",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      {
+        "title": "Поиск и аренда офиса",
+        "files": [
+          {
+            "title": "Мониторинг баз недвижимости · шаг 1",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "712 КБ",
+            "date": "2026-09-15"
+          },
+          {
+            "title": "Осмотр и отбор помещения · шаг 2",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "749 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Техническое согласование · шаг 3",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "786 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Договор с арендодателем · шаг 4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "823 КБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "Договор аренды нежилого помещения",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "860 КБ",
+            "date": "2026-09-19"
+          },
+          {
+            "title": "Как выбрать офис · видео",
+            "formats": [
+              "MP4"
+            ],
+            "size": "106 МБ",
+            "date": "2026-10-08"
+          }
+        ]
+      },
+      {
+        "title": "Запуск офиса",
+        "files": [
+          {
+            "title": "Оформить офис · шаг 1",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "154 КБ",
+            "date": "2026-10-09"
+          },
+          {
+            "title": "Мероприятие и бюджет · шаг 2",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "191 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Пригласить гостей · шаг 3",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "228 КБ",
+            "date": "2026-09-23"
+          },
+          {
+            "title": "Провести открытие · шаг 4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "265 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Фото- и видеоотчёт · шаг 5",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "302 КБ",
+            "date": "2026-10-13"
+          },
+          {
+            "title": "Рекомендации по оргтехнике",
+            "formats": [
+              "PDF"
+            ],
+            "size": "339 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Рекламные партнёры",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "376 КБ",
+            "date": "2026-09-27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Стандарты франшизы",
+    "description": "Бизнес-система правообладателя, приложения 1–17",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Приложения к бизнес-системе",
+        "files": [
+          {
+            "title": "Приём на работу, оплата труда, рабочие процессы · приложения 1–4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "413 КБ",
+            "date": "2026-10-02",
+            "update": true
+          },
+          {
+            "title": "Мотивационные программы и акции · приложения 5–6",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "450 КБ",
+            "date": "2026-10-03",
+            "update": true
+          },
+          {
+            "title": "Личные уровни, стипендии, путешествия · приложения 7–10",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "487 КБ",
+            "date": "2026-10-04",
+            "update": true
+          },
+          {
+            "title": "Мотивация, начисления Авито, бонусы · приложения 11–12",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "524 КБ",
+            "date": "2026-09-16",
+            "update": true
+          },
+          {
+            "title": "Этика · приложение 13",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "561 КБ",
+            "date": "2026-10-06",
+            "update": true
+          },
+          {
+            "title": "Учёт задатка и расчёт зарплат · приложение 14",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "598 КБ",
+            "date": "2026-10-07",
+            "update": true
+          },
+          {
+            "title": "Открытие франшизного офиса сотрудником · приложение 15",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "635 КБ",
+            "date": "2026-10-08",
+            "update": true
+          },
+          {
+            "title": "Повышение эффективности офисов · приложение 16",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "672 КБ",
+            "date": "2026-09-20",
+            "update": true
+          },
+          {
+            "title": "Услуги правообладателя · приложение 17",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "709 КБ",
+            "date": "2026-10-10",
+            "update": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "title": "Команда",
+    "description": "Набор, ввод, управление, мотивация",
+    "owner": "HR-отдел",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Набор агентов",
+        "files": [
+          {
+            "title": "Визитки · шаг 1",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "746 КБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Оповестить знакомых · шаг 2",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "783 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Случайные контакты · шаг 3",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "820 КБ",
+            "date": "2026-09-24"
+          },
+          {
+            "title": "Разместить вакансию · шаг 4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "857 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Принять входящие · шаг 5",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "894 КБ",
+            "date": "2026-10-01"
+          },
+          {
+            "title": "Пригласить агентов · шаг 6",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "151 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Отобрать претендентов · шаг 7",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "188 КБ",
+            "date": "2026-09-28"
+          },
+          {
+            "title": "Анкета претендента и согласие",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "225 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Презентация АН Домиан для новичков",
+            "formats": [
+              "PDF"
+            ],
+            "size": "262 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Приглашение на мероприятие",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "299 КБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "Формула миллион",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "336 КБ",
+            "date": "2026-09-17"
+          }
+        ]
+      },
+      {
+        "title": "Ввод в работу",
+        "files": [
+          {
+            "title": "Агентский договор",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "373 КБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Должностная инструкция агента",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "410 КБ",
+            "date": "2026-10-09"
+          },
+          {
+            "title": "Регистрация и передача новых сотрудников",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "447 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Система ввода нового агента",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "484 КБ",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Чек-лист ввода агента",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "521 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Чек-лист · Знакомство с офисом",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "558 КБ",
+            "date": "2026-10-13"
+          },
+          {
+            "title": "Принятие в партнёры",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "595 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Увольнение агента",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "632 КБ",
+            "date": "2026-09-25"
+          }
+        ]
+      },
+      {
+        "title": "Управление",
+        "files": [
+          {
+            "title": "Руководство по управлению",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "669 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Проведение планёрок",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "706 КБ",
+            "date": "2026-10-03"
+          },
+          {
+            "title": "План работы агента",
+            "formats": [
+              "XLSX"
+            ],
+            "size": "743 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Система обучения",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "780 КБ",
+            "date": "2026-09-14"
+          },
+          {
+            "title": "Депозит за обучение · регламент и реестр",
+            "formats": [
+              "XLSX"
+            ],
+            "size": "817 КБ",
+            "date": "2026-10-06"
+          }
+        ]
+      },
+      {
+        "title": "Мотивация и условия",
+        "files": [
+          {
+            "title": "Мотивация карьерного роста · 2026",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "854 КБ",
+            "date": "2026-10-07"
+          },
+          {
+            "title": "Рекламные возможности агента за счёт компании",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "891 КБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Реферальные выплаты и передача клиентов",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "148 КБ",
+            "date": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "title": "Мероприятия",
+        "files": [
+          {
+            "title": "Собрание и программа",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "185 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Новогодний корпоратив",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "222 КБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Летний корпоратив",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "259 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Конгресс",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "296 КБ",
+            "date": "2026-09-22"
+          },
+          {
+            "title": "Поездки · программы мероприятий",
+            "formats": [
+              "PDF"
+            ],
+            "size": "1,5 МБ",
+            "date": "2026-10-04",
+            "items": [
+              {
+                "title": "Поездка · море",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "333 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Поездка · горы",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "370 КБ",
+                "date": "2026-10-01"
+              },
+              {
+                "title": "Поездка · тёплая страна",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "407 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Поездка · выходные в Европе",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "444 КБ",
+                "date": "2026-09-26"
+              }
+            ],
+            "itemType": "материал"
+          },
+          {
+            "title": "Выставка · Ярмарка жилья",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "518 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "МБФН",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "555 КБ",
+            "date": "2026-10-06"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "title": "Работа агента",
+    "description": "Методика: вторичка, новостройки, реклама, тетрадь новичка",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Вторичка · этапы 1–5",
+        "groups": [
+          {
+            "title": "01 / Подготовка",
+            "files": [
+              {
+                "title": "Выбрать поляну",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "592 КБ",
+                "date": "2026-09-15"
+              },
+              {
+                "title": "Выбрать тип недвижимости",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "629 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Оповестить о новой профессии",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "666 КБ",
+                "date": "2026-10-09"
+              }
+            ]
+          },
+          {
+            "title": "02 / База · исходящие",
+            "files": [
+              {
+                "title": "Собрать информацию об объектах",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "703 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Обзвонить продавцов",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "740 КБ",
+                "date": "2026-09-19"
+              },
+              {
+                "title": "Подготовиться к осмотру",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "777 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Провести осмотр",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "814 КБ",
+                "date": "2026-10-13"
+              },
+              {
+                "title": "Сформировать базу",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "851 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Контроль агентов",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "888 КБ",
+                "date": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "title": "03 / Реклама · входящие",
+            "files": [
+              {
+                "title": "Запустить рекламную кампанию",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "145 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Принимать входящие",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "182 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Внести покупателей в Домианикс",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "219 КБ",
+                "date": "2026-10-04"
+              }
+            ]
+          },
+          {
+            "title": "04 / Показы и продажи",
+            "files": [
+              {
+                "title": "Подготовка к встрече",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "256 КБ",
+                "date": "2026-09-27"
+              },
+              {
+                "title": "Встреча с покупателем",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "293 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Подбор объекта",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "330 КБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Торг и согласие сторон",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "367 КБ",
+                "date": "2026-10-08"
+              }
+            ]
+          },
+          {
+            "title": "05 / Задаток и сделка",
+            "files": [
+              {
+                "title": "Юрист, место и время сделки",
+                "formats": [
+                  "DOCX",
+                  "PDF"
+                ],
+                "size": "404 КБ",
+                "date": "2026-09-16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Реклама объектов",
+        "files": [
+          {
+            "title": "Регламент Авито",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "441 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Регламент Авито Про",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "478 КБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Структура объявления",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "515 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Примеры текстов объявлений",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "552 КБ",
+            "date": "2026-09-20"
+          },
+          {
+            "title": "Бесплатные площадки",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "589 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Регламент расклейки",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "626 КБ",
+            "date": "2026-10-01"
+          }
+        ]
+      },
+      {
+        "title": "Новостройки",
+        "files": [
+          {
+            "title": "Регламент специалиста по новостройкам",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "663 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Схема вознаграждения",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "700 КБ",
+            "date": "2026-09-24"
+          },
+          {
+            "title": "Объекты отдела новостроек",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "737 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Регламент работы с застройщиком ВКБН",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "774 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Образцы · новостройки",
+            "formats": [
+              "PDF"
+            ],
+            "size": "2,8 МБ",
+            "date": "2026-09-17",
+            "items": [
+              {
+                "title": "Агентский договор · новостройки",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "811 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Акт · новостройки",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "848 КБ",
+                "date": "2026-09-28"
+              },
+              {
+                "title": "Договор · НМАРКЕТ",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "885 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Договор поиска покупателей · новостройки",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "142 КБ",
+                "date": "2026-10-09"
+              },
+              {
+                "title": "Уведомление о бронировании · новостройки",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "179 КБ",
+                "date": "2026-10-10"
+              }
+            ],
+            "itemType": "материал"
+          }
+        ],
+        "owner": "Лозукова Н.Г."
+      },
+      {
+        "title": "Рабочая тетрадь новичка",
+        "files": [
+          {
+            "title": "Рабочая тетрадь",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "253 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Приложение к тетради",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "290 КБ",
+            "date": "2026-10-13"
+          },
+          {
+            "title": "Тетрадь новичка · приложение 1",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "327 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Тетрадь новичка · приложение 2",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "364 КБ",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Карточка осмотра объекта · приложение 3",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "401 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Карточка покупателя · приложение 4",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "438 КБ",
+            "date": "2026-10-03"
+          },
+          {
+            "title": "Подготовка к продаже · приложение 5",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "475 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Подготовка объекта к показам · приложение 6",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "512 КБ",
+            "date": "2026-09-25"
+          },
+          {
+            "title": "Поведение собственника на показе · приложение 7",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "549 КБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "План рекламы объекта · приложение 8",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "586 КБ",
+            "date": "2026-10-07"
+          },
+          {
+            "title": "Учёт обращений покупателя · приложение 9",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "623 КБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Заявка на покупку · приложение 10",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "660 КБ",
+            "date": "2026-09-14"
+          },
+          {
+            "title": "Отчёт о работе по объекту · приложение 11",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "697 КБ",
+            "date": "2026-10-10"
+          }
+        ],
+        "owner": "Пошивайло М.О."
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "title": "Договоры и юристы",
+    "description": "Бланки договоров и регламенты юристов",
+    "owner": "Лилекина И.С.",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "С продавцом",
+        "files": [
+          {
+            "title": "Эксклюзивный договор · с продавцом",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "734 КБ",
+            "date": "2026-10-11",
+            "update": true
+          },
+          {
+            "title": "Возмездный договор · с продавцом",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "771 КБ",
+            "date": "2026-10-12",
+            "update": true
+          },
+          {
+            "title": "Согласие к договору · с продавцом",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "808 КБ",
+            "date": "2026-09-18",
+            "update": true
+          }
+        ]
+      },
+      {
+        "title": "С покупателем",
+        "files": [
+          {
+            "title": "Договор-показник · с покупателем",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "845 КБ",
+            "date": "2026-10-14",
+            "update": true
+          },
+          {
+            "title": "Договор на комиссию · с покупателем",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "882 КБ",
+            "date": "2026-10-01",
+            "update": true
+          },
+          {
+            "title": "Согласие к договору · с покупателем",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "139 КБ",
+            "date": "2026-10-02",
+            "update": true
+          },
+          {
+            "title": "Соглашение о намерении · с покупателем",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "176 КБ",
+            "date": "2026-09-22",
+            "update": true
+          }
+        ]
+      },
+      {
+        "title": "ПДКП",
+        "files": [
+          {
+            "title": "ПДКП · квартира · наличные",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "213 КБ",
+            "date": "2026-10-04",
+            "update": true
+          },
+          {
+            "title": "ПДКП · квартира · ипотека Сбербанк",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "250 КБ",
+            "date": "2026-10-05",
+            "update": true
+          },
+          {
+            "title": "ПДКП · дом и земля · наличные",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "287 КБ",
+            "date": "2026-10-06",
+            "update": true
+          },
+          {
+            "title": "ПДКП · дом и земля · ипотека Сбербанк",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "324 КБ",
+            "date": "2026-09-26",
+            "update": true
+          },
+          {
+            "title": "ПДКП · комната в общежитии",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "361 КБ",
+            "date": "2026-10-08",
+            "update": true
+          },
+          {
+            "title": "ПДКП · с маткапиталом",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "398 КБ",
+            "date": "2026-10-09",
+            "update": true
+          },
+          {
+            "title": "ПДКП · маткапитал и наличные",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "435 КБ",
+            "date": "2026-10-10",
+            "update": true
+          },
+          {
+            "title": "ПДКП · несколько продавцов · ипотека",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "472 КБ",
+            "date": "2026-09-15",
+            "update": true
+          },
+          {
+            "title": "Допсоглашение · продление срока ПДКП",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "509 КБ",
+            "date": "2026-10-12",
+            "update": true
+          },
+          {
+            "title": "Соглашение · расторжение ПДКП",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "546 КБ",
+            "date": "2026-10-13",
+            "update": true
+          }
+        ]
+      },
+      {
+        "title": "ДКП",
+        "files": [
+          {
+            "title": "ДКП · квартира · наличные",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "583 КБ",
+            "date": "2026-10-14",
+            "update": true
+          },
+          {
+            "title": "ДКП · несколько продавцов",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "620 КБ",
+            "date": "2026-09-19",
+            "update": true
+          },
+          {
+            "title": "ДКП · ипотека",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "657 КБ",
+            "date": "2026-10-02",
+            "update": true
+          },
+          {
+            "title": "ДКП · рассрочка",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "694 КБ",
+            "date": "2026-10-03",
+            "update": true
+          },
+          {
+            "title": "ДКП · маткапитал",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "731 КБ",
+            "date": "2026-10-04",
+            "update": true
+          },
+          {
+            "title": "Заявление о цене",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "768 КБ",
+            "date": "2026-09-23",
+            "update": true
+          }
+        ]
+      },
+      {
+        "title": "Акты и услуги",
+        "files": [
+          {
+            "title": "Акт хранения денег",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "805 КБ",
+            "date": "2026-10-06",
+            "update": true
+          },
+          {
+            "title": "Акт об исполнении обязательств",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "842 КБ",
+            "date": "2026-10-07",
+            "update": true
+          },
+          {
+            "title": "Договор юридических услуг · для городов вне Ростова",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "879 КБ",
+            "date": "2026-10-08",
+            "update": true
+          }
+        ]
+      },
+      {
+        "title": "Юрист и ипотечный брокер",
+        "files": [
+          {
+            "title": "Регламент работы юриста",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "136 КБ",
+            "date": "2026-09-27"
+          },
+          {
+            "title": "Росфинмониторинг",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "173 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Регламент ипотечного брокера",
+            "formats": [
+              "PDF"
+            ],
+            "size": "210 КБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Передача клиента брокеру",
+            "formats": [
+              "PDF"
+            ],
+            "size": "247 КБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Отбор юристов и тесты",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "284 КБ",
+            "date": "2026-09-16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "title": "Финансы и отчётность",
+    "description": "Формы и правила отчётности",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Отчётность и расходы",
+        "files": [
+          {
+            "title": "Ежемесячный отчёт",
+            "formats": [
+              "XLSX"
+            ],
+            "size": "321 КБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Отчёт · для офисов вне Ростова",
+            "formats": [
+              "XLSX"
+            ],
+            "size": "358 КБ",
+            "date": "2026-10-01"
+          },
+          {
+            "title": "Внешняя отчётность",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "395 КБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Внутренняя отчётность",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "432 КБ",
+            "date": "2026-09-20"
+          },
+          {
+            "title": "Сопутствующие траты офиса",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "469 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Личные и бизнес-уровни",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "506 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Мотивационные бонусы",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "543 КБ",
+            "date": "2026-10-06"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "title": "Бренд и оформление",
+    "description": "Логотипы, носители, оформление офиса",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Гайдлайн и логотипы",
+        "files": [
+          {
+            "title": "Гайдлайн Домиан",
+            "formats": [
+              "PDF"
+            ],
+            "size": "580 КБ",
+            "date": "2026-09-24"
+          },
+          {
+            "title": "Логотип · RUS",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "6,2 МБ",
+            "date": "2026-09-28",
+            "items": [
+              {
+                "title": "Логотип RUS · цвет",
+                "formats": [
+                  "PNG",
+                  "PDF"
+                ],
+                "size": "1,7 МБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Логотип RUS · чёрно-белый",
+                "formats": [
+                  "PNG",
+                  "PDF"
+                ],
+                "size": "2,1 МБ",
+                "date": "2026-10-09"
+              },
+              {
+                "title": "Логотип RUS · инверсия",
+                "formats": [
+                  "PNG",
+                  "PDF"
+                ],
+                "size": "2,4 МБ",
+                "date": "2026-10-10"
+              }
+            ],
+            "itemType": "макет"
+          },
+          {
+            "title": "Логотип · ENG",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "3,1 МБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Логотип · вертикальные варианты",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "3,4 МБ",
+            "date": "2026-10-13"
+          },
+          {
+            "title": "Буква D",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "3,7 МБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Шрифты · Inter и Wix Madefor Display",
+            "formats": [
+              "TTF"
+            ],
+            "size": "876 КБ",
+            "date": "2026-09-17"
+          }
+        ]
+      },
+      {
+        "title": "Рекламные носители",
+        "files": [
+          {
+            "title": "Визитки · специалист и генеральный директор · 90×50",
+            "formats": [
+              "PDF"
+            ],
+            "size": "303 КБ",
+            "date": "2026-10-04",
+            "items": [
+              {
+                "title": "Визитка · специалист · 90×50",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "133 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Визитка · генеральный директор · 90×50",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "170 КБ",
+                "date": "2026-10-03"
+              }
+            ],
+            "itemType": "макет"
+          },
+          {
+            "title": "Визитка · центр услуг",
+            "formats": [
+              "PDF"
+            ],
+            "size": "244 КБ",
+            "date": "2026-09-21"
+          },
+          {
+            "title": "Бейдж · А6",
+            "formats": [
+              "PDF"
+            ],
+            "size": "281 КБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "Буклет",
+            "formats": [
+              "PDF"
+            ],
+            "size": "318 КБ",
+            "date": "2026-10-07"
+          },
+          {
+            "title": "Фирменный бланк",
+            "formats": [
+              "DOCX",
+              "PDF"
+            ],
+            "size": "355 КБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Папка",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "6,7 МБ",
+            "date": "2026-09-25"
+          },
+          {
+            "title": "Постер",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "7,1 МБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Посты для Telegram",
+            "formats": [
+              "PNG",
+              "PDF"
+            ],
+            "size": "7,4 МБ",
+            "date": "2026-10-11"
+          },
+          {
+            "title": "Растяжки · четыре размера",
+            "formats": [
+              "PDF"
+            ],
+            "size": "2,2 МБ",
+            "date": "2026-10-02",
+            "items": [
+              {
+                "title": "Растяжка · 1000×500",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "503 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Растяжка · 400×900",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "540 КБ",
+                "date": "2026-09-14"
+              },
+              {
+                "title": "Растяжка · вертикальная · 500×1000",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "577 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Растяжка · горизонтальная · 500×1000",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "614 КБ",
+                "date": "2026-10-01"
+              }
+            ],
+            "itemType": "макет"
+          }
+        ]
+      },
+      {
+        "title": "Оформление офиса",
+        "files": [
+          {
+            "title": "Вывеска на вход",
+            "formats": [
+              "PDF"
+            ],
+            "size": "688 КБ",
+            "date": "2026-09-18"
+          },
+          {
+            "title": "Наклейка на дверь",
+            "formats": [
+              "PDF"
+            ],
+            "size": "725 КБ",
+            "date": "2026-10-04"
+          },
+          {
+            "title": "Приглашаем на работу",
+            "formats": [
+              "PDF"
+            ],
+            "size": "762 КБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Центральный баннер · два варианта",
+            "formats": [
+              "PDF"
+            ],
+            "size": "1,6 МБ",
+            "date": "2026-10-08",
+            "items": [
+              {
+                "title": "Центральный баннер · вариант А",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "799 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Центральный баннер · вариант Б",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "836 КБ",
+                "date": "2026-09-22"
+              }
+            ],
+            "itemType": "макет"
+          },
+          {
+            "title": "Ролл-ап · Дополнительные услуги · 70×160",
+            "formats": [
+              "PDF"
+            ],
+            "size": "130 КБ",
+            "date": "2026-10-09"
+          },
+          {
+            "title": "Мотивационные наклейки",
+            "formats": [
+              "PDF"
+            ],
+            "size": "167 КБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Картины · мотивация",
+            "formats": [
+              "PDF"
+            ],
+            "size": "20,9 МБ",
+            "date": "2026-09-25",
+            "items": [
+              {
+                "title": "Картина · мотивация · макет 01",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "204 КБ",
+                "date": "2026-09-26"
+              },
+              {
+                "title": "Картина · мотивация · макет 02",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "241 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Картина · мотивация · макет 03",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "278 КБ",
+                "date": "2026-10-13"
+              },
+              {
+                "title": "Картина · мотивация · макет 04",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "315 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Картина · мотивация · макет 05",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "352 КБ",
+                "date": "2026-09-15"
+              },
+              {
+                "title": "Картина · мотивация · макет 06",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "389 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Картина · мотивация · макет 07",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "426 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Картина · мотивация · макет 08",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "463 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Картина · мотивация · макет 09",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "500 КБ",
+                "date": "2026-09-19"
+              },
+              {
+                "title": "Картина · мотивация · макет 10",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "537 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Картина · мотивация · макет 11",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "574 КБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Картина · мотивация · макет 12",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "611 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Картина · мотивация · макет 13",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "648 КБ",
+                "date": "2026-09-23"
+              },
+              {
+                "title": "Картина · мотивация · макет 14",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "685 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Картина · мотивация · макет 15",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "722 КБ",
+                "date": "2026-10-11"
+              },
+              {
+                "title": "Картина · мотивация · макет 16",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "759 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Картина · мотивация · макет 17",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "796 КБ",
+                "date": "2026-09-27"
+              },
+              {
+                "title": "Картина · мотивация · макет 18",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "833 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Картина · мотивация · макет 19",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "870 КБ",
+                "date": "2026-10-01"
+              },
+              {
+                "title": "Картина · мотивация · макет 20",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "127 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Картина · мотивация · макет 21",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "164 КБ",
+                "date": "2026-09-16"
+              },
+              {
+                "title": "Картина · мотивация · макет 22",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "201 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Картина · мотивация · макет 23",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "238 КБ",
+                "date": "2026-10-05"
+              },
+              {
+                "title": "Картина · мотивация · макет 24",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "275 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Картина · мотивация · макет 25",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "312 КБ",
+                "date": "2026-09-20"
+              },
+              {
+                "title": "Картина · мотивация · макет 26",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "349 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Картина · мотивация · макет 27",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "386 КБ",
+                "date": "2026-10-09"
+              },
+              {
+                "title": "Картина · мотивация · макет 28",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "423 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Картина · мотивация · макет 29",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "460 КБ",
+                "date": "2026-09-24"
+              },
+              {
+                "title": "Картина · мотивация · макет 30",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "497 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Картина · мотивация · макет 31",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "534 КБ",
+                "date": "2026-10-13"
+              },
+              {
+                "title": "Картина · мотивация · макет 32",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "571 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Картина · мотивация · макет 33",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "608 КБ",
+                "date": "2026-09-28"
+              },
+              {
+                "title": "Картина · мотивация · макет 34",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "645 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Картина · мотивация · макет 35",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "682 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Картина · мотивация · макет 36",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "719 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Картина · мотивация · макет 37",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "756 КБ",
+                "date": "2026-09-17"
+              },
+              {
+                "title": "Картина · мотивация · макет 38",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "793 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Картина · мотивация · макет 39",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "830 КБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Картина · мотивация · макет 40",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "867 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Картина · мотивация · макет 41",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "124 КБ",
+                "date": "2026-09-21"
+              },
+              {
+                "title": "Картина · мотивация · макет 42",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "161 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Картина · мотивация · макет 43",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "198 КБ",
+                "date": "2026-10-11"
+              },
+              {
+                "title": "Картина · мотивация · макет 44",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "235 КБ",
+                "date": "2026-10-12"
+              }
+            ],
+            "itemType": "макет"
+          },
+          {
+            "title": "Благодарственные письма и дипломы",
+            "formats": [
+              "PDF"
+            ],
+            "size": "29,2 МБ",
+            "date": "2026-10-01",
+            "items": [
+              {
+                "title": "Благодарственное письмо или диплом · макет 01",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "309 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 02",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "346 КБ",
+                "date": "2026-10-01"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 03",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "383 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 04",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "420 КБ",
+                "date": "2026-09-14"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 05",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "457 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 06",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "494 КБ",
+                "date": "2026-10-05"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 07",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "531 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 08",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "568 КБ",
+                "date": "2026-09-18"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 09",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "605 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 10",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "642 КБ",
+                "date": "2026-10-09"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 11",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "679 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 12",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "716 КБ",
+                "date": "2026-09-22"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 13",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "753 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 14",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "790 КБ",
+                "date": "2026-10-13"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 15",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "827 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 16",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "864 КБ",
+                "date": "2026-09-26"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 17",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "121 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 18",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "158 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 19",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "195 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 20",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "232 КБ",
+                "date": "2026-09-15"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 21",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "269 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 22",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "306 КБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 23",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "343 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 24",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "380 КБ",
+                "date": "2026-09-19"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 25",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "417 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 26",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "454 КБ",
+                "date": "2026-10-11"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 27",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "491 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 28",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "528 КБ",
+                "date": "2026-09-23"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 29",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "565 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 30",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "602 КБ",
+                "date": "2026-10-01"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 31",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "639 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 32",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "676 КБ",
+                "date": "2026-09-27"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 33",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "713 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 34",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "750 КБ",
+                "date": "2026-10-05"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 35",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "787 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 36",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "824 КБ",
+                "date": "2026-09-16"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 37",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "861 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 38",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "898 КБ",
+                "date": "2026-10-09"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 39",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "155 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 40",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "192 КБ",
+                "date": "2026-09-20"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 41",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "229 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 42",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "266 КБ",
+                "date": "2026-10-13"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 43",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "303 КБ",
+                "date": "2026-10-14"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 44",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "340 КБ",
+                "date": "2026-09-24"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 45",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "377 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 46",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "414 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 47",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "451 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 48",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "488 КБ",
+                "date": "2026-09-28"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 49",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "525 КБ",
+                "date": "2026-10-06"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 50",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "562 КБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 51",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "599 КБ",
+                "date": "2026-10-08"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 52",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "636 КБ",
+                "date": "2026-09-17"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 53",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "673 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 54",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "710 КБ",
+                "date": "2026-10-11"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 55",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "747 КБ",
+                "date": "2026-10-12"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 56",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "784 КБ",
+                "date": "2026-09-21"
+              },
+              {
+                "title": "Благодарственное письмо или диплом · макет 57",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "821 КБ",
+                "date": "2026-10-14"
+              }
+            ],
+            "itemType": "макет"
+          }
+        ]
+      },
+      {
+        "title": "_Исходники для типографии",
+        "files": [
+          {
+            "title": "Исходники · векторные макеты",
+            "formats": [
+              "CDR",
+              "AI",
+              "EPS"
+            ],
+            "size": "840 МБ",
+            "date": "2026-10-02"
+          },
+          {
+            "title": "Исходники · растровые макеты",
+            "formats": [
+              "TIFF",
+              "PSD"
+            ],
+            "size": "3,2 ГБ",
+            "date": "2026-09-25"
+          }
+        ],
+        "collapsed": true,
+        "note": "≈ 4 ГБ · передайте этот комплект в типографию"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "title": "Обучение",
+    "description": "Курс и видеоуроки для руководителей",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Курс для руководителей",
+        "files": [
+          {
+            "title": "Курс для руководителей",
+            "formats": [
+              "PPTX"
+            ],
+            "size": "18,6 МБ",
+            "date": "2026-10-04"
+          }
+        ]
+      },
+      {
+        "title": "Видеоуроки",
+        "files": [
+          {
+            "title": "Ипотека",
+            "formats": [
+              "MP4"
+            ],
+            "size": "173 МБ",
+            "date": "2026-10-05"
+          },
+          {
+            "title": "Авито Про",
+            "formats": [
+              "MP4"
+            ],
+            "size": "174 МБ",
+            "date": "2026-10-06"
+          },
+          {
+            "title": "Домианикс",
+            "formats": [
+              "MP4"
+            ],
+            "size": "175 МБ",
+            "date": "2026-09-14"
+          },
+          {
+            "title": "Как пользоваться каталогом",
+            "formats": [
+              "MP4"
+            ],
+            "size": "176 МБ",
+            "date": "2026-10-08"
+          },
+          {
+            "title": "Комиссия по этике",
+            "formats": [
+              "MP4"
+            ],
+            "size": "177 МБ",
+            "date": "2026-10-09"
+          },
+          {
+            "title": "Личная репутация и репутация компании",
+            "formats": [
+              "MP4"
+            ],
+            "size": "178 МБ",
+            "date": "2026-10-10"
+          },
+          {
+            "title": "Мотивация",
+            "formats": [
+              "MP4"
+            ],
+            "size": "179 МБ",
+            "date": "2026-09-18"
+          },
+          {
+            "title": "Новостройки",
+            "formats": [
+              "MP4"
+            ],
+            "size": "180 МБ",
+            "date": "2026-10-12"
+          },
+          {
+            "title": "Собеседование",
+            "formats": [
+              "MP4"
+            ],
+            "size": "181 МБ",
+            "date": "2026-10-13"
+          },
+          {
+            "title": "Тайм-менеджмент руководителя",
+            "formats": [
+              "MP4"
+            ],
+            "size": "182 МБ",
+            "date": "2026-10-14"
+          },
+          {
+            "title": "Юротдел",
+            "formats": [
+              "MP4"
+            ],
+            "size": "183 МБ",
+            "date": "2026-09-22"
+          },
+          {
+            "title": "Администраторы",
+            "formats": [
+              "MP4"
+            ],
+            "size": "184 МБ",
+            "date": "2026-10-02"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Архив",
+    "description": "Не публикуется",
+    "owner": "Не назначен",
+    "date": "2026-10-15",
+    "groups": [
+      {
+        "title": "Материалы прежних версий",
+        "files": [
+          {
+            "title": "Договоры · редакция 2023",
+            "formats": [
+              "DOC"
+            ],
+            "size": "2,1 МБ",
+            "date": "2026-10-06",
+            "items": [
+              {
+                "title": "Договор · с продавцом · 2023",
+                "formats": [
+                  "DOC"
+                ],
+                "size": "670 КБ",
+                "date": "2026-10-03"
+              },
+              {
+                "title": "Договор · с покупателем · 2023",
+                "formats": [
+                  "DOC"
+                ],
+                "size": "707 КБ",
+                "date": "2026-10-04"
+              },
+              {
+                "title": "Акт · редакция 2023",
+                "formats": [
+                  "DOC"
+                ],
+                "size": "744 КБ",
+                "date": "2026-09-26"
+              }
+            ],
+            "itemType": "материал"
+          },
+          {
+            "title": "Онлайн-показы · видео",
+            "formats": [
+              "MP4"
+            ],
+            "size": "379,0 МБ",
+            "date": "2026-09-15",
+            "items": [
+              {
+                "title": "Онлайн-показы · организация",
+                "formats": [
+                  "MP4"
+                ],
+                "size": "189 МБ",
+                "date": "2026-10-07"
+              },
+              {
+                "title": "Онлайн-показы · проведение",
+                "formats": [
+                  "MP4"
+                ],
+                "size": "190 МБ",
+                "date": "2026-10-08"
+              }
+            ],
+            "itemType": "видео"
+          },
+          {
+            "title": "Баннеры · узкие",
+            "formats": [
+              "PDF"
+            ],
+            "size": "335 КБ",
+            "date": "2026-10-12",
+            "items": [
+              {
+                "title": "Баннер · узкий · вертикальный",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "149 КБ",
+                "date": "2026-10-10"
+              },
+              {
+                "title": "Баннер · узкий · горизонтальный",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "186 КБ",
+                "date": "2026-10-11"
+              }
+            ],
+            "itemType": "материал"
+          },
+          {
+            "title": "Таблички · прежнее оформление",
+            "formats": [
+              "PDF"
+            ],
+            "size": "557 КБ",
+            "date": "2026-10-01",
+            "items": [
+              {
+                "title": "Табличка · вход",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "260 КБ",
+                "date": "2026-09-19"
+              },
+              {
+                "title": "Табличка · режим работы",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "297 КБ",
+                "date": "2026-10-14"
+              }
+            ],
+            "itemType": "материал"
+          },
+          {
+            "title": "Репутация в интернете · прежние материалы",
+            "formats": [
+              "PDF"
+            ],
+            "size": "779 КБ",
+            "date": "2026-10-04",
+            "items": [
+              {
+                "title": "Репутация в интернете · инструкция",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "371 КБ",
+                "date": "2026-10-02"
+              },
+              {
+                "title": "Репутация в интернете · площадки",
+                "formats": [
+                  "PDF"
+                ],
+                "size": "408 КБ",
+                "date": "2026-09-23"
+              }
+            ],
+            "itemType": "материал"
+          }
+        ]
+      }
+    ],
+    "archive": true
+  }
+];
+
+    const search = document.querySelector('#search');
+    const content = document.querySelector('#content');
+    const navigation = document.querySelector('#navigation');
+    const select = document.querySelector('#section-select');
+    const clearButton = document.querySelector('#clear-search');
+    const announcement = document.querySelector('#announcement');
+    const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+    const normal = value => String(value).toLocaleLowerCase('ru').replace(/ё/g,'е').replace(/\s+/g,' ').trim();
+    const dateLabel = value => value.split('-').reverse().join('.');
+    const plural = (n, one, few, many) => n % 10 === 1 && n % 100 !== 11 ? one : n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14) ? few : many;
+    const fileCount = item => item.items ? item.items.reduce((sum, entry) => sum + fileCount(entry), 0) : item.formats.length;
+    const groupCount = group => group.groups ? group.groups.reduce((sum, entry) => sum + groupCount(entry), 0) : group.files.reduce((sum, entry) => sum + fileCount(entry), 0);
+    const sectionCount = section => section.groups.reduce((sum, group) => sum + groupCount(group), 0);
+    const countLabel = n => `${n} ${plural(n,'файл','файла','файлов')}`;
+    const arrow = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>';
+    const chevron = '<svg class="chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>';
+    let current = catalog.some(s => `#section-${s.id}` === location.hash) ? location.hash.slice(9) : '00';
+
+    function formatIcon(file) {
+      const fmt = file.formats[0];
+      const type = fmt === 'MP4' ? 'video' : /^XLS/.test(fmt) ? 'sheet' : fmt === 'PDF' ? 'pdf' : '';
+      return `<span class="file-icon ${type}" aria-hidden="true">${fmt === 'MP4' ? '<svg viewBox="0 0 24 24"><path d="m9 5 10 7-10 7z"/></svg>' : escapeHTML(fmt)}</span>`;
+    }
+    function actions(file) {
+      const labels = file.formats.includes('MP4') ? ['Смотреть'] : ['Открыть','Скачать'];
+      return `<div class="actions">${labels.map((label,i) => `<span class="action-wrap" tabindex="0" data-tooltip="Макет: файл не подключён" title="Макет: файл не подключён" aria-label="${label}: ${escapeHTML(file.title)}. Макет: файл не подключён"><button disabled class="file-action ${i ? 'secondary' : ''}" tabindex="-1">${i ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 17v4h16v-4"/></svg>' : ''}${label}</button></span>`).join('')}</div>`;
+    }
+    function fileInfo(file, context = '') {
+      return `<div class="file-info">${context ? `<p class="result-context">${escapeHTML(context)}</p>` : ''}<div class="file-name">${escapeHTML(file.title)}${file.update ? '<span class="update">На обновлении</span>' : ''}</div><div class="file-meta"><span class="formats">${file.formats.map(fmt => `<span class="format-badge">${escapeHTML(fmt)}</span>`).join('')}</span><span>${escapeHTML(file.size)}</span><time class="file-date" datetime="${escapeHTML(file.date)}">${dateLabel(file.date)}</time></div></div>`;
+    }
+    function renderFile(file, context = '') {
+      if (file.items) {
+        const nouns = file.itemType === 'макет' ? ['макет','макета','макетов'] : file.itemType === 'видео' ? ['видео','видео','видео'] : ['материал','материала','материалов'];
+        return `<details class="set"><summary class="file-row">${formatIcon(file)}<div>${fileInfo(file, context)}<span class="set-label">Набор · ${file.items.length} ${plural(file.items.length,...nouns)} · ${countLabel(fileCount(file))}</span></div>${chevron}</summary><div class="set-items file-list" role="list">${file.items.map(entry => renderFile(entry)).join('')}</div></details>`;
+      }
+      return `<div class="file-row" role="listitem">${formatIcon(file)}${fileInfo(file, context)}${actions(file)}</div>`;
+    }
+    function renderGroup(group) {
+      const heading = `<div><h2>${escapeHTML(group.title)}</h2>${group.owner ? `<p class="group-note">Ответственный: ${escapeHTML(group.owner)}</p>` : ''}${group.note ? `<p class="group-note">${escapeHTML(group.note)}</p>` : ''}</div><span class="card-count">${countLabel(groupCount(group))}</span>`;
+      const body = group.groups ? group.groups.map(sub => `<div class="subgroup-title">${escapeHTML(sub.title)}</div><div class="file-list" role="list">${sub.files.map(file => renderFile(file)).join('')}</div>`).join('') : `<div class="file-list" role="list">${group.files.map(file => renderFile(file)).join('')}</div>`;
+      return group.collapsed ? `<details class="card"><summary class="card-heading"><div class="disclosure">${chevron}${heading}</div></summary>${body}</details>` : `<section class="card"><div class="card-heading">${heading}</div>${body}</section>`;
+    }
+    function footer() {
+      return '<footer class="footer"><span>Домиан Франчайзинг · Каталог материалов</span><span>Визуальный макет · октябрь 2026</span></footer>';
+    }
+    function renderNav() {
+      navigation.innerHTML = catalog.map(section => `<a class="nav-link ${section.archive ? 'archive-link' : ''}" href="#section-${section.id}" ${section.id === current && !search.value.trim() ? 'aria-current="page"' : ''}><span class="nav-number">${section.id}</span><span>${escapeHTML(section.title)}${section.archive ? '<span style="display:block;font-size:9px;margin-top:2px">Не публикуется</span>' : ''}</span><span class="nav-count" aria-label="${countLabel(sectionCount(section))}">${sectionCount(section)}</span></a>`).join('');
+      select.innerHTML = catalog.map(section => `<option value="${section.id}">${section.id} · ${escapeHTML(section.title)} — ${sectionCount(section)}${section.archive ? ' · Не публикуется' : ''}</option>`).join('');
+      select.value = current;
+    }
+    function renderSection() {
+      const section = catalog.find(s => s.id === current);
+      content.className = section.archive ? 'archive' : '';
+      content.innerHTML = `<div class="breadcrumb"><a href="#section-00">Материалы</a>${chevron}<span>${escapeHTML(section.title)}</span></div><div class="section-top"><div><p class="eyebrow section-kicker">Раздел ${section.id} / ${section.archive ? 'Внутренний архив' : 'Для руководителя'}</p><h1>${escapeHTML(section.title)}</h1><p class="description">${escapeHTML(section.description)}</p></div><span class="section-stamp" aria-hidden="true">${section.id}</span></div><div class="meta"><span>Ответственный<strong class="${section.owner === 'Не назначен' ? 'unassigned' : ''}">${escapeHTML(section.owner)}</strong></span><span>Актуально на<strong><time datetime="${section.date}">${dateLabel(section.date)}</time></strong></span><span>${countLabel(sectionCount(section))}</span></div>${section.id === '00' ? '<div class="welcome"><div><h2>Нужные материалы — под рукой</h2><p>От открытия офиса до ежедневной работы команды. Начните с инструкции, а затем выберите раздел под вашу задачу.</p></div><span class="welcome-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 4h7l2 2 2-2h7v16h-7l-2 2-2-2H3zM12 6v16"/></svg></span></div>' : ''}${section.archive ? '<p class="archive-warning">Не публикуется · Закрытый раздел показан только для обсуждения структуры будущего каталога.</p><details class="card"><summary class="card-heading"><div class="disclosure">'+chevron+'<h2>Архивные материалы</h2></div><span class="card-count">5 наборов</span></summary>'+section.groups.map(g => `<div class="file-list" role="list">${g.files.map(f => renderFile(f)).join('')}</div>`).join('')+'</details>' : section.groups.map(renderGroup).join('')}${section.id === '00' ? `<div class="next-grid"><a class="next-link" href="#section-01"><p class="eyebrow">Следующий шаг</p><strong>Планируете открытие офиса? ${arrow}</strong><p>Регистрация, помещение и запуск</p></a><a class="next-link" href="#section-02"><p class="eyebrow">Обратите внимание</p><strong>Стандарты на обновлении ${arrow}</strong><p>Приложения к бизнес-системе франшизы</p></a></div>` : ''}${footer()}`;
+      document.title = `${section.title} — Домиан Франчайзинг`;
+    }
+    function searchableFiles(section) {
+      const rows = [];
+      function visit(group, path = '') {
+        const context = path ? `${path} / ${group.title}` : group.title;
+        if (group.groups) group.groups.forEach(sub => visit(sub, context));
+        else group.files.forEach(file => {
+          rows.push({ file, context });
+          if (file.items) file.items.forEach(item => rows.push({ file:item, context:`${context} / ${file.title}` }));
+        });
+      }
+      section.groups.forEach(group => visit(group));
+      return rows;
+    }
+    const searchIndex = catalog.map(section => ({section, rows:searchableFiles(section)}));
+    function renderSearch() {
+      const query = normal(search.value);
+      clearButton.hidden = !search.value;
+      renderNav();
+      if (!query) { renderSection(); announcement.textContent = ''; return; }
+      const terms = query.split(' ');
+      const results = searchIndex.map(({section,rows}) => ({section, rows: rows.filter(({file,context}) => terms.every(term => normal(`${file.title} ${file.formats.join(' ')} ${context} ${section.id} ${section.title}`).includes(term)))})).filter(result => result.rows.length);
+      const total = results.reduce((sum, result) => sum + result.rows.length, 0);
+      content.className = '';
+      content.innerHTML = `<div class="breadcrumb"><a href="#section-${current}" data-clear>Материалы</a>${chevron}<span>Поиск по каталогу</span></div><p class="eyebrow section-kicker">Во всех разделах</p><h1>Результаты поиска</h1><p class="search-status">${total ? `Найдено: ${total} ${plural(total,'материал','материала','материалов')}` : 'Совпадений нет'} по запросу «${escapeHTML(search.value.trim())}»</p>${total ? results.map(({section,rows}) => `<section class="result-section ${section.archive ? 'archive' : ''}"><div class="result-heading"><a href="#section-${section.id}"><span class="nav-number">${section.id}</span>${escapeHTML(section.title)} ${arrow}</a><span class="card-count">${section.archive ? 'Не публикуется · ' : ''}${rows.length}</span></div><div class="card file-list" role="list">${rows.map(({file,context}) => renderFile(file,context)).join('')}</div></section>`).join('') : '<div class="empty"><h2>Попробуйте другой запрос</h2><p>Например: «Авито», «договор» или «визитка».<br>Можно искать по названию, разделу и формату.</p><button class="reset" data-clear>Сбросить поиск</button></div>'}${footer()}`;
+      announcement.textContent = `Найдено материалов: ${total}. Разделов: ${results.length}.`;
+      document.title = 'Поиск материалов — Домиан Франчайзинг';
+    }
+    function clearSearch() { search.value = ''; renderSearch(); }
+    function navigate(id) {
+      if (!catalog.some(section => section.id === id)) return;
+      current = id;
+      clearSearch();
+      window.scrollTo({top:0,behavior:'instant'});
+    }
+    search.addEventListener('input', renderSearch);
+    clearButton.addEventListener('click', () => { clearSearch(); search.focus(); });
+    select.addEventListener('change', () => { if (location.hash === `#section-${select.value}`) navigate(select.value); else location.hash = `section-${select.value}`; });
+    window.addEventListener('hashchange', () => { if (location.hash.startsWith('#section-')) navigate(location.hash.slice(9)); });
+    document.addEventListener('click', event => {
+      const reset = event.target.closest('[data-clear]');
+      if (reset) { event.preventDefault(); clearSearch(); search.focus(); }
+      const link = event.target.closest('a[href^="#section-"]');
+      if (link && link.hash === location.hash) { event.preventDefault(); navigate(link.hash.slice(9)); }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)) { event.preventDefault(); search.focus(); }
+      if (event.key === 'Escape' && document.activeElement === search) clearSearch();
+    });
+    renderSearch();
+  </script>
+</body>
+</html>
